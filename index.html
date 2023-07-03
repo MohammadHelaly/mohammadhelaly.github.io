@@ -405,7 +405,8 @@
                   <p class="lead line">mohammad.helaly@gmail.com</p>
                </div>
                <div class="col-lg-6 col-sm-12 container contact-container">
-                  <form id="contact-form" action="https://formsubmit.co/cbe4517b3f9e23df9e4bdaa1de6b6211" method="POST">
+                  <!-- fromsubmit.co contact form -->
+                  <!-- <form id="contact-form" action="https://formsubmit.co/cbe4517b3f9e23df9e4bdaa1de6b6211" method="POST">
                      <input type="hidden" name="_subject" value="New contact request!">
                      <input type="hidden" name="_captcha" value="false">
                      <input type="hidden" name="_autoresponse" value="Thank you for reaching out! I'll get back to you as soon as possible.">
@@ -423,7 +424,41 @@
                         <label for="message">Your Message</label>
                      </div>
                      <button type="submit" class="btn btn-outline-dark btn-sm btn-full-width">Send</button>
+                  </form> -->
+                  <!-- fromsubmit.co contact form -->
+                  <!-- mailto contact form -->
+                  <form id="contact-form" method="POST">
+                     <div class="form-floating mb-4">
+                        <input type="text" class="form-control" name="name" id="name" aria-describedby="nameHelp" required>
+                        <label for="name">Your Name</label>
+                     </div>
+                     <div class="form-floating mb-4">
+                        <input type="email" class="form-control" name="email" id="email" aria-describedby="emailHelp" required>
+                        <label for="email">Your Email</label>
+                     </div>
+                     <div class="form-floating mb-4">
+                        <textarea class="form-control" name="message" id="message" cols="32" rows="4" required></textarea>
+                        <label for="message">Your Message</label>
+                     </div>
+                     <button type="submit" onclick="sendEmail(event)" class="btn btn-outline-dark btn-sm btn-full-width">Send</button>
                   </form>
+                  <!-- mailto contact form -->
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" id="contact-validation-modal" tabindex="-1" role="dialog" aria-labelledby="contact-modal" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title modal-heading">Missing Information.</h5>
+                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                     <p class="lead modal-text">Please fill in all required fields to send the email.<br>The name, email, and message fields cannot be left empty.</p>
+                  </div>
+                  <div class="modal-footer">
+                     <button type="button" class="btn btn-outline-dark btn-sm" data-bs-dismiss="modal">Close</button>
+                  </div>
                </div>
             </div>
          </div>

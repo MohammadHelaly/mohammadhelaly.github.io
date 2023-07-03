@@ -5,31 +5,35 @@ const validationModal = new bootstrap.Modal("#contact-validation-modal");
 //In case of using mailto contact form
 
 function sendEmail(event) {
-	event.preventDefault();
-	var senderName = document.getElementById("name").value;
-	var senderEmail = document.getElementById("email").value;
-	var message = document.getElementById("message").value;
+  event.preventDefault();
+  var senderName = document.getElementById("name").value;
+  var senderEmail = document.getElementById("email").value;
+  var message = document.getElementById("message").value;
 
-	if (senderName === "" || senderEmail === "" || message === "") {
-		validationModal.show();
-		return;
-	}
-	try {
-		var subject = "Email from " + senderName + ".";
-		var body = "Sender Email: " + senderEmail + "\n\n";
-		body += "Message: \n" + message;
+  if (senderName === "" || senderEmail === "" || message === "") {
+    validationModal.show();
+    return;
+  }
 
-		var mailtoLink =
-			"mailto:mohammad.helaly@gmail.com" +
-			"?subject=" +
-			encodeURIComponent(subject) +
-			"&body=" +
-			encodeURIComponent(body);
+  try {
+    var subject = "Email from " + senderName + ".";
+    var body = "Sender Email: " + senderEmail + "\n\n";
+    body += "Message: \n" + message;
 
-		window.location.href = mailtoLink;
-	} catch (error) {
-		failureModal.show();
-	}
+    var mailtoLink =
+      "mailto:mohammad.helaly@gmail.com" +
+      "?subject=" +
+      encodeURIComponent(subject) +
+      "&body=" +
+      encodeURIComponent(body);
+
+    window.location.href = mailtoLink;
+    setTimeout(function () {
+      document.getElementById("contact-form").reset();
+    }, 5000);
+  } catch (error) {
+    failureModal.show();
+  }
 }
 
 //In case of using formsubmit.co contact form

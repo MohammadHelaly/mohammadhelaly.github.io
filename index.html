@@ -431,18 +431,18 @@
                         <!-- mailto contact form -->
                         <form id="contact-form" method="POST">
                             <div class="form-floating mb-4">
-                                <input type="text" class="form-control" name="name" id="name" aria-describedby="nameHelp" required>
+                                <input type="text" class="form-control" name="name" id="name" aria-describedby="nameHelp">
                                 <label for="name">Your Name</label>
                             </div>
                             <div class="form-floating mb-4">
-                                <input type="email" class="form-control" name="email" id="email" aria-describedby="emailHelp" required>
+                                <input type="email" class="form-control" name="email" id="email" aria-describedby="emailHelp">
                                 <label for="email">Your Email</label>
                             </div>
                             <div class="form-floating mb-4">
-                                <textarea class="form-control" name="message" id="message" cols="32" rows="4" required></textarea>
+                                <textarea class="form-control" name="message" id="message" cols="32" rows="4"></textarea>
                                 <label for="message">Your Message</label>
                             </div>
-                            <button type="submit" onclick="sendEmail(event)" class="btn btn-outline-dark btn-sm btn-full-width">Send</button>
+                            <button id="contact-form-button" type="submit" class="btn btn-outline-dark btn-sm btn-full-width">Send</button>
                         </form>
                         <!-- mailto contact form -->
                     </div>

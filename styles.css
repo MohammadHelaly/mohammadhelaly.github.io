@@ -476,9 +476,11 @@ html {
 }
 
 #contact-gm-icon {
+  position: relative;
   height: 55px;
   width: 55px;
   margin-top: -13px;
+  right: -10px;
 }
 
 #phone-icon {
@@ -745,6 +747,10 @@ html {
     .carousel-item {
       height: auto;
     }
+  }
+
+  #contact-gm-icon {
+    right: -2.5px;
   }
 }
 

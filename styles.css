@@ -602,6 +602,9 @@ html {
 	.topnav-container {
 		max-width: 68.5vw !important;
 	}
+	#gm-link-footer {
+		top: 1.45vh;
+	}
 }
 
 @media (min-width: 2520px) {

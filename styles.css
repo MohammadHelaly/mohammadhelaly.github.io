@@ -6,10 +6,6 @@ html {
 	min-width: 100vw;
 }
 
-.home-container {
-	padding: 23.5vh 9vw 16.3vh;
-}
-
 #hero-carousel {
 	top: 0px;
 	min-height: 0.7vh;
@@ -43,26 +39,8 @@ html {
 	z-index: 1;
 }
 
-.overlay-container .home-container {
-	margin: 0;
-	padding: 0;
-}
-
-#home-carousel {
-	margin-bottom: 0;
-	height: 93vh !important;
-}
-
 #hero-jumbotron {
 	min-height: 93vh !important;
-}
-
-#home-jumbotron {
-	padding: 0;
-}
-
-.bottom-lead {
-	margin-bottom: -1.4vh;
 }
 
 /* ABOUT SECTION */
@@ -146,11 +124,6 @@ html {
 	width: 80%;
 	left: 8%;
 	transition: transform 0.5s ease;
-}
-
-.modal-heading {
-	font-weight: 200;
-	font-size: 2.15rem;
 }
 
 .timeline-header {
@@ -371,6 +344,10 @@ html {
 	color: #212529;
 }
 
+.bottom-lead {
+	margin-bottom: -1.4vh;
+}
+
 .line {
 	line-height: 1.4rem;
 	font-size: 1.1rem !important;
@@ -395,10 +372,6 @@ html {
 	padding: 9.75vh 5.5vw 9.75vh 5.5vw;
 }
 
-#about-container {
-	padding: 9.75vh 5.5vw 9.75vh 5.5vw;
-}
-
 .copyright {
 	margin-bottom: 0.65vh;
 	font-weight: 50;
@@ -408,6 +381,11 @@ html {
 .section-header {
 	margin-top: 9.7vh;
 	font-size: 3.2vh !important;
+}
+
+.modal-heading {
+	font-weight: 200;
+	font-size: 2.15rem;
 }
 
 /* ICONS */
@@ -442,10 +420,6 @@ html {
 .icon-link {
 	margin-right: 17.5px;
 	margin-top: 5px;
-}
-
-.home-link {
-	margin-right: 17.5px;
 }
 
 .gm-link {
@@ -552,11 +526,6 @@ html {
 		padding: 20px;
 	}
 
-	.home-container {
-		padding: 270px 25px 220px;
-		text-align: center;
-	}
-
 	#skill-chart {
 		padding: 40px;
 	}
@@ -591,7 +560,8 @@ html {
 		top: 50%;
 		left: 50%;
 		transform: translate(-50%, -50%);
-		padding: 10px;
+		padding: 280px 35px 230px;
+		text-align: center;
 	}
 }
 
@@ -670,9 +640,9 @@ html {
 	}
 }
 
-@media (min-width: 769px) and (max-width: 910px) {
-	.home-container {
-		transform: translateX(10%);
+@media (min-width: 769px) and (max-width: 920px) {
+	.overlay-container {
+		margin-left: 50px;
 	}
 }
 
@@ -931,10 +901,6 @@ html {
 	.icon-link {
 		margin-right: 1.3vw;
 		margin-top: 0.65vh;
-	}
-
-	.home-link {
-		margin-right: 1.3vw;
 	}
 
 	.gm-link {

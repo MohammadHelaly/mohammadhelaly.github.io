@@ -47,17 +47,20 @@ html {
 
 #bio {
 	padding: 0.73vw;
+	min-width: 70%;
+	max-height: 93vh;
 }
 
 .headshot {
 	float: left;
 	margin-right: 7.3vw;
-	width: 200px;
-	height: 232px;
+	width: 22vw;
+	height: 43vh;
 	border: #212529 solid;
 	position: relative;
-	top: -2vh;
-	left: 3.65vw;
+	bottom: 15vh;
+	/* top: -2vh;  */
+	/* left: 3.65vw;  */
 	box-shadow: 0 0 0.73vw rgba(0, 0, 0, 0.1);
 	transition: transform 0.5s ease;
 }
@@ -476,10 +479,10 @@ html {
 }
 
 @media (min-width: 768px) {
-	.headshot {
-		top: 50px;
-		left: 10px;
-	}
+	/* .headshot {
+		 top: 50px; 
+		 left: 70px; 
+	} */
 
 	#bio {
 		min-width: fit-content;
@@ -517,7 +520,11 @@ html {
 	}
 
 	.headshot {
-		left: 55px;
+		left: 28vw;
+		top: 0;
+		bottom: 0;
+		width: 44vw;
+		height: 86vh;
 	}
 
 	.background,
@@ -843,10 +850,10 @@ html {
 }
 
 @media (min-width: 1368px) {
-	.headshot {
-		height: 30.2vh;
-		width: 14.6vw;
-	}
+	/* .headshot {
+		 height: 30.2vh;
+		width: 14.6vw; 
+	} */
 
 	.lead {
 		font-size: 2.875vh !important;

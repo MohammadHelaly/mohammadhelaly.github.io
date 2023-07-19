@@ -48,7 +48,7 @@ html {
 #bio {
 	padding: 0.73vw;
 	min-width: 70%;
-	max-height: 93vh;
+	/* max-height: 93vh; */
 }
 
 .headshot {
@@ -347,6 +347,10 @@ html {
 	color: #212529;
 }
 
+.section-title {
+	font-weight: 375 !important;
+}
+
 .bottom-lead {
 	margin-bottom: -1.4vh;
 }
@@ -520,7 +524,7 @@ html {
 	}
 
 	.headshot {
-		left: 28vw;
+		/* left: 28vw; */
 		top: 0;
 		bottom: 0;
 		width: 44vw;
@@ -712,7 +716,9 @@ html {
 	}
 
 	.headshot {
-		transform: translateY(-12.5%);
+		transform: translateY(-7.5%);
+		top: -2vh;
+		left: 3.65vw;
 	}
 
 	#intro {
@@ -1062,5 +1068,11 @@ html {
 	.skill-icon {
 		height: 45px;
 		width: 45px;
+	}
+}
+
+@media (max-width: 720px) {
+	.headshot {
+		left: 28vw;
 	}
 }

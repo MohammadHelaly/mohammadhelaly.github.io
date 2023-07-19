@@ -19,6 +19,10 @@ html {
 	min-height: 93vh !important;
 }
 
+#alt-screen {
+	background-color: rgba(0, 0, 0, 0) !important;
+}
+
 .hero-carousel-img {
 	position: relative;
 	object-position: right;
@@ -41,6 +45,20 @@ html {
 
 #hero-jumbotron {
 	min-height: 93vh !important;
+	background-image: url("images/background.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	overflow: hidden;
+	min-width: 100%;
+}
+
+.carousel-fade .active.carousel-item-start,
+.carousel-fade .active.carousel-item-end {
+	z-index: 0;
+	opacity: 0;
+	transition: opacity 0.6s !important;
 }
 
 /* ABOUT SECTION */
@@ -675,6 +693,15 @@ html {
 		min-height: 800px;
 	}
 
+	#hero-jumbotron {
+		background-image: url("images/background4.jpg");
+		background-size: cover;
+		background-position: cover;
+		background-repeat: no-repeat;
+		background-attachment: scroll;
+		overflow: hidden;
+	}
+
 	#dialogue {
 		text-align: center;
 		padding: 30px;
@@ -729,7 +756,7 @@ html {
 	.background {
 		background-image: url("images/background4.jpg");
 		background-size: cover;
-		background-position: center;
+		background-position: cover;
 		background-repeat: no-repeat;
 		background-attachment: scroll;
 		overflow: hidden;
@@ -1075,5 +1102,14 @@ html {
 @media (max-width: 720px) {
 	.headshot {
 		left: 28vw;
+	}
+}
+
+@media (max-height: 440px) {
+	.headshot {
+		left: 12.5vw;
+	}
+	.overlay-container {
+		top: 45%;
 	}
 }

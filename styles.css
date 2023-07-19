@@ -138,6 +138,7 @@ html {
 	right: 9%;
 	display: inline-block;
 	transition: transform 0.5s;
+	/* width: max-content; */
 }
 
 .timeline-header:active,

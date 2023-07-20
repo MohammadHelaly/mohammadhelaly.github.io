@@ -292,7 +292,7 @@ html {
 /* SKILLS SECTION */
 
 #skill-chart {
-	padding: 100px 100px 107px 100px;
+	padding: 100px 125px 100px 125px;
 	justify-content: space-between;
 	display: flex;
 	flex-wrap: wrap;
@@ -301,8 +301,8 @@ html {
 }
 
 .skill-icon {
-	height: 125px;
-	width: 125px;
+	height: 115px;
+	width: 115px;
 	transition: transform 0.5s ease;
 }
 
@@ -634,7 +634,7 @@ html {
 
 @media (min-width: 1108px) and (max-width: 1390px) {
 	#skill-chart {
-		gap: 2rem;
+		gap: 3.5rem;
 	}
 }
 

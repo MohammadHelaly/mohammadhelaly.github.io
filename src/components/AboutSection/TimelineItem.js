@@ -27,8 +27,9 @@ const TimelineItem = (props) => {
 					<em>{dates}</em>
 				</p>
 				<ul>
-					{list.map((point) => (
+					{list.map((point, index) => (
 						<ListItem
+							key={index}
 							className={`lead line ${styles["timeline-text"]}`}>
 							{point}
 						</ListItem>

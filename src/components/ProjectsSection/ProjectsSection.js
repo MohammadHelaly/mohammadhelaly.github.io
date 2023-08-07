@@ -27,8 +27,7 @@ const ProjectsSection = () => {
 			<SectionHeader
 				titleText="My Projects"
 				subtitleText="NeuralVisions - MedicoPortal - DriveIt.io - Libraria - PaintFlow.studio"></SectionHeader>
-			<div className={`jumbotron-fluid projects-jumbotron`}>
-				{/* Jumbotron content */}
+			<div className="jumbotron-fluid projects-jumbotron">
 				<div className={styles["project-container"]}>
 					{projectData.map((project, index) => (
 						<Project

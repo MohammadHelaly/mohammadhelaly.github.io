@@ -1,0 +1,23 @@
+.gm-link-footer {
+	position: relative;
+	top: 10.5px;
+	margin-right: 10px;
+}
+
+.copyright {
+	margin-bottom: 0.65vh;
+	font-weight: 50;
+	font-size: small;
+}
+
+@media (min-width: 1536px) {
+	.gm-link-footer {
+		top: 1.45vh;
+	}
+}
+
+@media (max-width: 660px) {
+	.gm-link-footer {
+		margin-right: -3.5px;
+	}
+}

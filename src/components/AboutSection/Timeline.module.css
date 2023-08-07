@@ -1,0 +1,11 @@
+.timeline {
+	padding: 45px 1.8vw 13vh 1.8vw !important;
+	background-color: rgba(0, 0, 0, 0);
+	box-shadow: none;
+}
+
+.timeline-container {
+	padding: 0 5.7% 0 7.5%;
+	display: grid;
+	grid-template-columns: 3px 2fr;
+}

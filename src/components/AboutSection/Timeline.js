@@ -16,7 +16,7 @@ const Timeline = () => {
 				</div> */}
 				<TimelineItem
 					id="end"
-					heading="Computer and Communications Engineering Student"
+					heading="Undergraduate Computer Engineering Student"
 					place="Faculty of Engineering, Alexandria University"
 					dates="September 2019 - Present"
 					list={[

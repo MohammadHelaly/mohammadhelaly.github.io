@@ -1,92 +1,106 @@
-import styles from "../AboutSection/TimelineItem.module.css"; // Import your CSS module here
-import githubIcon from "../../assets/icons/github.svg"; // Import your icons here
+import React from "react";
+import styles from "./Project.module.css";
+import githubIcon from "../../assets/icons/github.svg";
+import ListItem from "../Miscellaneous/ListItem";
 
-const Project = ({ title, githubLink, description, images }) => {
+const Project = ({ title, githubLink, description, images, id }) => {
 	return (
-		<div>
-			<div
-				id="carousel-1"
-				className="carousel slide project-carousel"
-				data-bs-ride="carousel">
-				<div className="carousel-indicators">
+		<>
+			<div className={styles["project"]}>
+				<div
+					id={`carousel-${id}`}
+					className="carousel slide"
+					data-bs-ride="carousel">
+					<div className="carousel-indicators">
+						{images.map((item, index) => (
+							<button
+								key={index}
+								type="button"
+								data-bs-target={`#carousel-${id}`}
+								data-bs-slide-to={index}
+								className={index === 0 ? "active" : ""}
+								aria-label={`Slide ${index + 1}`}></button>
+						))}
+					</div>
+					<div className="carousel-inner">
+						{images.map((item, index) => (
+							<div
+								key={index}
+								className={`carousel-item ${
+									styles["project-carousel-item"]
+								} ${index === 0 ? "active" : ""}`}>
+								{item.includes(".mp4") ? (
+									<video
+										src={item}
+										className={
+											styles["project-carousel-slide"]
+										}
+										autoPlay
+										muted
+										loop
+										playsInline>
+										Your browser does not support the video
+										tag.
+									</video>
+								) : (
+									<img
+										src={item}
+										className={`d-block w-100 carousel-img ${styles["project-carousel-slide"]}`}
+										alt={`Slide ${index + 1}`}
+									/>
+								)}
+								<div
+									className={`carousel-caption text-center ${styles["project-carousel-caption"]}`}>
+									<h5
+										className={`display-6 ${styles["project-title"]}`}>
+										{title} |{" "}
+										<a
+											href={githubLink}
+											target="_blank"
+											rel="noopener noreferrer">
+											<img
+												src={githubIcon}
+												alt="GitHub Link"
+												className="icon white-icon"
+											/>
+										</a>
+									</h5>
+									<ul>
+										{description.map((entry, index) => (
+											<ListItem
+												key={index}
+												className={`lead ${styles["project-decription"]}`}>
+												{entry}
+											</ListItem>
+										))}
+									</ul>
+								</div>
+							</div>
+						))}
+					</div>
 					<button
+						className="carousel-control-prev"
 						type="button"
-						data-bs-target="#carousel-1"
-						data-bs-slide-to="0"
-						className="active"
-						aria-current="true"
-						aria-label="Slide 1"></button>
+						data-bs-target={`#carousel-${id}`}
+						data-bs-slide="prev">
+						<span
+							className="carousel-control-prev-icon"
+							aria-hidden="true"></span>
+						<span className="visually-hidden">Previous</span>
+					</button>
 					<button
+						className="carousel-control-next"
 						type="button"
-						data-bs-target="#carousel-1"
-						data-bs-slide-to="1"
-						aria-label="Slide 2"></button>
-					<button
-						type="button"
-						data-bs-target="#carousel-1"
-						data-bs-slide-to="2"
-						aria-label="Slide 3"></button>
+						data-bs-target={`#carousel-${id}`}
+						data-bs-slide="next">
+						<span
+							className="carousel-control-next-icon"
+							aria-hidden="true"></span>
+						<span className="visually-hidden">Next</span>
+					</button>
 				</div>
-				<div className="carousel-inner">
-					<div className="carousel-item project-carousel-item active">
-						<video src={images[0]} autoplay muted loop playsinline>
-							Your browser does not support the video tag.
-						</video>
-					</div>
-					<div className="carousel-item project-carousel-item">
-						<video src={images[1]} autoplay muted loop playsinline>
-							Your browser does not support the video tag.
-						</video>
-					</div>
-					<div className="carousel-item project-carousel-item">
-						<img
-							src={images[2]}
-							className="d-block w-100 carousel-img"
-							alt="Slide 3"
-						/>
-					</div>
-				</div>
-				<button
-					className="carousel-control-prev"
-					type="button"
-					data-bs-target="#carousel-1"
-					data-bs-slide="prev">
-					<span
-						className="carousel-control-prev-icon"
-						aria-hidden="true"></span>
-					<span className="visually-hidden">Previous</span>
-				</button>
-				<button
-					className="carousel-control-next"
-					type="button"
-					data-bs-target="#carousel-1"
-					data-bs-slide="next">
-					<span
-						className="carousel-control-next-icon"
-						aria-hidden="true"></span>
-					<span className="visually-hidden">Next</span>
-				</button>
 			</div>
-			<div className="project-description-container">
-				<h3 className="display-6 project-title">
-					{title} |{" "}
-					<a href={githubLink} target="_blank">
-						<img
-							src="icons/github.svg"
-							alt="GitHub"
-							className="dark-icon project-link"
-						/>
-					</a>
-				</h3>
-				<ul>
-					{description.map((line, index) => (
-						<li key={index} className="lead line">
-							{line}
-						</li>
-					))}
-				</ul>
-			</div>
-		</div>
+		</>
 	);
 };
 

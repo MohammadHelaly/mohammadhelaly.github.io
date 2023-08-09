@@ -10,6 +10,7 @@ const Headshot = () => {
 			<div
 				className={`col-sm-12 col-lg-3 ${styles["headshot-container"]}`}>
 				<img
+					alt="Me"
 					ref={elementRef}
 					src={headshot}
 					className={styles["headshot"]}

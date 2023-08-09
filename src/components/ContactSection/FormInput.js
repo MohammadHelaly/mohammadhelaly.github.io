@@ -13,7 +13,7 @@ const FormInput = (props) => {
 		warning,
 		isInvalid,
 	} = props;
-	const elementRef = useAnimate(styles["animate"], false);
+	const elementRef = useAnimate(styles["animate"]);
 	return (
 		<div className="form-floating mb-4">
 			{type === "customMessage" ? (
@@ -21,6 +21,10 @@ const FormInput = (props) => {
 					ref={elementRef}
 					className={`form-control ${styles["input"]} ${
 						isInvalid ? styles["invalid"] : ""
+					} ${
+						elementRef.current?.className.includes("animate")
+							? styles["animate"]
+							: ""
 					}`}
 					name={name}
 					id={id}
@@ -36,6 +40,10 @@ const FormInput = (props) => {
 					type={type}
 					className={`form-control ${styles["input"]} ${
 						isInvalid ? styles["invalid"] : ""
+					} ${
+						elementRef.current?.className.includes("animate")
+							? styles["animate"]
+							: ""
 					}`}
 					name={name}
 					id={id}

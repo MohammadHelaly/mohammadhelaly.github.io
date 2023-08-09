@@ -13,7 +13,7 @@ const FormInput = (props) => {
 		warning,
 		isInvalid,
 	} = props;
-	const elementRef = useAnimate(styles["animate"]);
+	const elementRef = useAnimate(styles["animate"], false);
 	return (
 		<div className="form-floating mb-4">
 			{type === "customMessage" ? (

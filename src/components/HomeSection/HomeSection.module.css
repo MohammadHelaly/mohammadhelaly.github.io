@@ -78,3 +78,10 @@
 		object-fit: cover;
 	}
 }
+
+@media (max-height: 500px) {
+	.hero-carousel-item {
+		min-height: 150vh !important;
+		background-color: white;
+	}
+}

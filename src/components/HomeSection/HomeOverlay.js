@@ -30,7 +30,7 @@ const HomeOverlay = (props) => {
 				Creating innovative solutions through code.
 			</p>
 			<p className={`${lineClasses} bottom-lead`}>
-				Building engaging web experiences with passion.
+				Building engaging experiences with passion.
 			</p>
 			<p>
 				<span>

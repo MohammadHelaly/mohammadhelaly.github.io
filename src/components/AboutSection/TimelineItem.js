@@ -3,9 +3,9 @@ import useAnimate from "../../hooks/use-animate";
 import ListItem from "../Miscellaneous/ListItem";
 
 const TimelineItem = (props) => {
-	const { heading, place, dates, list, id } = props;
-	const itemRef = useAnimate(styles["animate-item"]);
-	const pointRef = useAnimate(styles["animate-point"]);
+	const { position, place, dates, description, id } = props;
+	const itemRef = useAnimate(styles["animate-item"], false);
+	const pointRef = useAnimate(styles["animate-point"], false);
 
 	return (
 		<>
@@ -17,7 +17,7 @@ const TimelineItem = (props) => {
 			</div>
 			<div ref={itemRef} className={styles["timeline-item"]}>
 				<h2 className={`display-6 ${styles["timeline-header"]}`}>
-					{heading}
+					{position}
 				</h2>
 				<p
 					className={`lead line ${styles["timeline-text"]} ${styles["timeline-place"]}`}>
@@ -27,7 +27,7 @@ const TimelineItem = (props) => {
 					<em>{dates}</em>
 				</p>
 				<ul>
-					{list.map((point, index) => (
+					{description.map((point, index) => (
 						<ListItem
 							key={index}
 							className={`lead line ${styles["timeline-text"]}`}>

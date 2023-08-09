@@ -14,7 +14,7 @@ const HomeOverlay = (props) => {
 	const titleClasses = isLight ? "text-light" : "";
 	const lineClasses = isLight ? "lead text-light" : "lead";
 	const iconClasses = isLight ? "white-icon" : "dark-icon";
-	const elementRef = useAnimate(styles["animate"]);
+	const elementRef = useAnimate(styles["animate"], false);
 
 	// setTimeout(() => {
 	// 	setIsLight(!isLight);

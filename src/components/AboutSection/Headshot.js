@@ -3,7 +3,7 @@ import useAnimate from "../../hooks/use-animate";
 import styles from "./Headshot.module.css";
 
 const Headshot = () => {
-	const elementRef = useAnimate(styles["animate"]);
+	const elementRef = useAnimate(styles["animate"], false);
 	return (
 		<>
 			<div className="col-lg-2 "></div>

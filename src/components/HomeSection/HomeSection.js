@@ -13,7 +13,7 @@ const HomeSection = () => {
 					data-bs-pause="false">
 					<div className="carousel-inner">
 						<div
-							className={`carousel-item ${styles["hero-carousel-item"]} ${styles["alt-screen"]} active`}>
+							className={`carousel-item active ${styles["hero-carousel-item"]} ${styles["alt-screen"]}`}>
 							<HomeOverlay variant="light" />
 						</div>
 						<div

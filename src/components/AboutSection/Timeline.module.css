@@ -5,7 +5,7 @@
 }
 
 .timeline-container {
-	padding: 0 8.5% 0 8.5%;
+	padding: 0 8% 0 8.5%;
 	display: grid;
 	grid-template-columns: 3px 2fr;
 }

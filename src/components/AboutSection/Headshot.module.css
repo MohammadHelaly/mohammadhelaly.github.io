@@ -13,7 +13,9 @@
 	/* box-shadow: 0 0 0.73vw rgba(0, 0, 0, 0.1); */
 	transition: all 2s ease;
 	opacity: 0;
-	transform: translateX(-50%);
+	/* transform: translateX(50%); */
+	/* height: 0%; */
+	/* width: 0%; */
 }
 
 /* .headshot:active,
@@ -23,7 +25,10 @@
 
 .animate {
 	opacity: 1;
-	transform: translateX(0);
+	/* transform: translateX(0); */
+
+	/* width: 220px; */
+	/* height: 100%; */
 }
 
 @media (max-width: 990px) {

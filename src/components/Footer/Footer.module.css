@@ -1,3 +1,14 @@
+.footer-container {
+	opacity: 0;
+	transform: translateY(100%);
+	transition: all 1s ease-in-out;
+}
+
+.animate {
+	opacity: 1;
+	transform: translateY(0);
+}
+
 .gm-link-footer {
 	position: relative;
 	top: 10.5px;

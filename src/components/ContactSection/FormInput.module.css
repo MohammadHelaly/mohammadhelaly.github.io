@@ -1,0 +1,43 @@
+.input {
+	border: 0px;
+	border-bottom: 2px solid #212529;
+	border-radius: 0;
+	opacity: 0;
+	width: 0;
+	transition: all 2s ease;
+}
+
+.input:nth-child(2) {
+	transition-delay: 200ms;
+}
+
+.input:nth-child(3) {
+	transition-delay: 400ms;
+}
+
+.animate {
+	opacity: 1;
+	width: 100%;
+}
+
+.invalid {
+	border-bottom: 2px solid #e94545 !important;
+	opacity: 1;
+	width: 100%;
+}
+
+.invalid-label {
+	color: #e94545 !important;
+}
+
+.input:focus {
+	border-bottom: 1px solid #212529;
+	outline: none;
+	box-shadow: none;
+}
+
+.label {
+	font-weight: 400 !important;
+	color: #212529;
+	transition: all 0.5s ease;
+}

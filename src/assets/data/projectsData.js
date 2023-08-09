@@ -13,7 +13,7 @@ import paint1 from "../images/paint1.jpg";
 import paint2 from "../images/paint2.jpg";
 import paint3 from "../images/paint3.jpg";
 
-const projects = [
+const projectsData = [
 	{
 		title: "NeuralVisions",
 		githubLink:
@@ -64,4 +64,4 @@ const projects = [
 	},
 ];
 
-export default projects;
+export default projectsData;

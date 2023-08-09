@@ -1,0 +1,51 @@
+.skills-container {
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	grid-template-rows: repeat(3, 100px);
+	gap: 25px;
+	padding: 0 20px 0 20px;
+	place-items: center;
+}
+
+.skills-background {
+	background-image: url("../../assets/images/background.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	overflow: hidden;
+	min-width: 100%;
+	padding: 3% 5.5vw 9.75vh 5.5vw;
+}
+
+.php-icon {
+	width: 145px !important;
+}
+
+.dataiku-icon {
+	transform: scale(2) !important;
+}
+
+.mysql-icon {
+	transform: scale(1.5) !important;
+}
+
+@media (max-width: 768px) {
+	.skills-container {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: repeat(6, 100px);
+		gap: 25px;
+		padding: 0 20px 0 20px;
+		place-items: center;
+	}
+
+	.skills-background {
+		background-image: url("../../assets/images/background4.jpg");
+		background-size: cover;
+		background-position: cover;
+		background-repeat: no-repeat;
+		background-attachment: scroll;
+		overflow: hidden;
+	}
+}

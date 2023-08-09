@@ -1,0 +1,18 @@
+.form-button {
+	height: 40px !important;
+	border-radius: 0;
+	opacity: 0;
+	transition: all 0.5s;
+}
+
+.btn-full-width {
+	width: 100%;
+}
+
+.contact-form {
+	margin-bottom: 30px;
+}
+
+.animate {
+	opacity: 1;
+}

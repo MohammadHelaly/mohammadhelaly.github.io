@@ -34,6 +34,15 @@
 
 .project-carousel-caption ul {
 	list-style: none;
+	padding: 15px 30px 0 30px;
+}
+
+.project-description-container ul {
+	list-style: none;
+	padding: 25px 15px 0 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .project h5 {
@@ -59,7 +68,9 @@
 	/* right: 8%; */
 	/* display: inline-block; */
 	/* transition: transform 0.5s; */
+	/* position: relative; */
 	font-weight: 400 !important;
+	margin-bottom: 20px !important;
 }
 
 .project-description {
@@ -88,10 +99,31 @@
 	object-fit: cover;
 }
 
-/* .project-description-container {
-	background-color: white;
-	font-size: small;
-	padding: 3.25vh 1.8vw 0.5vh 1.8vw;
+.project-description-container {
+	text-align: center;
+	background-color: rgb(243, 243, 243);
+	font-size: small !important;
+	padding: 2vh 1vw 0 1.5vw;
 	transition: transform 0.5s ease;
-	z-index: -1;
-} */
+	border-bottom: 8px solid #212529 !important;
+	display: none;
+}
+
+.project-description-container .project-description {
+	font-size: 0.75rem !important;
+}
+
+@media (max-width: 850px) {
+	.project-description-container {
+		display: block;
+	}
+	.project-carousel-caption {
+		display: none;
+	}
+	.project:active,
+	.project:hover {
+		.project-carousel-slide {
+			filter: brightness(1);
+		}
+	}
+}

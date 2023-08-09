@@ -1,0 +1,100 @@
+.frame {
+	height: 90px;
+	width: 90px;
+	opacity: 0;
+	transform: translateX(-100%);
+	/* transform: translateY(150%); */
+	transition: all 0.75s ease;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.skill-icon {
+	transition: all 0.5s ease;
+	height: 90px;
+	width: 90px;
+}
+
+/* .frame:hover {
+	transform: translateY(-15%);
+} */
+
+.animate {
+	opacity: 1;
+	transform: translateX(0);
+	/* transform: translateY(0); */
+}
+/* .animate:hover {
+	transform: translateY(-15%);
+} */
+
+@media (max-width: 850px) {
+	.frame {
+		transform: translateX(0);
+		/* transform: translateY(0); */
+	}
+
+	.skill-icon {
+		height: 60px;
+		width: 60px;
+	}
+}
+
+.frame:nth-child(2) {
+	transition-delay: 200ms;
+}
+
+.frame:nth-child(3) {
+	transition-delay: 400ms;
+}
+
+.frame:nth-child(4) {
+	transition-delay: 600ms;
+}
+
+.frame:nth-child(5) {
+	transition-delay: 800ms;
+}
+
+.frame:nth-child(6) {
+	transition-delay: 1000ms;
+}
+
+.frame:nth-child(8) {
+	transition-delay: 200ms;
+}
+
+.frame:nth-child(9) {
+	transition-delay: 400ms;
+}
+.frame:nth-child(10) {
+	transition-delay: 600ms;
+}
+
+.frame:nth-child(11) {
+	transition-delay: 800ms;
+}
+
+.frame:nth-child(12) {
+	transition-delay: 1000ms;
+}
+
+.frame:nth-child(14) {
+	transition-delay: 200ms;
+}
+
+.frame:nth-child(15) {
+	transition-delay: 400ms;
+}
+.frame:nth-child(16) {
+	transition-delay: 600ms;
+}
+
+.frame:nth-child(17) {
+	transition-delay: 800ms;
+}
+
+.frame:nth-child(18) {
+	transition-delay: 1000ms;
+}

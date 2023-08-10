@@ -1,5 +1,4 @@
 import SectionHeader from "../Miscellaneous/SectionHeader";
-// import Project from "../ProjectsSection/Project";
 import styles from "./SkillsSection.module.css";
 import skillsData from "../../assets/data/skillsData";
 import SkillIcon from "./SkillIcon";
@@ -7,7 +6,6 @@ import SkillIcon from "./SkillIcon";
 const SkillsSection = () => {
 	return (
 		<section id="skills">
-			{/* <div className={styles["projects-container"]}> */}
 			<div className={styles["skills-background"]}>
 				<SectionHeader
 					titleText="MY SKILLS"

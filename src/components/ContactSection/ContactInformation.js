@@ -2,6 +2,7 @@ import styles from "./ContactInformation.module.css";
 import gmailIcon from "../../assets/icons/gmail.jpg";
 import phoneIcon from "../../assets/icons/phone.svg";
 import useAnimate from "../../hooks/use-animate";
+import Icon from "../Miscellaneous/Icon";
 
 const ContactInformation = () => {
 	const infoHeadingRef = useAnimate(styles["animate-info-heading"], false);
@@ -30,25 +31,25 @@ const ContactInformation = () => {
 					</p>
 				</div>
 				<div ref={infoItemRef1} className={styles["info-item"]}>
-					<img
+					<Icon
+						link={false}
 						src={phoneIcon}
 						alt="Phone"
-						className={`icon dark-icon ${styles["info-icon"]}`}
+						iconClassName={`dark-icon ${styles["info-icon"]}`}
 					/>
 					<p className={`lead line ${styles["info-text"]}`}>
 						+201095536781
 					</p>
 				</div>
 				<div ref={infoItemRef2} className={styles["info-item"]}>
-					<a
-						href="mailto:mohammad.helaly@gmail.com"
-						className={`icon-link ${styles["info-icon-link"]}`}>
-						<img
-							src={gmailIcon}
-							alt="Gmail"
-							className={`icon dark-icon ${styles["info-icon"]} ${styles["info-gm-icon"]}`}
-						/>
-					</a>
+					<Icon
+						link={true}
+						to="mailto:mohammad.helaly@gmail.com"
+						src={gmailIcon}
+						alt="Gmail"
+						iconClassName={`dark-icon ${styles["info-icon"]} ${styles["info-gm-icon"]}`}
+						linkClassName={`icon-link ${styles["info-icon-link"]}`}
+					/>
 					<p className={`lead line ${styles["info-text"]}`}>
 						mohammad.helaly@gmail.com
 					</p>

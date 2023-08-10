@@ -113,6 +113,11 @@
 	font-size: 0.75rem !important;
 }
 
+.project-icon {
+	position: relative;
+	bottom: 3px !important;
+}
+
 @media (max-width: 850px) {
 	.project-description-container {
 		display: block;

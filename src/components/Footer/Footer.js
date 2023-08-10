@@ -5,6 +5,7 @@ import linkedinIcon from "../../assets/icons/linkedin.svg";
 import hackerrankIcon from "../../assets/icons/hackerrank.svg";
 import styles from "./Footer.module.css";
 import useAnimate from "../../hooks/use-animate";
+import Icon from "../Miscellaneous/Icon";
 
 const Footer = () => {
 	const elementRef = useAnimate(styles["animate"], false);
@@ -13,45 +14,38 @@ const Footer = () => {
 		<footer className="background bg-dark py-5">
 			<div className="container text-light text-center">
 				<div ref={elementRef} className={styles["footer-container"]}>
-					<a
-						href="mailto:mohammad.helaly@gmail.com"
-						className={`icon-link ${styles["gm-link-footer"]}`}>
-						<img
-							src={gmailIcon}
-							alt="Gmail"
-							className="white-icon white-gm-icon icon"
-						/>
-					</a>
-					<a
-						href="https://github.com/MohammadHelaly"
-						target="_blank"
-						className="icon-link">
-						<img
-							src={githubIcon}
-							alt="GitHub"
-							className="white-icon icon"
-						/>
-					</a>
-					<a
-						href="https://www.linkedin.com/in/mohammadhelaly/"
-						target="_blank"
-						className="icon-link">
-						<img
-							src={linkedinIcon}
-							alt="LinkedIn"
-							className="white-icon icon"
-						/>
-					</a>
-					<a
-						href="https://www.hackerrank.com/mohammad_helaly?hr_r=1"
-						target="_blank"
-						className="icon-link">
-						<img
-							src={hackerrankIcon}
-							alt="HackerRank"
-							className="white-icon hr-icon icon"
-						/>
-					</a>
+					<Icon
+						link={true}
+						to="mailto:mohammad.helaly@gmail.com"
+						src={gmailIcon}
+						alt="Gmail"
+						iconClassName="white-icon white-gm-icon"
+						linkClassName={`icon-link ${styles["gm-link-footer"]}`}
+					/>
+					<Icon
+						link={true}
+						to="https://github.com/MohammadHelaly"
+						src={githubIcon}
+						alt="GitHub"
+						iconClassName="white-icon"
+						linkClassName="icon-link"
+					/>
+					<Icon
+						link={true}
+						to="https://www.linkedin.com/in/mohammadhelaly/"
+						src={linkedinIcon}
+						alt="LinkedIn"
+						iconClassName="white-icon"
+						linkClassName="icon-link"
+					/>
+					<Icon
+						link={true}
+						to="https://www.hackerrank.com/mohammad_helaly?hr_r=1"
+						src={hackerrankIcon}
+						alt="HackerRank"
+						iconClassName="white-icon hr-icon"
+						linkClassName="icon-link"
+					/>
 				</div>
 				<hr />
 				<p className={styles["copyright"]}>

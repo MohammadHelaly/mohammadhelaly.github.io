@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./Project.module.css";
 import githubIcon from "../../assets/icons/github.svg";
 import ListItem from "../Miscellaneous/ListItem";
+import Icon from "../Miscellaneous/Icon";
 
 const Project = (props) => {
 	const { title, githubLink, description, images, id } = props;
@@ -51,16 +52,13 @@ const Project = (props) => {
 								<h5
 									className={`display-6 ${styles["project-title"]}`}>
 									{title} |{" "}
-									<a
-										href={githubLink}
-										target="_blank"
-										rel="noopener noreferrer">
-										<img
-											src={githubIcon}
-											alt="GitHub Link"
-											className="icon white-icon"
-										/>
-									</a>
+									<Icon
+										link={true}
+										to={githubLink}
+										src={githubIcon}
+										alt="GitHub Link"
+										iconClassName={`white-icon ${styles["project-icon"]}`}
+									/>
 								</h5>
 								<ul>
 									{description.map((entry, index) => (
@@ -100,16 +98,13 @@ const Project = (props) => {
 				className={`text-dark ${styles["project-description-container"]}`}>
 				<h5 className={`display-6 ${styles["project-title"]}`}>
 					{title} |{" "}
-					<a
-						href={githubLink}
-						target="_blank"
-						rel="noopener noreferrer">
-						<img
-							src={githubIcon}
-							alt="GitHub Link"
-							className="icon dark-icon"
-						/>
-					</a>
+					<Icon
+						link={true}
+						to={githubLink}
+						src={githubIcon}
+						alt="GitHub Link"
+						iconClassName={`dark-icon ${styles["project-icon"]}`}
+					/>
 				</h5>
 				<ul>
 					{description.map((entry, index) => (

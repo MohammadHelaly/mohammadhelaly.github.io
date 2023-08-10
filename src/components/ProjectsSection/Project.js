@@ -64,7 +64,7 @@ const Project = (props) => {
 									{description.map((entry, index) => (
 										<ListItem
 											key={index}
-											className={`lead ${styles["project-decription"]}`}>
+											className={`lead line ${styles["project-decription"]}`}>
 											{entry}
 										</ListItem>
 									))}
@@ -110,7 +110,7 @@ const Project = (props) => {
 					{description.map((entry, index) => (
 						<ListItem
 							key={index}
-							className={`lead ${styles["project-decription"]}`}>
+							className={`lead line ${styles["project-decription"]}`}>
 							{entry}
 						</ListItem>
 					))}

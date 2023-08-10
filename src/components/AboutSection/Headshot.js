@@ -6,9 +6,7 @@ const Headshot = () => {
 	const elementRef = useAnimate(styles["animate"], false);
 	return (
 		<>
-			<div className="col-lg-2 "></div>
-			<div
-				className={`col-sm-12 col-lg-3 ${styles["headshot-container"]}`}>
+			<div className={`${styles["headshot-container"]}`}>
 				<img
 					alt="Me"
 					ref={elementRef}

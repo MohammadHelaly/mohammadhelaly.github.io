@@ -1,5 +1,4 @@
 .project {
-	/* box-shadow: 0 0 1.46vw rgba(0, 0, 0, 0.3); */
 	background-color: rgba(255, 255, 255, 0);
 	margin: 3vh 1.8vw 9.8vh 1.8vw;
 	transition: transform 1s ease;
@@ -21,13 +20,8 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	/* background-color: rgba(0, 0, 0, 0.6); */
-	/* padding: 20px; */
 	color: white;
 	position: absolute;
-	/* bottom: 0; */
-	/* left: 0; */
-	/* right: 0; */
 	text-align: center;
 	opacity: 0;
 }
@@ -39,7 +33,7 @@
 
 .project-description-container ul {
 	list-style: none;
-	padding: 25px 15px 0 15px;
+	padding: 0px 20px 0 20px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -61,26 +55,11 @@
 }
 
 .project-title {
-	/* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
-	/* background-color: yellow; */
-	/* padding: 0.65vh 1vw 0.1vh; */
-	/* position: relative; */
-	/* right: 8%; */
-	/* display: inline-block; */
-	/* transition: transform 0.5s; */
-	/* position: relative; */
 	font-weight: 400 !important;
 	margin-bottom: 20px !important;
 }
 
 .project-description {
-	/* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
-	/* background-color: yellow; */
-	/* padding: 0.65vh 1vw 0.1vh; */
-	/* position: relative; */
-	/* right: 8%; */
-	/* display: inline-block; */
-	/* transition: transform 0.5s; */
 	font-weight: 400 !important;
 	margin-bottom: 10px !important;
 }
@@ -103,7 +82,7 @@
 	text-align: center;
 	background-color: rgb(243, 243, 243);
 	font-size: small !important;
-	padding: 2vh 1vw 0 1.5vw;
+	padding: 3vh 1vw 0 1.5vw;
 	transition: transform 0.5s ease;
 	border-bottom: 8px solid #212529 !important;
 	display: none;

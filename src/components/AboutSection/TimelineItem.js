@@ -26,6 +26,7 @@ const TimelineItem = (props) => {
 				<p className={`lead line`}>
 					<em>{dates}</em>
 				</p>
+				<hr />
 				<ul>
 					{description.map((point, index) => (
 						<ListItem

@@ -2,7 +2,7 @@
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 1fr;
-	gap: 25px;
+	/* gap: 25px; */
 	padding: 80px 100px 80px 100px;
 	place-items: center;
 	max-width: 100% !important;
@@ -15,6 +15,12 @@
 
 .contact-container > div:last-child {
 	border-right: none;
+}
+
+@media (max-width: 990px) and (min-width: 851px) {
+	.contact-container {
+		padding: 80px 10% 80px 10%;
+	}
 }
 
 @media (max-width: 850px) {

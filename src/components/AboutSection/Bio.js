@@ -10,9 +10,9 @@ const Bio = () => {
 				titleText="ABOUT ME"
 				subtitleText="Hi, I'm Mohammad..."
 			/>
-			<div className={`row ${styles["bio"]}`}>
+			<div className={`${styles["bio"]}`}>
 				<Headshot />
-				<div className={`col-sm-12 col-lg-5  ${styles["bio-text"]}`}>
+				<div className={`${styles["bio-text"]}`}>
 					<ul>
 						<ListItem className="lead line">
 							I'm pursuing my B.E. in Computer and Communications

@@ -1,11 +1,21 @@
 .about-me {
 	padding-top: 0%;
 	padding-bottom: 7%;
+	place-content: center;
+	align-items: center;
+	justify-content: center;
+	justify-items: center;
+	align-content: center;
 }
 
 .bio {
-	padding: 0%;
+	padding: 0 17.5% 0 18.25%;
 	margin: 0%;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	gap: 0;
+	align-items: center;
+	place-content: center;
 }
 
 .bio-text {
@@ -13,6 +23,10 @@
 }
 
 @media (max-width: 990px) {
+	.bio {
+		padding: 0 12.5% 0 12.5%;
+	}
+
 	.bio-text {
 		padding: 50px !important;
 		text-align: center !important;

@@ -5,7 +5,15 @@
 }
 
 .timeline-container {
-	padding: 0 8% 0 8.5%;
+	padding: 0 8% 0 8%;
 	display: grid;
 	grid-template-columns: 3px 2fr;
+	place-content: center;
+	justify-content: center;
+}
+
+@media (max-width: 768px) {
+	.timeline-container {
+		padding: 0 0 0 5%;
+	}
 }

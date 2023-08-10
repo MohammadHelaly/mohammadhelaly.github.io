@@ -33,7 +33,7 @@ const Project = (props) => {
 							{item.includes(".mp4") ? (
 								<video
 									src={item}
-									className={styles["project-carousel-slide"]}
+									className={`carousel-video ${styles["project-carousel-slide"]}`}
 									autoPlay
 									muted
 									loop

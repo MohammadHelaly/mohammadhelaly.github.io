@@ -110,3 +110,15 @@
 		padding: 2.5vh 3vh;
 	}
 }
+
+@media (min-width: 3700px) {
+	.timeline-item {
+		padding: 2vh 2.5vh;
+	}
+}
+
+@media (min-width: 1400px) and (max-width: 3699px) {
+	.timeline-item {
+		padding: 2vh 4vh;
+	}
+}

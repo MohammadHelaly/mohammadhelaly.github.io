@@ -43,3 +43,21 @@
 		place-items: center;
 	}
 }
+
+@media (min-width: 3700px) {
+	.contact-container {
+		padding: 80px 1250px 80px 1300px;
+	}
+}
+
+@media (min-width: 2101px) and (max-width: 3699px) {
+	.contact-container {
+		padding: 80px 25% 80px 25%;
+	}
+}
+
+@media (min-width: 1400px) and (max-width: 2100px) {
+	.contact-container {
+		padding: 80px 16.5% 80px 16.5%;
+	}
+}

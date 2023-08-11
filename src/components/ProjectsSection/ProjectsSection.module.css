@@ -7,3 +7,9 @@
 	align-items: center;
 	place-content: center;
 }
+
+/* @media (min-width: 2100px) {
+	.projects-container {
+		padding: 3% 18% 8.5% 18%;
+	}
+} */

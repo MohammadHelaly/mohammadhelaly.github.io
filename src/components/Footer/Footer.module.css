@@ -21,12 +21,6 @@
 	font-size: small;
 }
 
-@media (min-width: 1536px) {
-	.gm-link-footer {
-		top: 1.45vh;
-	}
-}
-
 @media (max-width: 850px) {
 	.gm-link-footer {
 		margin-right: -3.5px;

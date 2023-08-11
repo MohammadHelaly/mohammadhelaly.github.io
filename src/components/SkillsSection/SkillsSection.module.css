@@ -49,3 +49,21 @@
 		overflow: hidden;
 	}
 }
+
+@media (min-width: 3700px) {
+	.skills-background {
+		padding: 3% 32.5vw 9.75vh 32.5vw;
+	}
+}
+
+@media (min-width: 2101px) and (max-width: 3699px) {
+	.skills-background {
+		padding: 3% 25.5vw 9.75vh 25.5vw;
+	}
+}
+
+@media (min-width: 1400px) and (max-width: 2100px) {
+	.skills-background {
+		padding: 3% 15.5vw 9.75vh 15.5vw;
+	}
+}

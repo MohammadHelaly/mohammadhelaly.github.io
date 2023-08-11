@@ -1,5 +1,7 @@
 .headshot-container {
 	padding-right: 0% !important ;
+	display: flex;
+	place-content: center;
 }
 
 .headshot {

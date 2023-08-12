@@ -8,11 +8,12 @@
 }
 
 .skills-background {
-	background-image: url("../../assets/images/background.jpg");
+	/* background-image: url("../../assets/images/background.jpg");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
+	background-attachment: fixed; */
+	background-color: rgba(0, 0, 0, 0);
 	overflow: hidden;
 	min-width: 100%;
 	padding: 3% 5.5vw 9.75vh 5.5vw;
@@ -30,6 +31,11 @@
 	transform: scale(1.5) !important;
 }
 
+.nodejs-icon {
+	transform: scale(1.25) !important;
+	filter: brightness(1.1) !important;
+}
+
 @media (max-width: 768px) {
 	.skills-container {
 		display: grid;
@@ -41,11 +47,13 @@
 	}
 
 	.skills-background {
-		background-image: url("../../assets/images/background4.jpg");
+		/* background-image: url("../../assets/images/background4.jpg");
 		background-size: cover;
 		background-position: cover;
 		background-repeat: no-repeat;
-		background-attachment: scroll;
+		background-attachment: scroll; */
+		background-color: rgba(0, 0, 0, 0);
+
 		overflow: hidden;
 	}
 }

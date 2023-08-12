@@ -20,17 +20,11 @@ const Slider = () => {
 		};
 	}, []);
 
-	const navbarClassName = `${styles["bg-dark"]} ${
-		styles["my-nav"]
-	} navbar navbar-expand-md ${addNewNavClass ? styles["my-new-nav"] : ""}`;
+	const sliderClassName = `${styles["slider"]} ${
+		addNewNavClass ? styles["new-slider"] : ""
+	}`;
 
-	return (
-		<nav className={navbarClassName}>
-			<div className="container topnav-container">
-				<hr />
-			</div>
-		</nav>
-	);
+	return <div className={sliderClassName} />;
 };
 
 export default Slider;

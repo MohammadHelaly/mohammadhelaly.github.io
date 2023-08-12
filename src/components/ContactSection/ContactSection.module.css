@@ -6,6 +6,7 @@
 	padding: 80px 100px 80px 100px;
 	place-items: center;
 	max-width: 100% !important;
+	background-color: white;
 }
 
 .contact-container > div {

@@ -5,19 +5,19 @@ const HomeSection = () => {
 	return (
 		<section id="home">
 			<div
-				className={`jumbotron jumbotron-fluid ${styles["hero-jumbotron"]}`}>
+				className={`jumbotron jumbotron-fluid ${styles["home-jumbotron"]}`}>
 				<div
-					className={`carousel slide carousel-fade ${styles["hero-carousel"]}`}
+					className={`carousel slide carousel-fade ${styles["home-carousel"]}`}
 					data-bs-ride="carousel"
 					data-bs-interval="5000"
 					data-bs-pause="false">
 					<div className="carousel-inner">
 						<div
-							className={`carousel-item active ${styles["hero-carousel-item"]} ${styles["alt-screen"]}`}>
+							className={`carousel-item active ${styles["home-carousel-item"]} ${styles["alt-screen"]}`}>
 							<HomeOverlay variant="light" />
 						</div>
 						<div
-							className={`carousel-item ${styles["hero-carousel-item"]}`}>
+							className={`carousel-item ${styles["home-carousel-item"]}`}>
 							<HomeOverlay />
 						</div>
 					</div>

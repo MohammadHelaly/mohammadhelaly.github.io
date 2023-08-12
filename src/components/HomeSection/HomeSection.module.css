@@ -1,9 +1,9 @@
-.hero-carousel {
+.home-carousel {
 	top: 0px;
 	min-height: 0.7vh;
 }
 
-.hero-carousel-item {
+.home-carousel-item {
 	position: relative;
 	object-position: right;
 	top: 0;
@@ -15,7 +15,7 @@
 	background-color: rgba(0, 0, 0, 0) !important;
 }
 
-.hero-carousel-img {
+.home-carousel-img {
 	position: relative;
 	object-position: right;
 	object-fit: cover;
@@ -24,51 +24,66 @@
 	min-height: 93vh !important;
 }
 
-.hero-jumbotron {
+.home-jumbotron {
 	min-height: 93vh !important;
-	background-image: url("../../assets/images/background.jpg") !important;
+	/* background-image: url("../../assets/images/background.jpg") !important;
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
+	background-attachment: fixed; */
+	background-color: rgba(0, 0, 0, 0);
 	overflow: hidden;
 	min-width: 100%;
 }
 
 @media (max-width: 990px) {
-	.hero-carousel-item,
-	.hero-carousel-img {
+	.home-carousel-item,
+	.home-carousel-img {
 		min-height: 800px;
 		top: 0;
 		bottom: 0;
 	}
 
-	.hero-jumbotron {
-		background-image: url("../../assets/images/background4.jpg");
+	.home-jumbotron {
+		background-color: rgba(0, 0, 0, 0);
+		/* background-image: url("../../assets/images/background4.jpg");
 		background-size: cover;
 		background-position: cover;
 		background-repeat: no-repeat;
-		background-attachment: scroll;
+		background-attachment: scroll; */
 		overflow: hidden;
 	}
 }
 
-@media (max-height: 500px) {
-	.hero-carousel-item {
+@media (max-height: 550px) {
+	.home-carousel-item {
 		min-height: 150vh !important;
 		background-color: white;
 	}
 }
 
+@media (max-width: 385px) {
+	.home-carousel-item {
+		min-height: 100vh !important;
+	}
+	.home-carousel-img {
+		min-height: 100vh !important;
+	}
+
+	.home-jumbotron {
+		min-height: 100vh !important;
+	}
+}
+
 @media (min-width: 2168px) {
-	.hero-carousel-item {
+	.home-carousel-item {
 		min-height: 920px !important;
 	}
-	.hero-carousel-img {
+	.home-carousel-img {
 		min-height: 920px !important;
 	}
 
-	.hero-jumbotron {
+	.home-jumbotron {
 		min-height: 920px !important;
 	}
 }

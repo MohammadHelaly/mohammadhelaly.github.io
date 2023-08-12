@@ -12,7 +12,7 @@ const Footer = () => {
 	const currentYear = new Date().getFullYear();
 
 	return (
-		<footer className="background bg-dark py-5">
+		<footer className="background py-5">
 			<div className="container text-light text-center">
 				<div ref={elementRef} className={styles["footer-container"]}>
 					<Icon

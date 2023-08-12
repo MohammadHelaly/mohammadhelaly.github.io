@@ -1,21 +1,21 @@
-import c from "../icons/c-1.svg";
+import c from "../icons/c.svg";
 import cpp from "../icons/c++.svg";
 import python from "../icons/python.svg";
 import java from "../icons/java.svg";
-import bash from "../icons/bash-icon-svgrepo-com.svg";
+import bash from "../icons/bash.svg";
 import html from "../icons/html.svg";
-import css from "../icons/css-3-logo-svgrepo-com.svg";
+import css from "../icons/css.svg";
 import mysql from "../icons/mysql.svg";
 import mongodb from "../icons/mongodb.svg";
 import javascript from "../icons/javascript.svg";
-import php from "../icons/php-ar21.svg";
+import php from "../icons/php.svg";
 import git from "../icons/git.svg";
 import reactjs from "../icons/reactjs.svg";
 import redux from "../icons/redux.svg";
-import nodejs from "../icons/nodejs.jpg";
-import expressjs from "../icons/expressjs_ar21_b4dd392c7c.svg";
-import docker from "../icons/docker-svgrepo-com.svg";
-import dataiku from "../icons/Dataiku.svg";
+import nodejs from "../icons/nodejs.svg";
+import expressjs from "../icons/expressjs.svg";
+import docker from "../icons/docker.svg";
+import dataiku from "../icons/dataiku.svg";
 
 const skillsData = [
 	{
@@ -83,6 +83,7 @@ const skillsData = [
 	{
 		icon: nodejs,
 		alt: "Node.js",
+		className: "nodejs-icon",
 	},
 	{
 		icon: expressjs,

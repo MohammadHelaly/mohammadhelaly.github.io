@@ -1,4 +1,4 @@
-/* MICSELLANEOUS */
+/* CAROUSELS */
 
 .carousel-fade .active.carousel-item-start,
 .carousel-fade .active.carousel-item-end {
@@ -8,7 +8,6 @@
 }
 
 .carousel-item {
-	/* height: 65vh; */
 	height: 500px;
 	background-color: white;
 }
@@ -24,6 +23,8 @@
 	height: auto;
 }
 
+/* MICSELLANEOUS */
+
 .bottom-lead {
 	margin-bottom: -1.4vh;
 }
@@ -34,11 +35,12 @@
 }
 
 .background {
-	background-image: url("./assets/images/background.jpg");
+	/* background-image: url("./assets/images/background.jpg");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
+	background-attachment: fixed; */
+	background-color: rgba(0, 0, 0, 0);
 	overflow: hidden;
 	min-width: 100%;
 	padding: 9.75vh 5.5vw 9.75vh 5.5vw;
@@ -139,15 +141,6 @@
 
 	.gm-link {
 		margin-right: -4px;
-	}
-
-	.background {
-		background-image: url("./assets/images/background4.jpg");
-		background-size: cover;
-		background-position: cover;
-		background-repeat: no-repeat;
-		background-attachment: scroll;
-		overflow: hidden;
 	}
 }
 

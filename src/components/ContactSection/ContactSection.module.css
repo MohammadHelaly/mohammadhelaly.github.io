@@ -18,6 +18,12 @@
 	border-right: none;
 }
 
+@media (max-width: 1050px) and (min-width: 991px) {
+	.contact-container {
+		padding: 80px 5% 80px 2%;
+	}
+}
+
 @media (max-width: 990px) and (min-width: 851px) {
 	.contact-container {
 		padding: 80px 10% 80px 10%;

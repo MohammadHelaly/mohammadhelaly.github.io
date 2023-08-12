@@ -2,14 +2,14 @@ import { useState, useEffect } from "react";
 import styles from "./Slider.module.css";
 
 const Slider = () => {
-	const [addNewNavClass, setAddNewNavClass] = useState(false);
+	const [addNewSliderClass, setAddNewSliderClass] = useState(false);
 
 	useEffect(() => {
 		const handleScroll = () => {
 			if (window.scrollY > 250) {
-				setAddNewNavClass(true);
+				setAddNewSliderClass(true);
 			} else {
-				setAddNewNavClass(false);
+				setAddNewSliderClass(false);
 			}
 		};
 
@@ -21,7 +21,7 @@ const Slider = () => {
 	}, []);
 
 	const sliderClassName = `${styles["slider"]} ${
-		addNewNavClass ? styles["new-slider"] : ""
+		addNewSliderClass ? styles["new-slider"] : ""
 	}`;
 
 	return <div className={sliderClassName} />;

@@ -9,6 +9,7 @@ import Icon from "../Miscellaneous/Icon";
 
 const Footer = () => {
 	const elementRef = useAnimate(styles["animate"], false);
+	const currentYear = new Date().getFullYear();
 
 	return (
 		<footer className="background bg-dark py-5">
@@ -49,7 +50,7 @@ const Footer = () => {
 				</div>
 				<hr />
 				<p className={styles["copyright"]}>
-					&copy; 2023 Mohammad Helaly
+					&copy; {currentYear} Mohammad Helaly
 				</p>
 			</div>
 		</footer>

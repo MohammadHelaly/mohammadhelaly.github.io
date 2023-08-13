@@ -119,7 +119,7 @@ const ContactForm = () => {
 				ref={buttonRef}
 				type="submit"
 				// disabled={!formIsValid}
-				className={`btn btn-outline-dark btn-sm ${styles["btn-full-width"]} ${styles["form-button"]}`}>
+				className={`btn btn-outline-dark btn-sm ${styles["form-button"]}`}>
 				Send
 			</button>
 		</form>

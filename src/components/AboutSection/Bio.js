@@ -7,7 +7,7 @@ const Bio = () => {
 	return (
 		<div className={styles["about-me"]}>
 			<SectionHeader
-				titleText="ABOUT ME"
+				titleText="About me"
 				subtitleText="Hi, I'm Mohammad..."
 			/>
 			<div className={`${styles["bio"]}`}>

@@ -7,7 +7,7 @@ const Timeline = () => {
 	return (
 		<div className={`background ${styles["timeline"]}`}>
 			<SectionHeader
-				titleText="TIMELINE"
+				titleText="Timeline"
 				subtitleText="What I've done..."
 				textTheme="light"
 			/>

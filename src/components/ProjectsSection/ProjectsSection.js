@@ -8,7 +8,7 @@ const ProjectsSection = () => {
 		<section id="projects">
 			<div className={styles["projects-container"]}>
 				<SectionHeader
-					titleText="MY PROJECTS"
+					titleText="Projects"
 					subtitleText="NeuralVisions - MedicoPortal - DriveIt.io - Libraria - PaintFlow.studio"
 				/>
 				{projectsData.map((project, index) => (

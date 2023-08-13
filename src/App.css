@@ -154,12 +154,6 @@
 	}
 }
 
-@media (min-width: 991px) and (max-width: 1075px) {
-	.line {
-		font-size: 0.9rem !important;
-	}
-}
-
 @media (min-width: 1175px) and (max-width: 1300px) {
 	.line {
 		font-size: 0.9rem !important;

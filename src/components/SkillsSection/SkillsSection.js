@@ -8,7 +8,7 @@ const SkillsSection = () => {
 		<section id="skills">
 			<div className={styles["skills-background"]}>
 				<SectionHeader
-					titleText="MY SKILLS"
+					titleText="Skills"
 					subtitleText="Software and Web Development - Data Science - Machine Learning"
 					textTheme="light"
 				/>

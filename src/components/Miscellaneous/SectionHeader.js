@@ -21,8 +21,8 @@ const SectionHeader = (props) => {
 				ref={subtitleRef}
 				className={
 					textTheme === "light"
-						? `${styles["light-subtitle-text"]} lead`
-						: `${styles["dark-subtitle-text"]} lead`
+						? `${styles["light-subtitle-text"]} lead line`
+						: `${styles["dark-subtitle-text"]} lead line`
 				}>
 				{subtitleText}
 			</p>

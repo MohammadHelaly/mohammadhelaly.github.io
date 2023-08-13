@@ -88,6 +88,7 @@ const skillsData = [
 	{
 		icon: expressjs,
 		alt: "Express.js",
+		className: "expressjs-icon",
 	},
 	{
 		icon: dataiku,

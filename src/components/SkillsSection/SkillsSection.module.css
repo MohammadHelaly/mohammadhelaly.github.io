@@ -36,6 +36,10 @@
 	filter: brightness(1.1) !important;
 }
 
+.expressjs-icon {
+	transform: scale(1.8) !important;
+}
+
 @media (max-width: 768px) {
 	.skills-container {
 		display: grid;

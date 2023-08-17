@@ -2,65 +2,43 @@ import useAnimate from "../../hooks/use-animate";
 import styles from "./FormInput.module.css";
 
 const FormInput = (props) => {
-	const {
-		type,
-		name,
-		id,
-		label,
-		onBlur,
-		onChange,
-		value,
-		warning,
-		isInvalid,
-	} = props;
+	const { type, name, id, label, register, required, error } = props;
 	const elementRef = useAnimate(styles["animate"], false);
+
 	return (
-		<div className="form-floating mb-4">
+		<div
+			ref={elementRef}
+			className={`form-floating mb-4 ${styles["form-control"]}`}>
 			{type === "customMessage" ? (
 				<textarea
 					ref={elementRef}
 					className={`form-control ${styles["input"]} ${
-						isInvalid ? styles["invalid"] : ""
-					} ${
-						elementRef.current?.className.includes("animate")
-							? styles["animate"]
-							: ""
+						error ? styles["invalid-input"] : ""
 					}`}
 					name={name}
 					id={id}
-					onBlur={onBlur}
-					onChange={onChange}
-					value={value}
 					cols="32"
 					rows="4"
-					required></textarea>
+					{...register(name, { required: required })}></textarea>
 			) : (
 				<input
-					ref={elementRef}
 					type={type}
 					className={`form-control ${styles["input"]} ${
-						isInvalid ? styles["invalid"] : ""
-					} ${
-						elementRef.current?.className.includes("animate")
-							? styles["animate"]
-							: ""
+						error ? styles["invalid-input"] : ""
 					}`}
 					name={name}
 					id={id}
-					onBlur={onBlur}
-					onChange={onChange}
-					value={value}
-					required
+					{...register(name, { required: required })}
 				/>
 			)}
 			<label
 				className={`${styles["label"]} ${
-					isInvalid ? styles["invalid-label"] : ""
+					error ? styles["invalid-label"] : ""
 				}`}
 				htmlFor={id}>
 				{label}
 			</label>
-			{isInvalid && <p>{warning}</p>}
+			{<p className={styles["warning"]}>{error?.message}</p>}
 		</div>
 	);
 };

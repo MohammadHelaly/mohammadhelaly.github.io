@@ -1,83 +1,54 @@
-import styles from "./ContactForm.module.css";
+import { useForm } from "react-hook-form";
+import { zodResolver } from "@hookform/resolvers/zod";
+import { z } from "zod";
 import FormInput from "./FormInput";
-import useInput from "../../hooks/use-input";
 import useAnimate from "../../hooks/use-animate";
+import styles from "./ContactForm.module.css";
+
+const schema = z.object({
+	name: z.string().nonempty({ message: "Please enter your name." }),
+	email: z
+		.string()
+		.nonempty({ message: "Please enter your email." })
+		.email({ message: "Please enter a valid email." }),
+	message: z.string().nonempty({ message: "Please enter your message." }),
+});
 
 const ContactForm = () => {
-	const buttonRef = useAnimate(styles["animate"], false);
-
-	const enteredNameValidationFunction = (enteredValue) =>
-		enteredValue.trim().length !== 0;
-
-	const enteredEmailValidationFunction = (enteredValue) =>
-		enteredValue.trim().length !== 0 &&
-		enteredValue.includes("@") &&
-		enteredValue.includes(".");
-
-	const enteredMessageValidationFunction = (enteredValue) =>
-		enteredValue.trim().length !== 0;
+	const formButtonRef = useAnimate(styles["animate"], false);
 
 	const {
-		enteredValue: enteredName,
-		enteredValueIsValid: enteredNameIsValid,
-		enteredValueIsInvalid: enteredNameIsInvalid,
-		enteredValueChangeHandler: enteredNameChangeHandler,
-		enteredValueBlurHandler: enteredNameBlurHandler,
-		resetInput: resetNameInput,
-	} = useInput(enteredNameValidationFunction);
+		register,
+		handleSubmit,
+		reset,
+		formState: { errors },
+	} = useForm({
+		defaultValues: {
+			name: "",
+			email: "",
+			message: "",
+		},
+		mode: "onTouched",
+		resolver: zodResolver(schema),
+	});
 
-	const {
-		enteredValue: enteredMessage,
-		enteredValueIsValid: enteredMessageIsValid,
-		enteredValueIsInvalid: enteredMessageIsInvalid,
-		enteredValueChangeHandler: enteredMessageChangeHandler,
-		enteredValueBlurHandler: enteredMessageBlurHandler,
-		resetInput: resetMessageInput,
-	} = useInput(enteredMessageValidationFunction);
+	const formSubmitHandler = (data) => {
+		const { name, email, message } = data;
 
-	const {
-		enteredValue: enteredEmail,
-		enteredValueIsValid: enteredEmailIsValid,
-		enteredValueIsInvalid: enteredEmailIsInvalid,
-		enteredValueChangeHandler: enteredEmailChangeHandler,
-		enteredValueBlurHandler: enteredEmailBlurHandler,
-		resetInput: resetEmailInput,
-	} = useInput(enteredEmailValidationFunction);
+		const subject = encodeURIComponent("Contact Form Submission");
+		const body = encodeURIComponent(
+			`Name: ${name}\nEmail: ${email}\nMessage: ${message}`
+		);
 
-	let formIsValid = false;
+		const mailtoUrl = `mailto:mohammad.helaly@gmail.com?subject=${subject}&body=${body}`;
+		window.open(mailtoUrl);
 
-	if (enteredNameIsValid && enteredMessageIsValid && enteredEmailIsValid) {
-		formIsValid = true;
-	}
-
-	const formSubmitHandler = (event) => {
-		event.preventDefault();
-		if (
-			!enteredNameIsValid &&
-			!enteredMessageIsValid &&
-			!enteredEmailIsValid
-		) {
-			return;
-		} else {
-			const subject = encodeURIComponent("Contact Form Submission");
-			const body = encodeURIComponent(
-				`Name: ${enteredName}\nEmail: ${enteredEmail}\nMessage: ${enteredMessage}`
-			);
-			const mailtoUrl = `mailto:mohammad.helaly@gmail.com?subject=${subject}&body=${body}`;
-
-			window.open(mailtoUrl);
-			resetNameInput();
-			resetMessageInput();
-			resetEmailInput();
-			// console.log(enteredName);
-			// console.log(enteredMessage);
-			// console.log(enteredEmail);
-		}
+		reset();
 	};
 
 	return (
 		<form
-			onSubmit={formSubmitHandler}
+			onSubmit={handleSubmit(formSubmitHandler)}
 			className={styles["contact-form"]}
 			id="contact-form"
 			method="POST">
@@ -86,39 +57,33 @@ const ContactForm = () => {
 				id="name"
 				name="name"
 				type="text"
-				value={enteredName}
-				onChange={enteredNameChangeHandler}
-				onBlur={enteredNameBlurHandler}
-				isInvalid={enteredNameIsInvalid}
-				// warning="Please enter a valid name."
+				register={register}
+				required
+				error={errors.name}
 			/>
 			<FormInput
 				label="Email *"
 				id="email"
 				name="email"
 				type="email"
-				value={enteredEmail}
-				onChange={enteredEmailChangeHandler}
-				onBlur={enteredEmailBlurHandler}
-				isInvalid={enteredEmailIsInvalid}
-				// warning="Please enter a valid email."
+				register={register}
+				required
+				error={errors.email}
 			/>
 			<FormInput
 				label="Message *"
 				id="message"
 				name="message"
 				type="customMessage"
-				value={enteredMessage}
-				onChange={enteredMessageChangeHandler}
-				onBlur={enteredMessageBlurHandler}
-				isInvalid={enteredMessageIsInvalid}
-				// warning="Please write a message."
+				register={register}
+				required
+				error={errors.message}
 			/>
 			<button
 				id="contact-form-button"
-				ref={buttonRef}
+				ref={formButtonRef}
 				type="submit"
-				// disabled={!formIsValid}
+				// disabled={IsInvalid}
 				className={`btn btn-outline-dark btn-sm ${styles["form-button"]}`}>
 				Send
 			</button>

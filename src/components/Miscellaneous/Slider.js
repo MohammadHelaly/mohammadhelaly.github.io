@@ -1,12 +1,12 @@
 import { useState, useEffect } from "react";
-import styles from "./Slider.module.css";
 
-const Slider = () => {
+const Slider = (props) => {
+	const { scrollValue, originalSliderClassName, newSliderClassName } = props;
 	const [addNewSliderClass, setAddNewSliderClass] = useState(false);
 
 	useEffect(() => {
 		const handleScroll = () => {
-			if (window.scrollY > 250) {
+			if (window.scrollY > scrollValue) {
 				setAddNewSliderClass(true);
 			} else {
 				setAddNewSliderClass(false);
@@ -20,8 +20,8 @@ const Slider = () => {
 		};
 	}, []);
 
-	const sliderClassName = `${styles["slider"]} ${
-		addNewSliderClass ? styles["new-slider"] : ""
+	const sliderClassName = `${originalSliderClassName} ${
+		addNewSliderClass ? newSliderClassName : ""
 	}`;
 
 	return <div className={sliderClassName} />;

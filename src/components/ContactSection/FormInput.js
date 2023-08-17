@@ -13,7 +13,7 @@ const FormInput = (props) => {
 				<textarea
 					ref={elementRef}
 					className={`form-control ${styles["input"]} ${
-						error ? styles["invalid-input"] : ""
+						error ? `${styles["invalid-input"]} is-invalid` : ""
 					}`}
 					name={name}
 					id={id}
@@ -24,7 +24,7 @@ const FormInput = (props) => {
 				<input
 					type={type}
 					className={`form-control ${styles["input"]} ${
-						error ? styles["invalid-input"] : ""
+						error ? `${styles["invalid-input"]} is-invalid` : ""
 					}`}
 					name={name}
 					id={id}
@@ -38,7 +38,7 @@ const FormInput = (props) => {
 				htmlFor={id}>
 				{label}
 			</label>
-			{<p className={styles["warning"]}>{error?.message}</p>}
+			{/* {<p className={styles["warning"]}>{error?.message}</p>} */}
 		</div>
 	);
 };

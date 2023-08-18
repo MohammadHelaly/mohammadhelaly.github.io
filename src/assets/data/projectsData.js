@@ -1,5 +1,6 @@
 import neural1 from "../images/neural1.mp4";
-import neural2 from "../images/neural2.jpg";
+import neural2 from "../images/neural2.png";
+import neural3 from "../images/neural3.jpg";
 import medical1 from "../images/medical1.jpg";
 import medical2 from "../images/medical2.jpg";
 import medical3 from "../images/medical3.jpg";
@@ -18,7 +19,7 @@ const projectsData = [
 		title: "NeuralVisions",
 		githubLink:
 			"https://github.com/MohammadHelaly/Visual-Question-Answering",
-		images: [neural1, neural1, neural2],
+		images: [neural1, neural2, neural3],
 		description: [
 			"Web app that answers open-ended questions about images, reaching 68% accuracy and 80% answerability.",
 			"Deep learning model incorporating OpenAI CLIP encoder into architecture, trained on the VizWiz dataset.",

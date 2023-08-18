@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.5420c954.css",
-    "main.js": "/static/js/main.daa1c055.js",
+    "main.js": "/static/js/main.6fb5a15a.js",
     "static/js/787.e66a2470.chunk.js": "/static/js/787.e66a2470.chunk.js",
     "static/media/neural1.mp4": "/static/media/neural1.65cc8134e0a6d9a12e37.mp4",
     "static/media/background.jpg": "/static/media/background.dd6f8fa4577a2c6c3a78.jpg",
     "static/media/car1.jpg": "/static/media/car1.4604f02e3baee1640064.jpg",
-    "static/media/neural2.jpg": "/static/media/neural2.82109155bcbaa0830cb4.jpg",
+    "static/media/neural3.jpg": "/static/media/neural3.82109155bcbaa0830cb4.jpg",
     "static/media/me.jpg": "/static/media/me.8256c31625e73a086a11.jpg",
     "static/media/car3.jpg": "/static/media/car3.3ebf1caea5c711f66b29.jpg",
     "static/media/car2.jpg": "/static/media/car2.cc1a9757b668fff538f7.jpg",
@@ -19,6 +19,7 @@
     "static/media/paint3.jpg": "/static/media/paint3.a215bbe637494fdba22e.jpg",
     "static/media/paint1.jpg": "/static/media/paint1.e49aa5eb61adaa9f17d9.jpg",
     "static/media/medical1.jpg": "/static/media/medical1.562e54091959407ab546.jpg",
+    "static/media/neural2.png": "/static/media/neural2.01fe376e5482a19ab7d4.png",
     "static/media/expressjs.svg": "/static/media/expressjs.357ce505138299cb2a290345d1d51c28.svg",
     "static/media/nodejs.svg": "/static/media/nodejs.dd47e26ed1d7dddf018e5cbffc40f76d.svg",
     "static/media/php.svg": "/static/media/php.a0d6ffbbe484456438b97e2a639a213f.svg",
@@ -43,11 +44,11 @@
     "static/media/reactjs.svg": "/static/media/reactjs.3a03708e42481565259f85329d20b695.svg",
     "static/media/phone.svg": "/static/media/phone.e55a36920b78fdfbd928a612bcf47b2f.svg",
     "main.5420c954.css.map": "/static/css/main.5420c954.css.map",
-    "main.daa1c055.js.map": "/static/js/main.daa1c055.js.map",
+    "main.6fb5a15a.js.map": "/static/js/main.6fb5a15a.js.map",
     "787.e66a2470.chunk.js.map": "/static/js/787.e66a2470.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5420c954.css",
-    "static/js/main.daa1c055.js"
+    "static/js/main.6fb5a15a.js"
   ]
 }

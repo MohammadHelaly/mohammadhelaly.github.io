@@ -2,26 +2,27 @@
 	padding-right: 0% !important ;
 	display: flex;
 	place-content: center;
+	bottom: 12px;
+	position: relative;
 }
 
 .headshot {
-	border: #212529 solid;
-	width: 220px;
-	border: none;
-	text-align: center;
-	justify-content: center;
+	width: 240px;
 	margin-right: 100px;
 	transition: all 2s ease;
 	opacity: 0;
+	border-radius: 100vw;
+	transform: translateX(-20%);
+	/* border-bottom: 4px #212529 solid; */
+	/* border: #212529 solid; */
+	/* border: none; */
 	/* transform: translateY(-1px); */
-	/* transform: translateX(50%); */
 	/* height: 0%; */
 	/* width: 0%; */
 }
 .animate {
 	opacity: 1;
-	/* transform: translateX(0); */
-
+	transform: translateX(0);
 	/* width: 220px; */
 	/* height: 100%; */
 }
@@ -30,6 +31,7 @@
 	.headshot-container {
 		margin: 0%;
 		padding: 0%;
+		bottom: 6px !important;
 	}
 	.headshot {
 		margin: 0% !important;

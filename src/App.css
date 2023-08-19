@@ -12,15 +12,27 @@
 	background-color: white;
 }
 
+.carousel-video {
+	object-fit: cover;
+	width: 100%;
+	height: auto;
+}
+
 .carousel-img {
 	object-fit: cover;
 	animation: zoom 12s;
 }
 
-.carousel-video {
-	object-fit: cover;
-	width: 100%;
-	height: auto;
+@keyframes zoom {
+	0% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(1.025);
+	}
+	100% {
+		transform: scale(1);
+	}
 }
 
 /* MICSELLANEOUS */
@@ -44,18 +56,6 @@
 	overflow: hidden;
 	min-width: 100%;
 	padding: 9.75vh 5.5vw 9.75vh 5.5vw;
-}
-
-@keyframes zoom {
-	0% {
-		transform: scale(1);
-	}
-	50% {
-		transform: scale(1.025);
-	}
-	100% {
-		transform: scale(1);
-	}
 }
 
 /* ICONS */

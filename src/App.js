@@ -8,7 +8,7 @@ import ProjectsSection from "./components/ProjectsSection/ProjectsSection";
 import SkillsSection from "./components/SkillsSection/SkillsSection";
 import ContactSection from "./components/ContactSection/ContactSection";
 
-function App() {
+const App = () => {
 	return (
 		<>
 			<Background />
@@ -21,6 +21,6 @@ function App() {
 			<Footer />
 		</>
 	);
-}
+};
 
 export default App;

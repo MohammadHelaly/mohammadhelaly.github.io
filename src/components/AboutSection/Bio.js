@@ -20,7 +20,8 @@ const Bio = () => {
 						</ListItem>
 						<ListItem className="lead line">
 							I'm passionate about software development with a
-							strong interest in machine learning.
+							strong interest in data science and machine
+							learning.
 						</ListItem>
 						<ListItem className="lead line">
 							I'm eager to contribute to innovative solutions and

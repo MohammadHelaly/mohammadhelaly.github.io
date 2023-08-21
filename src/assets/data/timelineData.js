@@ -5,8 +5,7 @@ const timelineData = [
 		dates: "September 2019 - Present",
 		description: [
 			"Pursuing B.E. in Computer and Communications Engineering.",
-
-			"Expected Graduation Date : June 2024.",
+			"Expected to graduate in June 2024.",
 			"3.32 GPA.",
 		],
 	},
@@ -18,7 +17,7 @@ const timelineData = [
 			"Cleaned and preprocessed large datasets thoroughly, ensuring data integrity for subsequent analysis.",
 			"Developed machine learning models to extract valuable insights from complex datasets.",
 			"Utilized both Python code and Dataiku DSS software interface for data manipulation and analysis.",
-			"Worked on setting up and administering Linux servers as well as deploying enterprise-scale databases.",
+			"Worked on setting up and administering Linux servers, as well as deploying enterprise-scale databases.",
 		],
 	},
 	{

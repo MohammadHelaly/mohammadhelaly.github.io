@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.43330d40.css",
-    "main.js": "/static/js/main.470ece6a.js",
+    "main.css": "/static/css/main.fc60e0e3.css",
+    "main.js": "/static/js/main.3d00f9e8.js",
     "static/js/787.e66a2470.chunk.js": "/static/js/787.e66a2470.chunk.js",
     "static/media/neural1.mp4": "/static/media/neural1.65cc8134e0a6d9a12e37.mp4",
     "static/media/background.jpg": "/static/media/background.dd6f8fa4577a2c6c3a78.jpg",
     "static/media/car1.jpg": "/static/media/car1.4604f02e3baee1640064.jpg",
-    "static/media/neural3.jpg": "/static/media/neural3.82109155bcbaa0830cb4.jpg",
     "static/media/me.jpg": "/static/media/me.07313e6e9be2dcacd978.jpg",
     "static/media/car3.jpg": "/static/media/car3.3ebf1caea5c711f66b29.jpg",
     "static/media/car2.jpg": "/static/media/car2.cc1a9757b668fff538f7.jpg",
+    "static/media/neural3.jpg": "/static/media/neural3.df1b6e4205937211a002.jpg",
     "static/media/library1.jpg": "/static/media/library1.b2062d22c95f222b8ace.jpg",
     "static/media/medical3.jpg": "/static/media/medical3.a9cffc916ac308e0d950.jpg",
     "static/media/library2.jpg": "/static/media/library2.286c2eb090b8b934366d.jpg",
@@ -43,12 +43,12 @@
     "static/media/hackerrank.svg": "/static/media/hackerrank.ecf2a99f07544018ff3c45a565efe680.svg",
     "static/media/reactjs.svg": "/static/media/reactjs.3a03708e42481565259f85329d20b695.svg",
     "static/media/phone.svg": "/static/media/phone.e55a36920b78fdfbd928a612bcf47b2f.svg",
-    "main.43330d40.css.map": "/static/css/main.43330d40.css.map",
-    "main.470ece6a.js.map": "/static/js/main.470ece6a.js.map",
+    "main.fc60e0e3.css.map": "/static/css/main.fc60e0e3.css.map",
+    "main.3d00f9e8.js.map": "/static/js/main.3d00f9e8.js.map",
     "787.e66a2470.chunk.js.map": "/static/js/787.e66a2470.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.43330d40.css",
-    "static/js/main.470ece6a.js"
+    "static/css/main.fc60e0e3.css",
+    "static/js/main.3d00f9e8.js"
   ]
 }

@@ -1,4 +1,3 @@
-import c from "../icons/c.svg";
 import cpp from "../icons/c++.svg";
 import python from "../icons/python.svg";
 import java from "../icons/java.svg";
@@ -15,13 +14,10 @@ import redux from "../icons/redux.svg";
 import nodejs from "../icons/nodejs.svg";
 import expressjs from "../icons/expressjs.svg";
 import docker from "../icons/docker.svg";
+import aws from "../icons/aws.svg";
 import dataiku from "../icons/dataiku.svg";
 
 const skillsData = [
-	{
-		icon: c,
-		alt: "C",
-	},
 	{
 		icon: cpp,
 		alt: "C++",
@@ -63,6 +59,10 @@ const skillsData = [
 	{
 		icon: mongodb,
 		alt: "MongoDB",
+	},
+	{
+		icon: aws,
+		alt: "AWS",
 	},
 	{
 		icon: git,

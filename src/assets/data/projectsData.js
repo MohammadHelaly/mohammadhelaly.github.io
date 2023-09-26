@@ -21,8 +21,8 @@ const projectsData = [
 			"https://github.com/MohammadHelaly/Visual-Question-Answering",
 		images: [neural1, neural2, neural3],
 		description: [
-			"Web app that answers open-ended questions about images, reaching 68% accuracy and 80% answerability.",
-			"Deep learning model incorporating OpenAI CLIP encoder into architecture, trained on the VizWiz dataset.",
+			"Web app that answers open-ended questions about images, developed using Python, Flask and React.js.",
+			"Deep learning model incorporating OpenAI CLIP encoder into architecture, trained on the VizWiz dataset, reaching 68% accuracy and 80% answerability.",
 		],
 	},
 	{

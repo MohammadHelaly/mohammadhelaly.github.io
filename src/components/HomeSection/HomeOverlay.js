@@ -18,7 +18,7 @@ const HomeOverlay = (props) => {
 		<div ref={elementRef} className={styles["overlay-container"]}>
 			<h1 className={`${titleClasses} display-4`}>Mohammad Helaly</h1>
 			<p className={`${lineClasses}`}>
-				Software and Web Developer. Data Scientist.
+				Software and web developer. Data scientist.
 			</p>
 			<p className={`${lineClasses}`}>
 				Creating innovative solutions through code.

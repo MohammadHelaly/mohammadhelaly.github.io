@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e38319a1.css",
-    "main.js": "/static/js/main.ac6e9f2f.js",
+    "main.js": "/static/js/main.e932e1ce.js",
     "static/js/787.e66a2470.chunk.js": "/static/js/787.e66a2470.chunk.js",
     "static/media/neural1.mp4": "/static/media/neural1.65cc8134e0a6d9a12e37.mp4",
     "static/media/background.jpg": "/static/media/background.dd6f8fa4577a2c6c3a78.jpg",
@@ -38,17 +38,17 @@
     "static/media/github.svg": "/static/media/github.1dbcf7b2491be69d987cad6ab8eacebc.svg",
     "static/media/javascript.svg": "/static/media/javascript.d22c0262cd93936a3ea6f3128b3e24df.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.fe8721c9a6b838941416b840c12455b6.svg",
-    "static/media/html.svg": "/static/media/html.cf51b3879972e0e8c0c9be2135162847.svg",
     "index.html": "/index.html",
+    "static/media/html.svg": "/static/media/html.cf51b3879972e0e8c0c9be2135162847.svg",
     "static/media/hackerrank.svg": "/static/media/hackerrank.ecf2a99f07544018ff3c45a565efe680.svg",
     "static/media/reactjs.svg": "/static/media/reactjs.3a03708e42481565259f85329d20b695.svg",
     "static/media/phone.svg": "/static/media/phone.e55a36920b78fdfbd928a612bcf47b2f.svg",
     "main.e38319a1.css.map": "/static/css/main.e38319a1.css.map",
-    "main.ac6e9f2f.js.map": "/static/js/main.ac6e9f2f.js.map",
+    "main.e932e1ce.js.map": "/static/js/main.e932e1ce.js.map",
     "787.e66a2470.chunk.js.map": "/static/js/787.e66a2470.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e38319a1.css",
-    "static/js/main.ac6e9f2f.js"
+    "static/js/main.e932e1ce.js"
   ]
 }

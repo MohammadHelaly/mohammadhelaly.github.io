@@ -1,4 +1,4 @@
-import neural1 from "../images/neural1.mp4";
+import neural1 from "../images/neural1.jpg";
 import neural2 from "../images/neural2.jpg";
 import neural3 from "../images/neural3.jpg";
 import medical1 from "../images/medical1.jpg";

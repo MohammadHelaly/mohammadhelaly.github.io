@@ -1,5 +1,5 @@
 import neural1 from "../images/neural1.mp4";
-import neural2 from "../images/neural2.png";
+import neural2 from "../images/neural2.jpg";
 import neural3 from "../images/neural3.jpg";
 import medical1 from "../images/medical1.jpg";
 import medical2 from "../images/medical2.jpg";

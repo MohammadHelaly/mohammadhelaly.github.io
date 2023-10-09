@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/static/css/main.e38319a1.css",
-    "main.js": "/static/js/main.e932e1ce.js",
+    "main.js": "/static/js/main.beb2f862.js",
     "static/js/787.e66a2470.chunk.js": "/static/js/787.e66a2470.chunk.js",
-    "static/media/neural1.mp4": "/static/media/neural1.65cc8134e0a6d9a12e37.mp4",
+    "static/media/neural1.mp4": "/static/media/neural1.bb8c2f6d18c0ad73ae3a.mp4",
     "static/media/background.jpg": "/static/media/background.dd6f8fa4577a2c6c3a78.jpg",
-    "static/media/car1.jpg": "/static/media/car1.4604f02e3baee1640064.jpg",
+    "static/media/car1.jpg": "/static/media/car1.080675532b86034d406e.jpg",
+    "static/media/neural3.jpg": "/static/media/neural3.ec88d21fecb304ce09d9.jpg",
+    "static/media/car3.jpg": "/static/media/car3.e23884047c93fa111c01.jpg",
+    "static/media/car2.jpg": "/static/media/car2.c23fef19c6d0b92d96bf.jpg",
     "static/media/me.jpg": "/static/media/me.07313e6e9be2dcacd978.jpg",
-    "static/media/car3.jpg": "/static/media/car3.3ebf1caea5c711f66b29.jpg",
-    "static/media/car2.jpg": "/static/media/car2.cc1a9757b668fff538f7.jpg",
-    "static/media/neural3.jpg": "/static/media/neural3.df1b6e4205937211a002.jpg",
-    "static/media/library1.jpg": "/static/media/library1.b2062d22c95f222b8ace.jpg",
     "static/media/medical3.jpg": "/static/media/medical3.a9cffc916ac308e0d950.jpg",
-    "static/media/library2.jpg": "/static/media/library2.286c2eb090b8b934366d.jpg",
     "static/media/medical2.jpg": "/static/media/medical2.b6796570ad34610e70bd.jpg",
-    "static/media/paint2.jpg": "/static/media/paint2.3e57e4bfc82d07319921.jpg",
-    "static/media/library3.jpg": "/static/media/library3.7a6bf8895371c73c4275.jpg",
-    "static/media/paint3.jpg": "/static/media/paint3.ed1dc9a73eca8d6f8b6f.jpg",
-    "static/media/paint1.jpg": "/static/media/paint1.e49aa5eb61adaa9f17d9.jpg",
+    "static/media/library2.jpg": "/static/media/library2.4cf112a45eaf3c6f3db2.jpg",
+    "static/media/paint2.jpg": "/static/media/paint2.38a740fddc564347a93d.jpg",
+    "static/media/library3.jpg": "/static/media/library3.b2773f9ff30c716f9bdc.jpg",
+    "static/media/paint1.jpg": "/static/media/paint1.9222d42ba35a5dea231e.jpg",
     "static/media/medical1.jpg": "/static/media/medical1.562e54091959407ab546.jpg",
+    "static/media/paint3.jpg": "/static/media/paint3.5b764900295028ab5b54.jpg",
+    "static/media/library1.jpg": "/static/media/library1.c1df790b1132d441e910.jpg",
     "static/media/expressjs.svg": "/static/media/expressjs.357ce505138299cb2a290345d1d51c28.svg",
-    "static/media/neural2.png": "/static/media/neural2.7f42269c98136a783554.png",
+    "static/media/neural2.jpg": "/static/media/neural2.53fb47fc66c4f59b46e8.jpg",
     "static/media/nodejs.svg": "/static/media/nodejs.dd47e26ed1d7dddf018e5cbffc40f76d.svg",
     "static/media/php.svg": "/static/media/php.a0d6ffbbe484456438b97e2a639a213f.svg",
     "static/media/mysql.svg": "/static/media/mysql.17e572d590819cbe5cac74acfecb45da.svg",
@@ -44,11 +44,11 @@
     "static/media/reactjs.svg": "/static/media/reactjs.3a03708e42481565259f85329d20b695.svg",
     "static/media/phone.svg": "/static/media/phone.e55a36920b78fdfbd928a612bcf47b2f.svg",
     "main.e38319a1.css.map": "/static/css/main.e38319a1.css.map",
-    "main.e932e1ce.js.map": "/static/js/main.e932e1ce.js.map",
+    "main.beb2f862.js.map": "/static/js/main.beb2f862.js.map",
     "787.e66a2470.chunk.js.map": "/static/js/787.e66a2470.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e38319a1.css",
-    "static/js/main.e932e1ce.js"
+    "static/js/main.beb2f862.js"
   ]
 }

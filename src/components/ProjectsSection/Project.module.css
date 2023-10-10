@@ -5,6 +5,7 @@
 	/* width: 100%; */
 	width: 1025px;
 	height: auto;
+	max-height: 460px !important;
 }
 
 .project-carousel-slide {

@@ -60,6 +60,18 @@
 	margin-bottom: 20px !important;
 }
 
+.project-title a {
+	text-decoration: none;
+	color: inherit;
+	font-weight: inherit;
+	font-size: inherit;
+	transition: all 0.5s ease;
+}
+
+.project-title a:hover {
+	opacity: 0.5;
+}
+
 .project-description {
 	font-weight: 400 !important;
 	margin-bottom: 10px !important;

@@ -1,6 +1,9 @@
 import neural1 from "../images/neural1.jpg";
 import neural2 from "../images/neural2.jpg";
 import neural3 from "../images/neural3.jpg";
+import moon1 from "../images/moon1.jpg";
+import moon2 from "../images/moon2.jpg";
+import moon3 from "../images/moon3.jpg";
 import medical1 from "../images/medical1.jpg";
 import medical2 from "../images/medical2.jpg";
 import medical3 from "../images/medical3.jpg";
@@ -23,6 +26,16 @@ const projectsData = [
 		description: [
 			"Web app that answers open-ended questions about images, developed using Python, Flask and React.js.",
 			"Deep learning model incorporating OpenAI CLIP encoder into architecture, trained on the VizWiz dataset, reaching 68% accuracy and 80% answerability.",
+		],
+	},
+	{
+		title: "LUNAR TREK",
+		siteLink: "https://mohammadhelaly.github.io/lunar-trek/",
+		githubLink: "https://github.com/MohammadHelaly/lunar-trek",
+		images: [moon1, moon2, moon3],
+		description: [
+			"Web app that visualizes lunar seismic events on a 3D model of the moon, developed with React.js and Unreal Engine 5, sourced from NASA's Apollo Seismic Event Catalogue.",
+			"Built to participate in the 2023 NASA International Space Apps Challenge",
 		],
 	},
 	{

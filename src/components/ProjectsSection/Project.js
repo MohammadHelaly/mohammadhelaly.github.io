@@ -5,7 +5,7 @@ import ListItem from "../Miscellaneous/ListItem";
 import Icon from "../Miscellaneous/Icon";
 
 const Project = (props) => {
-	const { title, githubLink, description, images, id } = props;
+	const { title, siteLink, githubLink, description, images, id } = props;
 	return (
 		<div className={styles["project"]}>
 			<div
@@ -51,7 +51,17 @@ const Project = (props) => {
 								className={`carousel-caption text-center ${styles["project-carousel-caption"]}`}>
 								<h5
 									className={`display-6 ${styles["project-title"]}`}>
-									{title} |{" "}
+									{siteLink ? (
+										<a
+											href={siteLink}
+											target="_blank"
+											rel="noopener noreferrer">
+											{title}
+										</a>
+									) : (
+										title
+									)}{" "}
+									|{" "}
 									<Icon
 										link={true}
 										to={githubLink}
@@ -97,7 +107,17 @@ const Project = (props) => {
 			<div
 				className={`text-dark ${styles["project-description-container"]}`}>
 				<h5 className={`display-6 ${styles["project-title"]}`}>
-					{title} |{" "}
+					{siteLink ? (
+						<a
+							href={siteLink}
+							target="_blank"
+							rel="noopener noreferrer">
+							{title}
+						</a>
+					) : (
+						title
+					)}{" "}
+					|{" "}
 					<Icon
 						link={true}
 						to={githubLink}

@@ -24,7 +24,7 @@ const projectsData = [
 			"https://github.com/MohammadHelaly/Visual-Question-Answering",
 		images: [neural1, neural2, neural3],
 		description: [
-			"Web app that answers open-ended questions about images, developed using Python, Flask and React.js.",
+			"Web app for answering open-ended questions about images, developed using Python, Flask and React.js.",
 			"Deep learning model incorporating OpenAI CLIP encoder into architecture, trained on the VizWiz dataset, reaching 68% accuracy and 80% answerability.",
 		],
 	},
@@ -34,8 +34,8 @@ const projectsData = [
 		githubLink: "https://github.com/MohammadHelaly/lunar-trek",
 		images: [moon1, moon2, moon3],
 		description: [
-			"Web app that visualizes lunar seismic events on a 3D model of the moon, developed with React.js and Unreal Engine 5, sourced from NASA's Apollo Seismic Event Catalogue.",
-			"Built to participate in the 2023 NASA International Space Apps Challenge",
+			"Web app for visualizing lunar seismic events on a 3D model of the moon, sourced from NASA's Apollo Seismic Event Catalogue.",
+			"Developed with React.js and Unreal Engine 5 to participate in the 2023 NASA International Space Apps Challenge",
 		],
 	},
 	{

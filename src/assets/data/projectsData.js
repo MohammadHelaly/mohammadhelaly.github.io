@@ -29,7 +29,7 @@ const projectsData = [
 		],
 	},
 	{
-		title: "LUNAR TREK",
+		title: "Lunar Trek",
 		siteLink: "https://mohammadhelaly.github.io/lunar-trek/",
 		githubLink: "https://github.com/MohammadHelaly/lunar-trek",
 		images: [moon1, moon2, moon3],

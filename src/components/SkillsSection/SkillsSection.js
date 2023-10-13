@@ -9,7 +9,7 @@ const SkillsSection = () => {
 			<div className={styles["skills-background"]}>
 				<SectionHeader
 					titleText="Skills"
-					subtitleText="Software and Web Development - Data Science - Machine Learning"
+					subtitleText="Software and web development. Data science and machine learning."
 					textTheme="light"
 				/>
 				<div className={styles["skills-container"]}>

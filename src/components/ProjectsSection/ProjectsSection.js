@@ -9,7 +9,7 @@ const ProjectsSection = () => {
 			<div className={styles["projects-container"]}>
 				<SectionHeader
 					titleText="Projects"
-					subtitleText="NeuralVisions - MedicoPortal - DriveIt.io - Libraria - PaintFlow.studio"
+					subtitleText="NeuralVisions - Lunar Trek -  MedicoPortal - DriveIt.io - Libraria - PaintFlow.studio"
 				/>
 				{projectsData.map((project, index) => (
 					<Project

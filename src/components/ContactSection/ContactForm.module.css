@@ -6,7 +6,7 @@
 .form-button {
 	height: 40px !important;
 	border-radius: 0;
-	/* border: 2px solid; */
+	border: 2px solid;
 	opacity: 0;
 	width: 100%;
 	transition: all 0.5s;

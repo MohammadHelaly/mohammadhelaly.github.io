@@ -125,6 +125,10 @@
 		height: 100%;
 		width: 100%;
 	}
+
+	.bottom-lead {
+		margin-bottom: auto;
+	}
 }
 
 @media (max-width: 990px) {

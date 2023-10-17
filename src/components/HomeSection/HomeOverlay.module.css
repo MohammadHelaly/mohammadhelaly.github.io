@@ -1,7 +1,7 @@
 .overlay-container {
 	position: absolute;
-	top: 54.875%;
-	left: 25.375%;
+	top: 56%; /* 54.875% */
+	left: 27.5%; /* 25.375% */
 	transform: translate(-50%, -50%);
 	background-color: rgba(0, 0, 0, 0);
 	padding: 3.5vw;

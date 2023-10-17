@@ -16,7 +16,7 @@ const HomeOverlay = (props) => {
 
 	return (
 		<div ref={elementRef} className={styles["overlay-container"]}>
-			<h1 className={`${titleClasses} display-4`}>Mohammad Helaly</h1>
+			<h1 className={`${titleClasses} display-3`}>Mohammad Helaly</h1>
 			<p className={`${lineClasses}`}>
 				Software and web developer. Data scientist.
 			</p>

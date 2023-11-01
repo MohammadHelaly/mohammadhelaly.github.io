@@ -16,6 +16,15 @@ import library3 from "../images/library3.jpg";
 import paint1 from "../images/paint1.jpg";
 import paint2 from "../images/paint2.jpg";
 import paint3 from "../images/paint3.jpg";
+import java from "../icons/java.svg";
+import mysql from "../icons/mysql.svg";
+import reactjs from "../icons/reactjs.svg";
+import python from "../icons/python.svg";
+import flask from "../icons/flask-vertical.webp";
+import php from "../icons/php.svg";
+import html from "../icons/html.svg";
+import css from "../icons/css.svg";
+import unrealengine from "../icons/unrealengine.jpg";
 
 const projectsData = [
 	{
@@ -24,8 +33,13 @@ const projectsData = [
 			"https://github.com/MohammadHelaly/Visual-Question-Answering",
 		images: [neural1, neural2, neural3],
 		description: [
-			"Web app for answering open-ended questions about images, developed using Python, Flask and React.js.",
-			"Deep learning model incorporating OpenAI CLIP encoder into architecture, trained on the VizWiz dataset, reaching 68% accuracy and 80% answerability.",
+			"Web app for answering open-ended questions about images, reaching 68% accuracy and 80% answerability.",
+			"Utilizes a deep learning model that incorporates the OpenAI CLIP encoder into its architecture and was trained on the VizWiz dataset.",
+		],
+		stack: [
+			{ icon: reactjs },
+			{ icon: python },
+			{ icon: flask, className: "flask-icon" },
 		],
 	},
 	{
@@ -35,7 +49,11 @@ const projectsData = [
 		images: [moon1, moon2, moon3],
 		description: [
 			"Web app for visualizing lunar seismic events on a 3D model of the moon, sourced from NASA's Apollo Seismic Event Catalogue.",
-			"Developed with React.js and Unreal Engine 5 to participate in the 2023 NASA International Space Apps Challenge",
+			"Achieved global nominee status in the 2023 NASA International Space Apps Challenge.",
+		],
+		stack: [
+			{ icon: reactjs },
+			{ icon: unrealengine, className: "unrealengine-icon" },
 		],
 	},
 	{
@@ -44,8 +62,14 @@ const projectsData = [
 			"https://github.com/MohammadHelaly/Medical-Record-Management-System",
 		images: [medical1, medical2, medical3],
 		description: [
-			"Medical website with portals for patients, doctors and administrators to manage appointments and medical records.",
-			"Built using HTML/CSS for website frontend as well as PHP and MySQL for backend programming.",
+			"Medical website with portals for patients, doctors and administrators to manage appointments, prescriptions and medical records.",
+			// "Built using HTML/CSS for website frontend as well as PHP and MySQL for backend programming.",
+		],
+		stack: [
+			{ icon: html, className: "html-css-icon" },
+			{ icon: css, className: "html-css-icon" },
+			{ icon: php, className: "php-icon" },
+			{ icon: mysql, className: "mysql-icon" },
 		],
 	},
 	{
@@ -53,8 +77,14 @@ const projectsData = [
 		githubLink: "https://github.com/MohammadHelaly/Car-Rental-System",
 		images: [car1, car2, car3],
 		description: [
-			"Car rental website with portals for both customers and staff to perform their respective operations.",
-			"Built using HTML/CSS for website frontend as well as PHP and MySQL for backend programming.",
+			"Car rental website with portals for both customers and staff to manage reservations as well as view reports about operations.",
+			// "Built using HTML/CSS for website frontend as well as PHP and MySQL for backend programming.",
+		],
+		stack: [
+			{ icon: html, className: "html-css-icon" },
+			{ icon: css, className: "html-css-icon" },
+			{ icon: php, className: "php-icon" },
+			{ icon: mysql, className: "mysql-icon" },
 		],
 	},
 	{
@@ -63,18 +93,20 @@ const projectsData = [
 			"https://github.com/MohammadHelaly/Library-Management-System",
 		images: [library1, library2, library3],
 		description: [
-			"Staff-side library management app for administrators and librarians, developed in Java.",
-			"Client-side library website for customers to reserve checkouts from a library online.",
+			"Staff-side library management application for administrators and librarians to manage inventory, checkouts, payments, reservations, and other operations.",
+			// "Client-side library website for customers to reserve checkouts from a library online.",
 		],
+		stack: [{ icon: java }, { icon: mysql, className: "mysql-icon" }],
 	},
 	{
 		title: "PaintFlow.studio",
 		githubLink: "https://github.com/MohammadHelaly/Paint-Application",
 		images: [paint1, paint2, paint3],
 		description: [
-			"Feature-rich paint application.",
-			"Developed according to SOLID principles using several design patterns in Java.",
+			"Feature-rich paint application that allows users to use different strokes, colors, and tools to draw and manipulate different shapes, as well as save their paintings.",
+			// "Developed according to SOLID principles using several design patterns in Java.",
 		],
+		stack: [{ icon: java }],
 	},
 ];
 

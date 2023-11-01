@@ -1,7 +1,7 @@
 .overlay-container {
 	position: absolute;
 	top: 56%; /* 54.875% */
-	left: 27.5%; /* 25.375% */
+	left: 30.5%; /*27.5%*/ /* 25.375% */
 	transform: translate(-50%, -50%);
 	background-color: rgba(0, 0, 0, 0);
 	padding: 3.5vw;
@@ -45,7 +45,7 @@
 
 @media (max-width: 768px) {
 	.overlay-container {
-		top: 25%;
+		top: 22.5%;
 		left: 50%;
 		transform: translate(-50%, -50%);
 		padding: 75% 35px 230px;
@@ -66,7 +66,8 @@
 
 @media (min-width: 1800px) and (max-width: 2100px) {
 	.overlay-container {
-		left: 28.75%;
+		left: 32%;
+		top: 52%;
 	}
 }
 
@@ -78,6 +79,6 @@
 
 @media (min-width: 2700px) and (max-width: 5000px) {
 	.overlay-container {
-		left: 39%;
+		left: 41%;
 	}
 }

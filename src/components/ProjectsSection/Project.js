@@ -5,7 +5,8 @@ import ListItem from "../Miscellaneous/ListItem";
 import Icon from "../Miscellaneous/Icon";
 
 const Project = (props) => {
-	const { title, siteLink, githubLink, description, images, id } = props;
+	const { title, siteLink, githubLink, description, stack, images, id } =
+		props;
 	return (
 		<div className={styles["project"]}>
 			<div
@@ -78,6 +79,27 @@ const Project = (props) => {
 											{entry}
 										</ListItem>
 									))}
+									<ListItem key={title + " stack"}>
+										{stack.map((skill, index) => {
+											return (
+												<Icon
+													key={"skill " + index}
+													link={false}
+													src={skill.icon}
+													alt="Skill Icon"
+													iconClassName={`${
+														styles[
+															"project-skill-icon"
+														]
+													} ${
+														styles["project-icon"]
+													} ${
+														styles[skill.className]
+													}`}
+												/>
+											);
+										})}
+									</ListItem>
 								</ul>
 							</div>
 						</div>
@@ -134,6 +156,23 @@ const Project = (props) => {
 							{entry}
 						</ListItem>
 					))}
+					<ListItem key={title + " stack"}>
+						{stack.map((skill, index) => {
+							return (
+								<Icon
+									key={"skill " + index}
+									link={false}
+									src={skill.icon}
+									alt="Skill Icon"
+									iconClassName={`${
+										styles["project-skill-icon"]
+									} ${styles["project-icon"]} ${
+										styles[skill.className]
+									}`}
+								/>
+							);
+						})}
+					</ListItem>
 				</ul>
 			</div>
 		</div>

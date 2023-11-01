@@ -20,6 +20,7 @@ const ProjectsSection = () => {
 						githubLink={project.githubLink}
 						images={project.images}
 						description={project.description}
+						stack={project.stack}
 					/>
 				))}
 			</div>

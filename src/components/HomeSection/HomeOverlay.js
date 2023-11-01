@@ -13,7 +13,7 @@ const HomeOverlay = (props) => {
 	const lineClasses = isLight ? "lead text-light" : "lead";
 	const iconClasses = isLight ? "white-icon" : "dark-icon";
 	const elementRef = useAnimate(styles["animate"], false);
-	const titleVariant = window.innerWidth > 600 ? "display-2" : "display-1"; //"display-3" "display-4"
+	const titleVariant = window.innerWidth > 600 ? "display-3" : "display-1"; //"display-3" "display-4"
 
 	return (
 		<div ref={elementRef} className={styles["overlay-container"]}>

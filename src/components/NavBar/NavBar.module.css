@@ -6,3 +6,8 @@
 	font-weight: 450;
 	color: #212529;
 }
+
+.top-nav a:hover {
+	text-decoration: underline;
+	text-decoration-thickness: 1px;
+}

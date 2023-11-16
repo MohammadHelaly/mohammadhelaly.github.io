@@ -10,8 +10,10 @@
 
 .background {
 	max-height: 100vh !important;
+	max-height: 100lvh !important;
 	max-width: 100vw !important;
 	min-height: 0.7vh;
+	min-height: 0.7lvh;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -26,6 +28,7 @@
 	.background-image {
 		max-width: auto !important;
 		min-height: 100vh !important;
+		min-height: 100lvh !important;
 		transform: translateY(0) !important;
 		overflow: hidden;
 	}
@@ -41,6 +44,7 @@
 	.background-image {
 		min-width: 100vw !important;
 		min-height: 100vh !important;
+		min-height: 100lvh !important;
 		transform: translateY(0) !important;
 		overflow: hidden;
 	}

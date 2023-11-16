@@ -27,7 +27,7 @@
 
 @media (max-height: 440px) {
 	.overlay-container {
-		top: 45%;
+		top: 0 !important;
 	}
 }
 
@@ -55,7 +55,7 @@
 
 	.title {
 		margin-bottom: 2.5vh;
-		margin-bottom: 2.5lvh;
+		margin-bottom: 2.5svh;
 	}
 }
 

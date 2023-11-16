@@ -1,8 +1,8 @@
 .timeline-item {
 	margin: 1.5vh 1.46vw 1.5vh 1.46vw;
-	margin: 1.5lvh 1.46vw 1.5lvh 1.46vw;
+	margin: 1.5svh 1.46vw 1.5svh 1.46vw;
 	padding: 2.6vh 7vh;
-	padding: 2.6lvh 7lvh;
+	padding: 2.6svh 7svh;
 	border-top: 8px solid #212529 !important;
 	position: relative;
 	/* font-size: 1vw; */
@@ -110,20 +110,20 @@
 	.timeline-item {
 		transform: translateY(0);
 		padding: 2.5vh 3vh;
-		padding: 2.5lvh 3lvh;
+		padding: 2.5svh 3svh;
 	}
 }
 
 @media (min-width: 3700px) {
 	.timeline-item {
 		padding: 2vh 2.5vh;
-		padding: 2lvh 2.5lvh;
+		padding: 2svh 2.5svh;
 	}
 }
 
 @media (min-width: 1400px) and (max-width: 3699px) {
 	.timeline-item {
 		padding: 2vh 4vh;
-		padding: 2lvh 4lvh;
+		padding: 2svh 4svh;
 	}
 }

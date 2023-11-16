@@ -1,7 +1,7 @@
 .home-carousel {
 	top: 0px;
 	min-height: 0.7vh;
-	min-height: 0.7lvh;
+	min-height: 0.7svh;
 }
 
 .home-carousel-item {
@@ -10,7 +10,7 @@
 	top: 0;
 	left: 0;
 	min-height: 93vh !important;
-	min-height: 93lvh !important;
+	min-height: 93svh !important;
 }
 
 .alt-screen {
@@ -24,12 +24,12 @@
 	top: 0;
 	left: 0;
 	min-height: 93vh !important;
-	min-height: 93lvh !important;
+	min-height: 93svh !important;
 }
 
 .home-jumbotron {
 	min-height: 93vh !important;
-	min-height: 93lvh !important;
+	min-height: 93svh !important;
 	/* background-image: url("../../assets/images/background.jpg") !important;
 	background-size: cover;
 	background-position: center;
@@ -62,24 +62,24 @@
 @media (max-height: 550px) {
 	.home-carousel-item {
 		min-height: 150vh !important;
-		min-height: 150lvh !important;
+		min-height: 150svh !important;
 		background-color: white;
 	}
 }
 
-@media (max-width: 385px) {
+@media (max-width: 600px) {
 	.home-carousel-item {
 		min-height: 100vh !important;
-		min-height: 100lvh !important;
+		min-height: 100svh !important;
 	}
 	.home-carousel-img {
 		min-height: 100vh !important;
-		min-height: 100lvh !important;
+		min-height: 100svh !important;
 	}
 
 	.home-jumbotron {
 		min-height: 100vh !important;
-		min-height: 100lvh !important;
+		min-height: 100svh !important;
 	}
 }
 

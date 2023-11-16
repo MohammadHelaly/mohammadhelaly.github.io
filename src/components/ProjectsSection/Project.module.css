@@ -1,7 +1,7 @@
 .project {
 	background-color: rgba(255, 255, 255, 0);
 	margin: 3vh 1.8vw 9.8vh 1.8vw;
-	margin: 3lvh 1.8vw 9.8lvh 1.8vw;
+	margin: 3svh 1.8vw 9.8svh 1.8vw;
 	transition: transform 1s ease;
 	/* width: 100%; */
 	width: 1025px;
@@ -101,7 +101,7 @@
 	background-color: rgb(243, 243, 243);
 	font-size: small !important;
 	padding: 3vh 1vw 0 1vw;
-	padding: 3lvh 1vw 0 1vw;
+	padding: 3svh 1vw 0 1vw;
 	transition: transform 0.5s ease;
 	border-bottom: 8px solid #212529 !important;
 	display: none;

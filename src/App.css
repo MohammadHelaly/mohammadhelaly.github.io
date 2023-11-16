@@ -39,7 +39,7 @@
 
 .bottom-lead {
 	margin-bottom: -1.4vh;
-	margin-bottom: -1.4lvh;
+	margin-bottom: -1.4svh;
 }
 
 .line {
@@ -57,7 +57,7 @@
 	overflow: hidden;
 	min-width: 100%;
 	padding: 9.75vh 5.5vw 9.75vh 5.5vw;
-	padding: 9.75lvh 5.5vw 9.75lvh 5.5vw;
+	padding: 9.75svh 5.5vw 9.75svh 5.5vw;
 }
 
 /* ICONS */

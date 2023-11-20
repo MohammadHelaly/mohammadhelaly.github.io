@@ -2,6 +2,12 @@
 	background-color: white;
 }
 
+.top-nav-content {
+	opacity: 0;
+	transition: all 1s ease-in-out;
+	transition-delay: 0.5s;
+}
+
 .logo {
 	font-weight: 450;
 	color: #212529;
@@ -10,4 +16,8 @@
 .top-nav a:hover {
 	text-decoration: underline;
 	text-decoration-thickness: 1px;
+}
+
+.animate {
+	opacity: 1 !important;
 }

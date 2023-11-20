@@ -1,13 +1,17 @@
 import styles from "./NavBar.module.css";
+import useAnimate from "../../hooks/use-animate";
 
 const Navbar = () => {
+	const elementRef = useAnimate(styles["animate"], false);
 	return (
 		<nav
 			className={
 				"navbar navbar-expand-md navbar-light fixed-top " +
 				styles["top-nav"]
 			}>
-			<div className="container topnav-container">
+			<div
+				ref={elementRef}
+				className={`${styles["top-nav-content"]} container topnav-container`}>
 				<a
 					className={"navbar-brand ms-1 mb-1 " + styles["logo"]}
 					href="#home">

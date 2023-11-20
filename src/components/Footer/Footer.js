@@ -8,13 +8,14 @@ import useAnimate from "../../hooks/use-animate";
 import Icon from "../Miscellaneous/Icon";
 
 const Footer = () => {
-	const elementRef = useAnimate(styles["animate"], false);
+	const iconsRef = useAnimate(styles["animate"], false);
+	const copyRightRef = useAnimate(styles["animate"], false);
 	const currentYear = new Date().getFullYear();
 
 	return (
 		<footer className="background py-5">
 			<div className="container text-light text-center">
-				<div ref={elementRef} className={styles["footer-container"]}>
+				<div ref={iconsRef} className={styles["footer-container"]}>
 					<Icon
 						link={true}
 						to="mailto:mohammad.helaly@gmail.com"
@@ -49,7 +50,7 @@ const Footer = () => {
 					/>
 				</div>
 				<hr />
-				<p className={styles["copyright"]}>
+				<p ref={copyRightRef} className={styles["copyright"]}>
 					&copy; {currentYear} Mohammad Helaly
 				</p>
 			</div>

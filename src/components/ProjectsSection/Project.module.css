@@ -2,11 +2,18 @@
 	background-color: rgba(255, 255, 255, 0);
 	margin: 3vh 1.8vw 9.8vh 1.8vw;
 	margin: 3svh 1.8vw 9.8svh 1.8vw;
-	transition: transform 1s ease;
+	transition: all 1s ease-in-out;
 	/* width: 100%; */
 	width: 1025px;
+	/* transform: scale(1.5); */
+	opacity: 0;
 	height: auto;
 	max-height: 460px !important;
+}
+
+.animate {
+	transform: scale(1);
+	opacity: 1;
 }
 
 .project-carousel-slide {

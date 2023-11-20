@@ -3,12 +3,15 @@ import styles from "./Project.module.css";
 import githubIcon from "../../assets/icons/github.svg";
 import ListItem from "../Miscellaneous/ListItem";
 import Icon from "../Miscellaneous/Icon";
+import useAnimate from "../../hooks/use-animate";
 
 const Project = (props) => {
 	const { title, siteLink, githubLink, description, stack, images, id } =
 		props;
+	const carouselRef = useAnimate(styles["animate"], false);
+
 	return (
-		<div className={styles["project"]}>
+		<div ref={carouselRef} className={styles["project"]}>
 			<div
 				id={`carousel-${id}`}
 				className="carousel slide"

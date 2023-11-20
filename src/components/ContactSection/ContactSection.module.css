@@ -5,6 +5,7 @@
 	/* gap: 25px; */
 	padding: 80px 100px 80px 100px;
 	place-items: center;
+	justify-content: center;
 	max-width: 100% !important;
 	background-color: white;
 }

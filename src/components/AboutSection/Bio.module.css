@@ -18,6 +18,7 @@
 	gap: 0;
 	align-items: center;
 	place-content: center;
+	justify-content: center;
 }
 
 .bio-text {

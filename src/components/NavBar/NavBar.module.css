@@ -1,9 +1,21 @@
 .top-nav {
-	background-color: white;
-	width: 0;
+	background-color: rgba(255, 255, 255, 0);
 	transition: all 0.5s ease;
 	transition-delay: 0.5s;
-	height: 60px !important;
+}
+
+.top-nav::before {
+	content: "";
+	background-color: #ffffff;
+	width: 0;
+	z-index: -1;
+	position: absolute;
+	top: 0;
+	left: -100%;
+	width: 100%;
+	height: 100%;
+	transition: all 0.5s ease;
+	transition-delay: 0.5s;
 }
 
 .top-nav-content {
@@ -19,5 +31,9 @@
 
 .animate {
 	opacity: 1 !important;
+}
+
+.animate::before {
 	width: 100% !important;
+	left: 0 !important;
 }

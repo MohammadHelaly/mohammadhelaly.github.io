@@ -22,6 +22,11 @@
 	overflow: hidden;
 	padding: 0 !important;
 	transition: all 0.5s ease;
+	width: 0.1vw;
+}
+
+.animate-background {
+	width: 100vw !important;
 }
 
 @media (max-width: 990px) {

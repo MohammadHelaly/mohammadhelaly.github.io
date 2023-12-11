@@ -1,11 +1,15 @@
 .top-nav {
 	background-color: white;
+	width: 0;
+	transition: all 0.5s ease;
+	transition-delay: 0.5s;
+	height: 60px !important;
 }
 
 .top-nav-content {
 	opacity: 0;
-	transition: all 1s easey;
-	transition-delay: 0.5s;
+	transition: all 1s ease;
+	transition-delay: 1s;
 }
 
 .top-nav a:hover {
@@ -15,4 +19,5 @@
 
 .animate {
 	opacity: 1 !important;
+	width: 100% !important;
 }

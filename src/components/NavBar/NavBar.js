@@ -2,15 +2,18 @@ import styles from "./NavBar.module.css";
 import useAnimate from "../../hooks/use-animate";
 
 const Navbar = () => {
-	const elementRef = useAnimate(styles["animate"], false);
+	const navBarRef = useAnimate(styles["animate"], false);
+	const contentRef = useAnimate(styles["animate"], false);
+
 	return (
 		<nav
+			ref={navBarRef}
 			className={
 				"navbar navbar-expand-md navbar-light fixed-top " +
 				styles["top-nav"]
 			}>
 			<div
-				ref={elementRef}
+				ref={contentRef}
 				className={`${styles["top-nav-content"]} container topnav-container`}>
 				<a className={"navbar-brand ms-1 mb-1 text-dark"} href="#home">
 					helaly.dev

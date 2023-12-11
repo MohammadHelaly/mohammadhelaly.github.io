@@ -1,9 +1,11 @@
 import backgroundImage from "../../assets/images/background.jpg";
 import styles from "./Background.module.css";
+import useAnimate from "../../hooks/use-animate";
 
 const Background = () => {
+	const elementRef = useAnimate(styles["animate-background"], false);
 	return (
-		<div className={styles["background"]}>
+		<div ref={elementRef} className={styles["background"]}>
 			<img
 				className={styles["background-image"]}
 				src={backgroundImage}

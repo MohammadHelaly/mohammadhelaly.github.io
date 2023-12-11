@@ -8,7 +8,6 @@
 }
 
 .carousel-item {
-	height: 500px;
 	background-color: white;
 }
 
@@ -33,31 +32,6 @@
 	100% {
 		transform: scale(1);
 	}
-}
-
-/* MICSELLANEOUS */
-
-.bottom-lead {
-	margin-bottom: -1.4vh;
-	margin-bottom: -1.4svh;
-}
-
-.line {
-	line-height: 1.4rem;
-	font-size: 1.1rem !important;
-}
-
-.background {
-	/* background-image: url("./assets/images/background.jpg");
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-attachment: fixed; */
-	background-color: rgba(0, 0, 0, 0);
-	overflow: hidden;
-	min-width: 100%;
-	padding: 9.75vh 5.5vw 9.75vh 5.5vw;
-	padding: 9.75svh 5.5vw 9.75svh 5.5vw;
 }
 
 /* ICONS */
@@ -115,53 +89,12 @@
 	width: 50px;
 }
 
-/* MEDIA QUERIES */
-
-@media (max-width: 768px) {
-	.background,
-	.projects-jumbotron {
-		padding: 20px;
-	}
-
-	.carousel-img {
-		height: 100%;
-		width: 100%;
-	}
-
-	.bottom-lead {
-		margin-bottom: auto;
-	}
-}
-
 @media (max-width: 990px) {
-	.hero-carousel-item,
-	.hero-carousel-img {
-		min-height: 800px;
-		top: 0;
-		bottom: 0;
-	}
-
 	.icon-link {
 		margin-right: 5px;
 	}
 
 	.gm-link {
 		margin-right: -4px;
-	}
-}
-
-@media (max-width: 660px) {
-	.line {
-		font-size: 0.9rem !important;
-	}
-
-	.background {
-		padding: 30px;
-	}
-}
-
-@media (min-width: 1175px) and (max-width: 1300px) {
-	.line {
-		font-size: 0.9rem !important;
 	}
 }

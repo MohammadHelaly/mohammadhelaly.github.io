@@ -16,14 +16,15 @@ const TimelineItem = (props) => {
 					id={id}></div>
 			</div>
 			<div ref={itemRef} className={styles["timeline-item"]}>
-				<h2 className={`display-6 ${styles["timeline-header"]}`}>
+				<h6 className={`display-6 ${styles["timeline-header"]}`}>
 					{position}
-				</h2>
+				</h6>
 				<p
-					className={`lead line ${styles["timeline-text"]} ${styles["timeline-place"]}`}>
+					className={`text-muted ${styles["timeline-text"]} ${styles["timeline-information"]}`}>
 					<em>{place}</em>
 				</p>
-				<p className={`lead line`}>
+				<p
+					className={`text-muted ${styles["timeline-text"]} ${styles["timeline-information"]}`}>
 					<em>{dates}</em>
 				</p>
 				<hr />
@@ -31,8 +32,8 @@ const TimelineItem = (props) => {
 					{description.map((point, index) => (
 						<ListItem
 							key={index}
-							className={`lead line ${styles["timeline-text"]}`}>
-							{point}
+							className={`${styles["timeline-text"]}`}>
+							<li>{point}</li>
 						</ListItem>
 					))}
 				</ul>

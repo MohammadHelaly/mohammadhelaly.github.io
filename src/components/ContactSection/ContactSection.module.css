@@ -1,41 +1,30 @@
+.contact-section {
+	background-color: white;
+	padding: 50px 0 50px 0;
+}
+
 .contact-container {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 1fr;
-	/* gap: 25px; */
-	padding: 80px 100px 80px 100px;
 	place-items: center;
-	justify-content: center;
-	max-width: 100% !important;
-	background-color: white;
+	justify-items: center;
+	align-items: center;
+	margin: 50px 0px 50px 0px;
 }
 
 .contact-container > div {
 	border-right: 1px solid #ccc;
-	padding: 0 15px;
 }
 
 .contact-container > div:last-child {
 	border-right: none;
 }
 
-@media (max-width: 1050px) and (min-width: 991px) {
-	.contact-container {
-		padding: 80px 5% 80px 2%;
-	}
-}
-
-@media (max-width: 990px) and (min-width: 851px) {
-	.contact-container {
-		padding: 80px 10% 80px 10%;
-	}
-}
-
 @media (max-width: 850px) {
 	.contact-container > div {
 		border-bottom: 1px solid #ccc;
 		border-right: none;
-		padding: 0 15px;
 	}
 
 	.contact-container > div:last-child {
@@ -47,25 +36,6 @@
 		grid-template-rows: 1fr 1fr;
 		grid-template-columns: 1fr;
 		gap: 25px;
-		padding: 40px 50px 40px 50px;
 		place-items: center;
-	}
-}
-
-@media (min-width: 3700px) {
-	.contact-container {
-		padding: 80px 1250px 80px 1300px;
-	}
-}
-
-@media (min-width: 2101px) and (max-width: 3699px) {
-	.contact-container {
-		padding: 80px 25% 80px 25%;
-	}
-}
-
-@media (min-width: 1400px) and (max-width: 2100px) {
-	.contact-container {
-		padding: 80px 16.5% 80px 16.5%;
 	}
 }

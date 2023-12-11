@@ -1,85 +1,28 @@
 .overlay-container {
-	position: absolute;
-	top: 56%; /* 54.875% */
-	left: 27.5%; /*30.5%*/ /* 25.375% */
-	transform: translate(-50%, -50%);
 	background-color: rgba(0, 0, 0, 0);
-	padding: 3.5vw;
+	padding: 0;
 	text-align: left;
-	z-index: 1;
 	transition: all 2s ease;
 	opacity: 0;
+	margin: 175px 0 115px 0;
+}
+
+.bottom-lead {
+	margin-bottom: -5px;
 }
 
 .animate {
 	opacity: 1;
 }
 
-@media (max-width: 990px) {
-	.overlay-container {
-		font-size: 14px;
-		padding: 0px;
-		top: 52%;
-		bottom: 0;
-		/* opacity: 1; */
-	}
-}
-
-@media (max-height: 440px) {
-	.overlay-container {
-		top: 0 !important;
-	}
-}
-
-@media (min-width: 769px) and (max-width: 920px) {
-	.overlay-container {
-		margin-left: 50px;
-	}
-}
-
-@media (min-width: 800px) and (max-height: 450px) {
-	.overlay-container {
-		padding: 40px 40px 40px 140px;
-	}
-}
-
 @media (max-width: 768px) {
 	.overlay-container {
-		top: 22.5%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-		padding: 75% 35px 230px;
+		padding: 0 20px 0;
 		text-align: center;
-		width: 85%;
+		margin: 175px 0 95px 0;
 	}
 
 	.title {
-		margin-bottom: 2.5vh;
-		margin-bottom: 2.5svh;
-	}
-}
-
-@media (max-width: 300px) {
-	.overlay-container {
-		top: 15%;
-	}
-}
-
-@media (min-width: 1800px) and (max-width: 2100px) {
-	.overlay-container {
-		left: 32%;
-		top: 50%;
-	}
-}
-
-@media (min-width: 2101px) and (max-width: 2699px) {
-	.overlay-container {
-		left: 33.75%;
-	}
-}
-
-@media (min-width: 2700px) and (max-width: 5000px) {
-	.overlay-container {
-		left: 39%;
+		margin-bottom: 20px;
 	}
 }

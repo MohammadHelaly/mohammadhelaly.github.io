@@ -5,9 +5,9 @@ const ListItem = (props) => {
 	const elementRef = useAnimate(styles["animate"], false);
 	const { children, className } = props;
 	return (
-		<li ref={elementRef} className={`${styles["list-item"]} ${className}`}>
+		<div ref={elementRef} className={`${styles["list-item"]} ${className}`}>
 			{children}
-		</li>
+		</div>
 	);
 };
 

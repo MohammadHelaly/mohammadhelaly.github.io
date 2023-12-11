@@ -3,8 +3,7 @@
 	width: 90px;
 	opacity: 0;
 	transform: translateX(-100%);
-	/* transform: translateY(150%); */
-	transition: all 0.75s ease;
+	transition: all 0.5s ease;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -16,23 +15,14 @@
 	width: 90px;
 }
 
-/* .frame:hover {
-	transform: translateY(-15%);
-} */
-
 .animate {
 	opacity: 1;
 	transform: translateX(0);
-	/* transform: translateY(0); */
 }
-/* .animate:hover {
-	transform: translateY(-15%);
-} */
 
 @media (max-width: 850px) {
 	.frame {
 		transform: translateX(0);
-		/* transform: translateY(0); */
 	}
 
 	.skill-icon {

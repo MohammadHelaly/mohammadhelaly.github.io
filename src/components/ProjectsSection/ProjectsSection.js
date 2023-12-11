@@ -6,23 +6,25 @@ import projectsData from "../../assets/data/projectsData";
 const ProjectsSection = () => {
 	return (
 		<section id="projects">
-			<div className={styles["projects-container"]}>
-				<SectionHeader
-					titleText="Projects"
-					subtitleText="NeuralVisions - Lunar Trek -  MedicoPortal - DriveIt.io - Libraria - PaintFlow.studio"
-				/>
-				{projectsData.map((project, index) => (
-					<Project
-						key={index}
-						id={index}
-						title={project.title}
-						siteLink={project.siteLink}
-						githubLink={project.githubLink}
-						images={project.images}
-						description={project.description}
-						stack={project.stack}
+			<div className={`${styles["projects-section"]}`}>
+				<div className="container">
+					<SectionHeader
+						titleText="Projects"
+						subtitleText="NeuralVisions - Lunar Trek -  MedicoPortal - DriveIt.io - Libraria - PaintFlow.studio"
 					/>
-				))}
+					{projectsData.map((project, index) => (
+						<Project
+							key={index}
+							id={index}
+							title={project.title}
+							siteLink={project.siteLink}
+							githubLink={project.githubLink}
+							images={project.images}
+							description={project.description}
+							stack={project.stack}
+						/>
+					))}
+				</div>
 			</div>
 		</section>
 	);

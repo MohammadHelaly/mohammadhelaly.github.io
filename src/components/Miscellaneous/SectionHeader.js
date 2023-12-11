@@ -8,22 +8,18 @@ const SectionHeader = (props) => {
 
 	return (
 		<div className={styles["header-container"]}>
-			<h2
+			<h5
 				ref={titleRef}
-				className={
-					textTheme === "light"
-						? `${styles["light-title-text"]} display-6`
-						: `${styles["dark-title-text"]} display-6`
-				}>
+				className={`${
+					textTheme === "light" ? "text-light" : "text-dark"
+				} ${styles["title-text"]} display-5`}>
 				{titleText}
-			</h2>
+			</h5>
 			<p
 				ref={subtitleRef}
-				className={
-					textTheme === "light"
-						? `${styles["light-subtitle-text"]} lead line`
-						: `${styles["dark-subtitle-text"]} lead line`
-				}>
+				className={`${
+					textTheme === "light" ? "text-light" : "text-dark"
+				} ${styles["subtitle-text"]} lead`}>
 				{subtitleText}
 			</p>
 		</div>

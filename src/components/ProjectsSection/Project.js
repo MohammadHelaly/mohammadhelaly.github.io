@@ -76,7 +76,7 @@ const Project = (props) => {
 				</button>
 				<div
 					className={`carousel-caption text-center ${styles["project-carousel-caption"]}`}>
-					<h5 className={`display-6 ${styles["project-title"]}`}>
+					<h6 className={`display-6 ${styles["project-title"]}`}>
 						{siteLink ? (
 							<a
 								href={siteLink}
@@ -95,63 +95,10 @@ const Project = (props) => {
 							alt="GitHub Link"
 							iconClassName={`white-icon ${styles["project-icon"]}`}
 						/>
-					</h5>
-					<ul>
-						{description.map((entry, index) => (
-							<ListItem
-								key={index}
-								className={`lead line ${styles["project-decription"]}`}>
-								{entry}
-							</ListItem>
-						))}
-						<ListItem key={title + " stack"}>
-							{stack.map((skill, index) => {
-								return (
-									<Icon
-										key={"skill " + index}
-										link={false}
-										src={skill.icon}
-										alt="Skill Icon"
-										iconClassName={`${
-											styles["project-skill-icon"]
-										} ${styles["project-icon"]} ${
-											styles[skill.className]
-										}`}
-									/>
-								);
-							})}
-						</ListItem>
-					</ul>
-				</div>
-			</div>
-			<div
-				className={`text-dark ${styles["project-description-container"]}`}>
-				<h5 className={`display-6 ${styles["project-title"]}`}>
-					{siteLink ? (
-						<a
-							href={siteLink}
-							target="_blank"
-							rel="noopener noreferrer">
-							{title}
-						</a>
-					) : (
-						title
-					)}{" "}
-					|{" "}
-					<Icon
-						link={true}
-						to={githubLink}
-						src={githubIcon}
-						alt="GitHub Link"
-						iconClassName={`dark-icon ${styles["project-icon"]}`}
-					/>
-				</h5>
-				<ul>
+					</h6>
 					{description.map((entry, index) => (
-						<ListItem
-							key={index}
-							className={`lead line ${styles["project-decription"]}`}>
-							{entry}
+						<ListItem key={index}>
+							<p>{entry}</p>
 						</ListItem>
 					))}
 					<ListItem key={title + " stack"}>
@@ -171,7 +118,52 @@ const Project = (props) => {
 							);
 						})}
 					</ListItem>
-				</ul>
+				</div>
+			</div>
+			<div
+				className={`text-dark ${styles["project-description-container"]}`}>
+				<h6 className={`display-6 ${styles["project-title"]}`}>
+					{siteLink ? (
+						<a
+							href={siteLink}
+							target="_blank"
+							rel="noopener noreferrer">
+							{title}
+						</a>
+					) : (
+						title
+					)}{" "}
+					|{" "}
+					<Icon
+						link={true}
+						to={githubLink}
+						src={githubIcon}
+						alt="GitHub Link"
+						iconClassName={`dark-icon ${styles["project-icon"]}`}
+					/>
+				</h6>
+				{description.map((entry, index) => (
+					<ListItem key={index}>
+						<p className="text-muted">{entry}</p>
+					</ListItem>
+				))}
+				<ListItem key={title + " stack"}>
+					{stack.map((skill, index) => {
+						return (
+							<Icon
+								key={"skill " + index}
+								link={false}
+								src={skill.icon}
+								alt="Skill Icon"
+								iconClassName={`${
+									styles["project-skill-icon"]
+								} ${styles["project-icon"]} ${
+									styles[skill.className]
+								}`}
+							/>
+						);
+					})}
+				</ListItem>
 			</div>
 		</div>
 	);

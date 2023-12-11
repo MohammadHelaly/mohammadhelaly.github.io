@@ -3,22 +3,16 @@
 	grid-template-columns: repeat(6, 1fr);
 	grid-template-rows: repeat(3, 100px);
 	gap: 25px;
-	padding: 0 20px 0 20px;
 	place-items: center;
 	justify-content: center;
+	margin: 50px 0 50px 0;
 }
 
 .skills-background {
-	/* background-image: url("../../assets/images/background.jpg");
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-attachment: fixed; */
 	background-color: rgba(0, 0, 0, 0);
 	overflow: hidden;
 	min-width: 100%;
-	padding: 3% 5.5vw 9.75vh 5.5vw;
-	padding: 3% 5.5vw 9.75svh 5.5vw;
+	padding: 100px 0 100px 0;
 }
 
 .php-icon {
@@ -44,43 +38,7 @@
 
 @media (max-width: 768px) {
 	.skills-container {
-		display: grid;
 		grid-template-columns: repeat(3, 1fr);
 		grid-template-rows: repeat(6, 100px);
-		gap: 25px;
-		padding: 0 20px 0 20px;
-		place-items: center;
-	}
-
-	.skills-background {
-		/* background-image: url("../../assets/images/background4.jpg");
-		background-size: cover;
-		background-position: cover;
-		background-repeat: no-repeat;
-		background-attachment: scroll; */
-		background-color: rgba(0, 0, 0, 0);
-
-		overflow: hidden;
-	}
-}
-
-@media (min-width: 3700px) {
-	.skills-background {
-		padding: 3% 32.5vw 9.75vh 32.5vw;
-		padding: 3% 32.5vw 9.75svh 32.5vw;
-	}
-}
-
-@media (min-width: 2101px) and (max-width: 3699px) {
-	.skills-background {
-		padding: 3% 25.5vw 9.75vh 25.5vw;
-		padding: 3% 25.5vw 9.75svh 25.5vw;
-	}
-}
-
-@media (min-width: 1400px) and (max-width: 2100px) {
-	.skills-background {
-		padding: 3% 15.5vw 9.75vh 15.5vw;
-		padding: 3% 15.5vw 9.75svh 15.5vw;
 	}
 }

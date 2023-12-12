@@ -15,7 +15,7 @@ const Navbar = () => {
 			<div
 				ref={contentRef}
 				className={`${styles["top-nav-content"]} container topnav-container`}>
-				<a className={"navbar-brand ms-1 mb-1 text-dark"} href="#home">
+				<a className={"navbar-brand mb-1 text-dark"} href="#home">
 					helaly.dev
 				</a>
 				<button

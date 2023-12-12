@@ -5,15 +5,11 @@ import ListItem from "../Miscellaneous/ListItem";
 const TimelineItem = (props) => {
 	const { position, place, dates, description, id } = props;
 	const itemRef = useAnimate(styles["animate-item"], false);
-	const pointRef = useAnimate(styles["animate-point"], false);
 
 	return (
 		<>
 			<div className={styles["timeline-bar"]} id={id}>
-				<div
-					ref={pointRef}
-					className={styles["timeline-point"]}
-					id={id}></div>
+				<div className={styles["timeline-point"]} id={id}></div>
 			</div>
 			<div ref={itemRef} className={styles["timeline-item"]}>
 				<h6 className={`display-6 ${styles["timeline-header"]}`}>

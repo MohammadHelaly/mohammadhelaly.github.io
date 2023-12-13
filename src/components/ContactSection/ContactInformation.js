@@ -11,8 +11,6 @@ const ContactInformation = () => {
 		styles["animate-info-paragraph"],
 		false
 	);
-	const infoItemRef1 = useAnimate(styles["animate-info-item"], false);
-	const infoItemRef2 = useAnimate(styles["animate-info-item"], false);
 
 	return (
 		<div className={styles["contact-information"]}>

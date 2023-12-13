@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.f894061d.css",
-    "main.js": "/static/js/main.9debdbc7.js",
+    "main.css": "/static/css/main.30b6775d.css",
+    "main.js": "/static/js/main.b15eb5e9.js",
     "static/js/787.e66a2470.chunk.js": "/static/js/787.e66a2470.chunk.js",
-    "static/media/background.jpg": "/static/media/background.dd6f8fa4577a2c6c3a78.jpg",
+    "static/media/background.jpg": "/static/media/background.b5469b5fbaf5a462c795.jpg",
     "static/media/neural3.jpg": "/static/media/neural3.67c46e9b5f0cf99d9e8a.jpg",
     "static/media/car1.jpg": "/static/media/car1.01fc89a9d894702e7cb5.jpg",
     "static/media/me.jpg": "/static/media/me.07313e6e9be2dcacd978.jpg",
@@ -48,12 +48,12 @@
     "static/media/hackerrank.svg": "/static/media/hackerrank.ecf2a99f07544018ff3c45a565efe680.svg",
     "static/media/reactjs.svg": "/static/media/reactjs.3a03708e42481565259f85329d20b695.svg",
     "static/media/phone.svg": "/static/media/phone.e55a36920b78fdfbd928a612bcf47b2f.svg",
-    "main.f894061d.css.map": "/static/css/main.f894061d.css.map",
-    "main.9debdbc7.js.map": "/static/js/main.9debdbc7.js.map",
+    "main.30b6775d.css.map": "/static/css/main.30b6775d.css.map",
+    "main.b15eb5e9.js.map": "/static/js/main.b15eb5e9.js.map",
     "787.e66a2470.chunk.js.map": "/static/js/787.e66a2470.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f894061d.css",
-    "static/js/main.9debdbc7.js"
+    "static/css/main.30b6775d.css",
+    "static/js/main.b15eb5e9.js"
   ]
 }

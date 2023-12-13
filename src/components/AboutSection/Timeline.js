@@ -9,7 +9,7 @@ const Timeline = () => {
 			<div className="container">
 				<SectionHeader
 					titleText="Timeline"
-					subtitleText="What I've done..."
+					subtitleText="My journey so far."
 					textTheme="light"
 				/>
 				<div className={styles["timeline-container"]}>

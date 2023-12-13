@@ -10,7 +10,7 @@ const SkillsSection = () => {
 				<div className="container">
 					<SectionHeader
 						titleText="Skills"
-						subtitleText="Software and web development. Data science and machine learning."
+						subtitleText="Software development. Data science and machine learning."
 						textTheme="light"
 					/>
 					<div className={`${styles["skills-container"]}`}>

@@ -23,7 +23,7 @@ const HomeOverlay = (props) => {
 					Mohammad Helaly
 				</h1>
 				<p className={`${lineClasses}`}>
-					Software and web developer. Data scientist.
+					Software developer. Data scientist. Engineer.
 				</p>
 				<p className={`${lineClasses}`}>
 					Creating innovative solutions through code.

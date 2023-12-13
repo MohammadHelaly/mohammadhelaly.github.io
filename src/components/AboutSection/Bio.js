@@ -9,7 +9,7 @@ const Bio = () => {
 			<div className="container">
 				<SectionHeader
 					titleText="About me"
-					subtitleText="Hi, I'm Mohammad..."
+					subtitleText="Hi, I'm Mohammad."
 				/>
 				<div className={`${styles["bio"]}`}>
 					<Headshot />

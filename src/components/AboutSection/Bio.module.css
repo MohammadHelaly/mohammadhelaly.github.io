@@ -19,9 +19,9 @@
 	justify-items: center;
 }
 
-/* .bio-text {
+.bio-text {
 	padding: 0 25px 0 25px;
-} */
+}
 
 @media (max-width: 990px) {
 	.bio {

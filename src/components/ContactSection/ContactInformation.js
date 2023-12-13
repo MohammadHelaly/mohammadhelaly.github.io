@@ -3,6 +3,7 @@ import gmailIcon from "../../assets/icons/gmail.jpg";
 import phoneIcon from "../../assets/icons/phone.svg";
 import useAnimate from "../../hooks/use-animate";
 import Icon from "../Miscellaneous/Icon";
+import ListItem from "../Miscellaneous/ListItem";
 
 const ContactInformation = () => {
 	const infoHeadingRef = useAnimate(styles["animate-info-heading"], false);
@@ -30,7 +31,7 @@ const ContactInformation = () => {
 						this form and I'll get back to you as soon as possible.{" "}
 					</p>
 				</div>
-				<div ref={infoItemRef1} className={styles["info-item"]}>
+				<ListItem className={styles["info-item"]}>
 					<Icon
 						link={false}
 						src={phoneIcon}
@@ -40,8 +41,8 @@ const ContactInformation = () => {
 					<p className={`lead line ${styles["info-text"]}`}>
 						+201095536781
 					</p>
-				</div>
-				<div ref={infoItemRef2} className={styles["info-item"]}>
+				</ListItem>
+				<ListItem className={styles["info-item"]}>
 					<Icon
 						link={true}
 						to="mailto:mohammad.helaly@gmail.com"
@@ -53,7 +54,7 @@ const ContactInformation = () => {
 					<p className={`lead line ${styles["info-text"]}`}>
 						mohammad.helaly@gmail.com
 					</p>
-				</div>
+				</ListItem>
 			</div>
 		</div>
 	);

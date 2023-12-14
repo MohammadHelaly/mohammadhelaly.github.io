@@ -41,6 +41,15 @@
 	/* transition: all 1s ease; */
 }
 
+.info-link {
+	text-decoration: none;
+	color: inherit;
+}
+
+.info-link:hover {
+	text-decoration: underline;
+}
+
 .info-item:nth-child(2) {
 	transition-delay: 300ms;
 }
@@ -116,8 +125,6 @@
 		align-items: center;
 		/* margin-bottom: 10px; */
 		transition: all 1s ease;
-		margin-left: -20px;
-		margin-right: -20px;
 	}
 
 	.info-gm-icon {

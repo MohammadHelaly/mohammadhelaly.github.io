@@ -9,8 +9,8 @@
 
 .gm-link-footer {
 	position: relative;
-	top: 10.5px;
-	margin-right: 10px;
+	top: 13px;
+	margin-right: 7.5px;
 }
 
 .copyright {
@@ -23,6 +23,6 @@
 
 @media (max-width: 850px) {
 	.gm-link-footer {
-		margin-right: -3.5px;
+		margin-right: -5px;
 	}
 }

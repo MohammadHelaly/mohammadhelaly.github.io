@@ -31,13 +31,18 @@ const ContactInformation = () => {
 				</div>
 				<ListItem className={styles["info-item"]}>
 					<Icon
-						link={false}
+						link={true}
+						to="tel:+201095536781"
 						src={phoneIcon}
 						alt="Phone"
 						iconClassName={`dark-icon ${styles["info-icon"]}`}
 					/>
-					<p className={`lead line ${styles["info-text"]}`}>
-						+201095536781
+					<p className={`${styles["info-text"]}`}>
+						<a
+							className={`${styles["info-link"]}`}
+							href="tel:+201095536781">
+							+20 109 553 6781
+						</a>
 					</p>
 				</ListItem>
 				<ListItem className={styles["info-item"]}>
@@ -49,8 +54,12 @@ const ContactInformation = () => {
 						iconClassName={`dark-icon ${styles["info-icon"]} ${styles["info-gm-icon"]}`}
 						linkClassName={`icon-link ${styles["info-icon-link"]}`}
 					/>
-					<p className={`lead line ${styles["info-text"]}`}>
-						mohammad.helaly@gmail.com
+					<p className={`${styles["info-text"]}`}>
+						<a
+							className={`${styles["info-link"]}`}
+							href="mailto:mohammad.helaly@gmail.com">
+							mohammad.helaly@gmail.com
+						</a>
 					</p>
 				</ListItem>
 			</div>

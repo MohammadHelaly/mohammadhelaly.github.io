@@ -15,7 +15,7 @@ const schema = z.object({
 });
 
 const ContactForm = () => {
-	const formButtonRef = useAnimate(styles["animate"], false);
+	const formButtonRef = useAnimate("animate-form", false);
 
 	const {
 		register,

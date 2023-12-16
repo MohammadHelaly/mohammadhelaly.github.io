@@ -15,21 +15,21 @@
 	padding: 100px 0 100px 0;
 }
 
+.cpp-icon {
+	/* transform: scale(1.15) !important; */
+	filter: hue-rotate(40deg) saturate(0.7) brightness(1.05);
+}
+
 .php-icon {
-	width: 145px !important;
+	transform: scale(1.5) !important;
 }
 
 .dataiku-icon {
-	transform: scale(2) !important;
+	transform: scale(1.3) !important;
 }
 
 .mysql-icon {
 	transform: scale(1.5) !important;
-}
-
-.nodejs-icon {
-	transform: scale(1.25) !important;
-	filter: brightness(1.1) !important;
 }
 
 .expressjs-icon {

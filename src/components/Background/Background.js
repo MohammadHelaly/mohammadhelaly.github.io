@@ -3,7 +3,7 @@ import styles from "./Background.module.css";
 import useAnimate from "../../hooks/use-animate";
 
 const Background = () => {
-	const elementRef = useAnimate(styles["animate-background"], false);
+	const elementRef = useAnimate("animate-background", false);
 	return (
 		<div ref={elementRef} className={styles["background"]}>
 			<img

@@ -2,8 +2,8 @@ import styles from "./SectionHeader.module.css";
 import useAnimate from "../../hooks/use-animate";
 
 const SectionHeader = (props) => {
-	const titleRef = useAnimate(styles["animate"], false);
-	const subtitleRef = useAnimate(styles["animate"], false);
+	const titleRef = useAnimate("animate", false);
+	const subtitleRef = useAnimate("animate", false);
 	const { titleText, subtitleText, textTheme } = props;
 
 	return (

@@ -1,16 +1,11 @@
 .footer-container {
 	opacity: 0;
 	transition: all 0.5s ease;
-}
-
-.animate {
-	opacity: 1 !important;
-}
-
-.gm-link-footer {
-	position: relative;
-	top: 13px;
-	margin-right: 7.5px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-content: center;
+	margin-bottom: 20px;
 }
 
 .copyright {
@@ -19,10 +14,4 @@
 	opacity: 0;
 	transition: all 1s ease-in-out;
 	transition-delay: 0.25s;
-}
-
-@media (max-width: 850px) {
-	.gm-link-footer {
-		margin-right: -5px;
-	}
 }

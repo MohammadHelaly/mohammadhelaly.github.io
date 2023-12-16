@@ -12,11 +12,6 @@
 	transition-delay: 400ms;
 }
 
-.animate {
-	opacity: 1;
-	width: 100%;
-}
-
 .input {
 	border: 0px;
 	border-bottom: 2px solid #212529;

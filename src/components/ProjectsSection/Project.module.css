@@ -8,10 +8,6 @@
 	margin: 50px 0 50px 0;
 }
 
-.animate {
-	opacity: 1;
-}
-
 .project-carousel-slide {
 	transition: all 0.5s ease;
 }
@@ -62,14 +58,27 @@
 	height: auto;
 }
 
-.carousel-img {
+.carousel-video {
 	object-fit: cover;
+	width: 100%;
+	height: auto;
 }
 
-.carousel-item video {
-	width: 100%;
-	height: 100%;
+.carousel-img {
 	object-fit: cover;
+	animation: zoom 12s;
+}
+
+@keyframes zoom {
+	0% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(1.025);
+	}
+	100% {
+		transform: scale(1);
+	}
 }
 
 .project-description-container {
@@ -87,35 +96,20 @@
 .project-icon {
 	position: relative;
 	bottom: 4px !important;
+	transition: all 0.5s ease;
+}
+
+.project-icon:hover,
+.project-icon:active {
+	opacity: 0.75;
+	transform: translateY(-5px);
 }
 
 .project-skill-icon {
-	filter: brightness(1000%) saturate(0);
 	height: 50px !important;
 	width: 50px !important;
 	margin: 10px 10px 0 10px !important;
-}
-
-.mysql-icon {
-	transform: scale(1.5) !important;
-}
-
-.php-icon {
-	width: 80px !important;
-	filter: brightness(200%) saturate(0);
-}
-
-.flask-icon {
-	filter: brightness(100%) saturate(0) contrast(200%);
-}
-
-.unrealengine-icon {
-	filter: none !important;
-	transform: scale(1.1);
-}
-
-.html-css-icon {
-	filter: invert(100%) brightness(200%) saturate(0) contrast(500%);
+	filter: grayscale(100%);
 }
 
 @media (hover: none), (pointer: coarse) {
@@ -136,22 +130,8 @@
 	}
 
 	.project-skill-icon {
-		filter: brightness(15%) saturate(0);
 		height: 30px !important;
 		width: 30px !important;
 		margin: 0 10px 0 10px !important;
-	}
-
-	.php-icon {
-		filter: brightness(165%) invert(100%) saturate(0);
-		width: 60px !important;
-	}
-
-	.flask-icon {
-		filter: brightness(70%) saturate(0) contrast(300%);
-	}
-
-	.html-css-icon {
-		filter: saturate(0) brightness(85%) contrast(300%);
 	}
 }

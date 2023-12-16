@@ -1,4 +1,6 @@
 .overlay-container {
+	display: flex;
+	flex-direction: column;
 	background-color: rgba(0, 0, 0, 0);
 	padding: 0;
 	text-align: left;
@@ -8,17 +10,15 @@
 }
 
 .bottom-lead {
-	margin-bottom: -5px;
-}
-
-.animate {
-	opacity: 1;
+	margin-bottom: 15px;
 }
 
 @media (max-width: 768px) {
 	.overlay-container {
 		padding: 0 20px 0;
 		text-align: center;
+		/* justify-content: center; */
+		align-items: center;
 		margin: 175px 0 95px 0;
 	}
 

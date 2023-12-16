@@ -11,90 +11,28 @@
 	background-color: white;
 }
 
-.carousel-video {
-	object-fit: cover;
-	width: 100%;
-	height: auto;
+/* SCROLL ANIMATION */
+.animate {
+	opacity: 1 !important;
+	transform: translateX(0) translateY(0) translateZ(0) scale(1) rotate(0deg)
+		skew(0deg, 0deg) !important;
 }
 
-.carousel-img {
-	object-fit: cover;
-	animation: zoom 12s;
+.animate-background {
+	width: 100vw !important;
 }
 
-@keyframes zoom {
-	0% {
-		transform: scale(1);
-	}
-	50% {
-		transform: scale(1.025);
-	}
-	100% {
-		transform: scale(1);
-	}
+.animate-form {
+	opacity: 1 !important;
+	width: 100% !important;
 }
 
-/* ICONS */
-
-.icon {
-	height: 30px;
-	width: 30px;
-	transition: transform 0.5s ease;
+.animate-navbar {
+	opacity: 1 !important;
+	width: 100% !important;
 }
 
-.white-icon {
-	filter: brightness(100%);
-	filter: invert(100%);
-}
-
-.white-icon:active,
-.white-icon:hover {
-	opacity: 0.45;
-	transform: translateY(-5px);
-}
-
-.dark-icon {
-	opacity: 0.85;
-}
-
-.dark-icon:active,
-.dark-icon:hover {
-	opacity: 0.45;
-	transform: translateY(-5px);
-}
-
-.icon-link {
-	margin-right: 17.5px;
-	margin-top: 5px;
-}
-
-.gm-link {
-	position: relative;
-	top: 12.5px;
-	margin-right: 7.5px;
-}
-
-.hr-icon {
-	border-radius: 2.5px;
-}
-
-.gm-icon {
-	height: 55px;
-	width: 55px;
-}
-
-.white-gm-icon {
-	margin-top: -20px;
-	height: 55px;
-	width: 55px;
-}
-
-@media (max-width: 990px) {
-	.icon-link {
-		margin-right: 5px;
-	}
-
-	.gm-link {
-		margin-right: -5px;
-	}
+.animate-navbar::before {
+	width: 100% !important;
+	left: 0 !important;
 }

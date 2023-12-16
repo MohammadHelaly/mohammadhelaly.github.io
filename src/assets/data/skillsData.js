@@ -1,98 +1,100 @@
-import cpp from "../icons/c++.svg";
-import python from "../icons/python.svg";
-import java from "../icons/java.svg";
-import bash from "../icons/bash.svg";
-import html from "../icons/html.svg";
-import css from "../icons/css.svg";
-import mysql from "../icons/mysql.svg";
-import mongodb from "../icons/mongodb.svg";
-import javascript from "../icons/javascript.svg";
-import php from "../icons/php.svg";
-import git from "../icons/git.svg";
-import reactjs from "../icons/reactjs.svg";
-import redux from "../icons/redux.svg";
-import nodejs from "../icons/nodejs.svg";
-import expressjs from "../icons/expressjs.svg";
-import docker from "../icons/docker.svg";
-import aws from "../icons/aws.svg";
-import dataiku from "../icons/dataiku.svg";
+import { ReactComponent as Cpp } from "../icons/cpp.svg";
+import { ReactComponent as Python } from "../icons/python.svg";
+import { ReactComponent as Java } from "../icons/java.svg";
+import { ReactComponent as Bash } from "../icons/bash.svg";
+import { ReactComponent as Html } from "../icons/html.svg";
+import { ReactComponent as Css } from "../icons/css.svg";
+import { ReactComponent as Mysql } from "../icons/mysql.svg";
+import { ReactComponent as Mongodb } from "../icons/mongodb.svg";
+import { ReactComponent as Javascript } from "../icons/javascript.svg";
+import { ReactComponent as Php } from "../icons/php.svg";
+import { ReactComponent as Git } from "../icons/git.svg";
+import { ReactComponent as Reactjs } from "../icons/reactjs.svg";
+import { ReactComponent as Redux } from "../icons/redux.svg";
+import { ReactComponent as Nodejs } from "../icons/nodejs.svg";
+import { ReactComponent as Expressjs } from "../icons/expressjs.svg";
+import { ReactComponent as Docker } from "../icons/docker.svg";
+import { ReactComponent as Aws } from "../icons/aws.svg";
+import { ReactComponent as Dataiku } from "../icons/dataiku.svg";
 
 const skillsData = [
 	{
-		icon: cpp,
-		alt: "C++",
+		name: "C++",
+		icon: <Cpp />,
+		className: "cpp-icon",
 	},
 	{
-		icon: python,
-		alt: "Python",
+		name: "Python",
+		icon: <Python />,
 	},
 	{
-		icon: java,
-		alt: "Java",
+		name: "Java",
+		icon: <Java />,
 	},
 	{
-		icon: bash,
-		alt: "Bash",
+		name: "Linux Shell + Bash",
+		icon: <Bash />,
 	},
 	{
-		icon: html,
-		alt: "HTML",
+		name: "HTML",
+		icon: <Html />,
 	},
 	{
-		icon: css,
-		alt: "CSS",
+		name: "CSS",
+		icon: <Css />,
 	},
 	{
-		icon: javascript,
-		alt: "JavaScript",
+		name: "JavaScript",
+		icon: <Javascript />,
 	},
 	{
-		icon: php,
-		alt: "PHP",
+		name: "PHP",
+		icon: <Php />,
 		className: "php-icon",
 	},
 	{
-		icon: mysql,
-		alt: "MySQL",
+		name: "MySQL",
+		icon: <Mysql />,
 		className: "mysql-icon",
 	},
 	{
-		icon: mongodb,
-		alt: "MongoDB",
+		name: "MongoDB",
+		icon: <Mongodb />,
+	},
+
+	{
+		name: "AWS",
+		icon: <Aws />,
 	},
 	{
-		icon: aws,
-		alt: "AWS",
+		name: "Git",
+		icon: <Git />,
 	},
 	{
-		icon: git,
-		alt: "Git",
+		name: "Docker",
+		icon: <Docker />,
 	},
 	{
-		icon: docker,
-		alt: "Docker",
+		name: "React.js + React Native",
+		icon: <Reactjs />,
 	},
 	{
-		icon: reactjs,
-		alt: "React.js",
+		name: "Redux",
+		icon: <Redux />,
 	},
 	{
-		icon: redux,
-		alt: "Redux",
+		name: "Node.js",
+		icon: <Nodejs />,
 	},
 	{
-		icon: nodejs,
-		alt: "Node.js",
-		className: "nodejs-icon",
-	},
-	{
-		icon: expressjs,
-		alt: "Express.js",
+		name: "Express.js",
+		icon: <Expressjs />,
 		className: "expressjs-icon",
 	},
+
 	{
-		icon: dataiku,
-		alt: "Dataiku DSS",
+		name: "Dataiku DSS",
+		icon: <Dataiku />,
 		className: "dataiku-icon",
 	},
 ];

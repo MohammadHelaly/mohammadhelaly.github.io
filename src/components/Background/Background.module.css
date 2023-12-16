@@ -26,10 +26,6 @@
 	width: 0.1vw;
 }
 
-.animate-background {
-	width: 100vw !important;
-}
-
 @media (max-width: 990px) {
 	.background-image {
 		max-width: auto !important;

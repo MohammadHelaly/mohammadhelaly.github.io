@@ -2,8 +2,8 @@ import styles from "./NavBar.module.css";
 import useAnimate from "../../hooks/use-animate";
 
 const Navbar = () => {
-	const navBarRef = useAnimate(styles["animate"], false);
-	const contentRef = useAnimate(styles["animate"], false);
+	const navBarRef = useAnimate("animate-navbar", false);
+	const contentRef = useAnimate("animate-navbar", false);
 
 	return (
 		<nav

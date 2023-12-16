@@ -12,10 +12,6 @@
 	border-radius: 100%;
 	transform: scale(0.9);
 }
-.animate {
-	opacity: 1;
-	transform: scale(1);
-}
 
 @media (max-width: 990px) {
 	.headshot-container {

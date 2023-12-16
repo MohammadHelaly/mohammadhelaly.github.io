@@ -4,7 +4,7 @@ import ListItem from "../Miscellaneous/ListItem";
 
 const TimelineItem = (props) => {
 	const { position, place, dates, description, id } = props;
-	const itemRef = useAnimate(styles["animate-item"], false);
+	const itemRef = useAnimate("animate", false);
 
 	return (
 		<>

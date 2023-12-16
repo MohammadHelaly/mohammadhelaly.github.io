@@ -3,7 +3,7 @@ import styles from "./FormInput.module.css";
 
 const FormInput = (props) => {
 	const { type, name, id, label, register, required, error } = props;
-	const elementRef = useAnimate(styles["animate"], false);
+	const elementRef = useAnimate("animate-form", false);
 
 	return (
 		<div

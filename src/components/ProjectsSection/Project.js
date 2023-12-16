@@ -1,14 +1,14 @@
 import React from "react";
 import styles from "./Project.module.css";
-import githubIcon from "../../assets/icons/github.svg";
 import ListItem from "../Miscellaneous/ListItem";
 import Icon from "../Miscellaneous/Icon";
+import { ReactComponent as GitHub } from "../../assets/icons/github.svg";
 import useAnimate from "../../hooks/use-animate";
 
 const Project = (props) => {
 	const { title, siteLink, githubLink, description, stack, images, id } =
 		props;
-	const carouselRef = useAnimate(styles["animate"], false);
+	const carouselRef = useAnimate("animate", false);
 
 	return (
 		<div ref={carouselRef} className={styles["project"]}>
@@ -88,13 +88,14 @@ const Project = (props) => {
 							title
 						)}{" "}
 						|{" "}
-						<Icon
-							link={true}
-							to={githubLink}
-							src={githubIcon}
-							alt="GitHub Link"
-							iconClassName={`white-icon ${styles["project-icon"]}`}
-						/>
+						<Icon link={true} to={githubLink}>
+							<GitHub
+								height="30px"
+								width="30px"
+								className={styles["project-icon"]}
+								fill="#ffffff"
+							/>
+						</Icon>
 					</h6>
 					{description.map((entry, index) => (
 						<ListItem key={index}>
@@ -104,17 +105,14 @@ const Project = (props) => {
 					<ListItem key={title + " stack"}>
 						{stack.map((skill, index) => {
 							return (
-								<Icon
-									key={"skill " + index}
-									link={false}
-									src={skill.icon}
-									alt="Skill Icon"
-									iconClassName={`${
-										styles["project-skill-icon"]
-									} ${styles["project-icon"]} ${
-										styles[skill.className]
-									}`}
-								/>
+								<Icon key={"skill " + index} link={false}>
+									{React.cloneElement(skill.icon, {
+										fill: "#ffffff",
+										height: "50px",
+										width: "50px",
+										className: styles["project-skill-icon"],
+									})}
+								</Icon>
 							);
 						})}
 					</ListItem>
@@ -134,13 +132,14 @@ const Project = (props) => {
 						title
 					)}{" "}
 					|{" "}
-					<Icon
-						link={true}
-						to={githubLink}
-						src={githubIcon}
-						alt="GitHub Link"
-						iconClassName={`dark-icon ${styles["project-icon"]}`}
-					/>
+					<Icon link={true} to={githubLink}>
+						<GitHub
+							height="30px"
+							width="30px"
+							className={styles["project-icon"]}
+							fill="#212529"
+						/>
+					</Icon>
 				</h6>
 				{description.map((entry, index) => (
 					<ListItem key={index}>
@@ -150,17 +149,14 @@ const Project = (props) => {
 				<ListItem key={title + " stack"}>
 					{stack.map((skill, index) => {
 						return (
-							<Icon
-								key={"skill " + index}
-								link={false}
-								src={skill.icon}
-								alt="Skill Icon"
-								iconClassName={`${
-									styles["project-skill-icon"]
-								} ${styles["project-icon"]} ${
-									styles[skill.className]
-								}`}
-							/>
+							<Icon key={"skill " + index} link={false}>
+								{React.cloneElement(skill.icon, {
+									fill: "#212529",
+									height: "30px",
+									width: "30px",
+									className: styles["project-skill-icon"],
+								})}
+							</Icon>
 						);
 					})}
 				</ListItem>

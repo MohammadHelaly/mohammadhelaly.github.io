@@ -1,16 +1,13 @@
 import styles from "./ContactInformation.module.css";
-import gmailIcon from "../../assets/icons/gmail.jpg";
-import phoneIcon from "../../assets/icons/phone.svg";
+import { ReactComponent as Gmail } from "../../assets/icons/gmail.svg";
+import { ReactComponent as Phone } from "../../assets/icons/phone.svg";
 import useAnimate from "../../hooks/use-animate";
 import Icon from "../Miscellaneous/Icon";
 import ListItem from "../Miscellaneous/ListItem";
 
 const ContactInformation = () => {
-	const infoHeadingRef = useAnimate(styles["animate-info-heading"], false);
-	const infoParagraphRef = useAnimate(
-		styles["animate-info-paragraph"],
-		false
-	);
+	const infoHeadingRef = useAnimate("animate", false);
+	const infoParagraphRef = useAnimate("animate", false);
 
 	return (
 		<div className={styles["contact-information"]}>
@@ -30,14 +27,15 @@ const ContactInformation = () => {
 					</p>
 				</div>
 				<ListItem className={styles["info-item"]}>
-					<Icon
-						link={true}
-						to="tel:+201095536781"
-						src={phoneIcon}
-						alt="Phone"
-						iconClassName={`dark-icon ${styles["info-icon"]}`}
-					/>
-					<p className={`${styles["info-text"]}`}>
+					<Icon link={true} to="tel:+201095536781" alt="Phone">
+						<Phone
+							fill="#212529"
+							height="30px"
+							width="30px"
+							className={styles["info-icon"]}
+						/>
+					</Icon>
+					<p className={styles["info-text"]}>
 						<a
 							className={`${styles["info-link"]}`}
 							href="tel:+201095536781">
@@ -46,15 +44,15 @@ const ContactInformation = () => {
 					</p>
 				</ListItem>
 				<ListItem className={styles["info-item"]}>
-					<Icon
-						link={true}
-						to="mailto:mohammad.helaly@gmail.com"
-						src={gmailIcon}
-						alt="Gmail"
-						iconClassName={`dark-icon ${styles["info-icon"]} ${styles["info-gm-icon"]}`}
-						linkClassName={`icon-link ${styles["info-icon-link"]}`}
-					/>
-					<p className={`${styles["info-text"]}`}>
+					<Icon link={true} to="mailto:mohammad.helaly@gmail.com">
+						<Gmail
+							fill="#212529"
+							height="30px"
+							width="30px"
+							className={styles["info-icon"]}
+						/>
+					</Icon>
+					<p className={styles["info-text"]}>
 						<a
 							className={`${styles["info-link"]}`}
 							href="mailto:mohammad.helaly@gmail.com">

@@ -2,17 +2,11 @@
 	height: 90px;
 	width: 90px;
 	opacity: 0;
-	transform: translateX(-100%);
+	transform: translateX(-50%);
 	transition: all 0.5s ease;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-}
-
-.skill-icon {
-	transition: all 0.5s ease;
-	height: 90px;
-	width: 90px;
 }
 
 .frame:nth-child(2) {
@@ -73,15 +67,10 @@
 	transition-delay: 1000ms;
 }
 
-.animate {
-	opacity: 1;
-	transform: translateX(0);
-}
-
 @media (max-width: 850px) {
-	.skill-icon {
-		height: 60px;
-		width: 60px;
+	.frame {
+		height: 60px !important;
+		width: 60px !important;
 	}
 
 	.frame:nth-child(2) {

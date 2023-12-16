@@ -1,3 +1,4 @@
+import React from "react";
 import SectionHeader from "../Miscellaneous/SectionHeader";
 import styles from "./SkillsSection.module.css";
 import skillsData from "../../assets/data/skillsData";
@@ -14,14 +15,17 @@ const SkillsSection = () => {
 						textTheme="light"
 					/>
 					<div className={`${styles["skills-container"]}`}>
-						{skillsData.map((skill, index) => (
-							<SkillIcon
-								key={index}
-								alt={skill.alt}
-								className={styles[skill.className]}>
-								{skill.icon}
-							</SkillIcon>
-						))}
+						{skillsData.map((skill, index) => {
+							return (
+								<SkillIcon key={index}>
+									{React.cloneElement(skill.icon, {
+										height: "100%",
+										width: "100%",
+										className: styles[skill.className],
+									})}
+								</SkillIcon>
+							);
+						})}
 					</div>
 				</div>
 			</div>

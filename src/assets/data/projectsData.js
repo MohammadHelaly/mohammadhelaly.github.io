@@ -16,15 +16,15 @@ import library3 from "../images/library3.jpg";
 import paint1 from "../images/paint1.jpg";
 import paint2 from "../images/paint2.jpg";
 import paint3 from "../images/paint3.jpg";
-import java from "../icons/java.svg";
-import mysql from "../icons/mysql.svg";
-import reactjs from "../icons/reactjs.svg";
-import python from "../icons/python.svg";
-import flask from "../icons/flask-vertical.webp";
-import php from "../icons/php.svg";
-import html from "../icons/html.svg";
-import css from "../icons/css.svg";
-import unrealengine from "../icons/unrealengine.jpg";
+import { ReactComponent as Java } from "../icons/java-monocolor.svg";
+import { ReactComponent as MySql } from "../icons/mysql-monocolor.svg";
+import { ReactComponent as ReactJs } from "../icons/reactjs-monocolor.svg";
+import { ReactComponent as Python } from "../icons/python-monocolor.svg";
+import { ReactComponent as Flask } from "../icons/flask.svg";
+import { ReactComponent as Php } from "../icons/php-monocolor.svg";
+import { ReactComponent as Html } from "../icons/html-monocolor.svg";
+import { ReactComponent as Css } from "../icons/css-monocolor.svg";
+import { ReactComponent as UnrealEngine } from "../icons/unrealengine-monocolor.svg";
 
 const projectsData = [
 	{
@@ -37,9 +37,15 @@ const projectsData = [
 			"Utilizes a deep learning model that incorporates the OpenAI CLIP encoder into its architecture and was trained on the VizWiz dataset.",
 		],
 		stack: [
-			{ icon: reactjs },
-			{ icon: python },
-			{ icon: flask, className: "flask-icon" },
+			{
+				icon: <ReactJs />,
+			},
+			{
+				icon: <Python />,
+			},
+			{
+				icon: <Flask />,
+			},
 		],
 	},
 	{
@@ -52,8 +58,12 @@ const projectsData = [
 			"Qualified as a global finalist (top 40 out of 8715 teams) in the 2023 NASA International Space Apps Challenge.",
 		],
 		stack: [
-			{ icon: reactjs },
-			{ icon: unrealengine, className: "unrealengine-icon" },
+			{
+				icon: <ReactJs />,
+			},
+			{
+				icon: <UnrealEngine />,
+			},
 		],
 	},
 	{
@@ -66,10 +76,18 @@ const projectsData = [
 			// "Built using HTML/CSS for website frontend as well as PHP and MySQL for backend programming.",
 		],
 		stack: [
-			{ icon: html, className: "html-css-icon" },
-			{ icon: css, className: "html-css-icon" },
-			{ icon: php, className: "php-icon" },
-			{ icon: mysql, className: "mysql-icon" },
+			{
+				icon: <Html />,
+			},
+			{
+				icon: <Css />,
+			},
+			{
+				icon: <Php />,
+			},
+			{
+				icon: <MySql />,
+			},
 		],
 	},
 	{
@@ -81,10 +99,18 @@ const projectsData = [
 			// "Built using HTML/CSS for website frontend as well as PHP and MySQL for backend programming.",
 		],
 		stack: [
-			{ icon: html, className: "html-css-icon" },
-			{ icon: css, className: "html-css-icon" },
-			{ icon: php, className: "php-icon" },
-			{ icon: mysql, className: "mysql-icon" },
+			{
+				icon: <Html />,
+			},
+			{
+				icon: <Css />,
+			},
+			{
+				icon: <Php />,
+			},
+			{
+				icon: <MySql />,
+			},
 		],
 	},
 	{
@@ -96,7 +122,14 @@ const projectsData = [
 			"Staff-side library management application for administrators and librarians to manage inventory, checkouts, payments, reservations, and other operations.",
 			// "Client-side library website for customers to reserve checkouts from a library online.",
 		],
-		stack: [{ icon: java }, { icon: mysql, className: "mysql-icon" }],
+		stack: [
+			{
+				icon: <Java />,
+			},
+			{
+				icon: <MySql />,
+			},
+		],
 	},
 	{
 		title: "PaintFlow.studio",
@@ -106,7 +139,11 @@ const projectsData = [
 			"Feature-rich paint application that allows users to use different strokes, colors, and tools to draw and manipulate different shapes, as well as save their paintings.",
 			// "Developed according to SOLID principles using several design patterns in Java.",
 		],
-		stack: [{ icon: java }],
+		stack: [
+			{
+				icon: <Java />,
+			},
+		],
 	},
 ];
 

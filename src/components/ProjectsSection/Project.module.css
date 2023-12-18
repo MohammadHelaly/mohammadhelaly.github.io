@@ -58,29 +58,6 @@
 	height: auto;
 }
 
-.carousel-video {
-	object-fit: cover;
-	width: 100%;
-	height: auto;
-}
-
-.carousel-img {
-	object-fit: cover;
-	animation: zoom 12s;
-}
-
-@keyframes zoom {
-	0% {
-		transform: scale(1);
-	}
-	50% {
-		transform: scale(1.025);
-	}
-	100% {
-		transform: scale(1);
-	}
-}
-
 .project-description-container {
 	background-color: rgb(243, 243, 243); /* ,0 */
 	border-bottom: 2px solid #212529 !important;

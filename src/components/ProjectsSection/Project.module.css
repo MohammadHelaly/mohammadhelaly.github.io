@@ -38,7 +38,8 @@
 }
 
 .project-title {
-	margin-bottom: 20px !important;
+	margin-top: 10px;
+	margin-bottom: 40px;
 }
 
 .project-title a {
@@ -93,6 +94,10 @@
 	.project-description-container {
 		display: flex;
 		flex-direction: column;
+	}
+
+	.project-title {
+		margin-bottom: 30px;
 	}
 
 	.project-carousel-caption {

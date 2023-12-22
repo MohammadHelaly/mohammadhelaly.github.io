@@ -21,6 +21,7 @@ const SkillsSection = () => {
 									{React.cloneElement(skill.icon, {
 										height: "100%",
 										width: "100%",
+										title: null,
 										className: styles[skill.className],
 									})}
 								</SkillIcon>

@@ -1,6 +1,8 @@
 .overlay-container {
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	background-color: rgba(0, 0, 0, 0);
 	padding: 0;
 	text-align: center;
@@ -36,7 +38,6 @@
 	.overlay-container {
 		padding: 0 20px 0;
 		text-align: center;
-		/* justify-content: center; */
 		align-items: center;
 		margin: 175px 0 95px 0;
 	}

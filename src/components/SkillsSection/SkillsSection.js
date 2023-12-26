@@ -12,7 +12,7 @@ const SkillsSection = () => {
 					<SectionHeader
 						titleText="Skills"
 						subtitleText="Software development. Data science and machine learning."
-						textTheme="light"
+						variant="dark"
 					/>
 					<div className={`${styles["skills-container"]}`}>
 						{skillsData.map((skill, index) => {

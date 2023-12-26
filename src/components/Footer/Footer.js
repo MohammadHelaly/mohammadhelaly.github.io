@@ -9,13 +9,15 @@ const Footer = () => {
 	const currentYear = new Date().getFullYear();
 
 	return (
-		<footer className="py-5">
+		<footer className={`py-5 ${styles["footer"]}`}>
 			<div className="container text-light text-center">
 				<div ref={iconsRef} className={styles["footer-container"]}>
-					<SocialLinks variant="light" />
+					<SocialLinks variant="dark" />
 				</div>
 				<hr />
-				<p ref={copyRightRef} className={styles["copyright"]}>
+				<p
+					ref={copyRightRef}
+					className={`text-dark ${styles["copyright"]}`}>
 					&copy; {currentYear} Mohammad Helaly
 				</p>
 			</div>

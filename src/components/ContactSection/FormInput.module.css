@@ -26,7 +26,6 @@
 }
 
 .invalid-input {
-	/* border-bottom: 2px solid #e94545 !important; */
 	border-color: #e94545 !important;
 	opacity: 1;
 	width: 100%;

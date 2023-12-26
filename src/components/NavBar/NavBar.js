@@ -31,7 +31,7 @@ const Navbar = () => {
 				ref={contentRef}
 				className={`${styles["top-nav-content"]} container topnav-container`}>
 				<a
-					className={`navbar-brand mb-1 text-dark ${styles["logo"]}`}
+					className={`navbar-brand mb-1 text-dark ${styles["logo"]} ${styles["top-nav-link"]}`}
 					href="#home">
 					helaly.dev
 				</a>
@@ -50,24 +50,30 @@ const Navbar = () => {
 					id="navbarSupportedContent">
 					<ul className="navbar-nav ms-auto text-center">
 						<li className="nav-item">
-							<a className="nav-link custom-link" href="#about">
+							<a
+								className={`nav-link custom-link ${styles["top-nav-link"]}`}
+								href="#about">
 								About
 							</a>
 						</li>
 						<li className="nav-item">
 							<a
-								className="nav-link custom-link"
+								className={`nav-link custom-link ${styles["top-nav-link"]}`}
 								href="#projects">
 								Projects
 							</a>
 						</li>
 						<li className="nav-item">
-							<a className="nav-link custom-link" href="#skills">
+							<a
+								className={`nav-link custom-link ${styles["top-nav-link"]}`}
+								href="#skills">
 								Skills
 							</a>
 						</li>
 						<li className="nav-item">
-							<a className="nav-link custom-link" href="#contact">
+							<a
+								className={`nav-link custom-link ${styles["top-nav-link"]}`}
+								href="#contact">
 								Contact
 							</a>
 						</li>

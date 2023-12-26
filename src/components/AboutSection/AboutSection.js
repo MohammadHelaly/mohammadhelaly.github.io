@@ -1,8 +1,7 @@
 import Timeline from "./Timeline";
 import Bio from "./Bio";
-import Slider from "../Miscellaneous/Slider";
-import styles from "./AboutSection.module.css";
-import Services from "../HomeSection/Services";
+// import Slider from "../Miscellaneous/Slider";
+// import styles from "./AboutSection.module.css";
 
 const AboutSection = () => {
 	return (

@@ -6,28 +6,16 @@
 	place-items: center;
 	justify-content: center;
 	margin: 50px 0 50px 0;
-	/* border: 1px solid #cccccc; */
-	/* border-radius: 25px; */
-	padding: 45px;
-	/* box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15); */
-	/* background-color: white;
-	border-top: 2px solid #212529;
-	border-bottom: 2px solid #212529;
-	backdrop-filter: blur(10px); */
 }
 
 .skills-background {
-	/* background-color: rgb(255, 255, 255); */
-	/* background-image: url("../../assets//images/Screenshot\ 2023-12-26\ 185127.png"); */
-	/* background-size: cover; */
-	/* background-color: #212529; */
+	background-color: rgb(255, 255, 255);
 	overflow: hidden;
 	min-width: 100%;
-	padding: 50px 0 50px 0;
+	padding: 50px 0 0 0;
 }
 
 .cpp-icon {
-	/* transform: scale(1.15) !important; */
 	filter: hue-rotate(40deg) saturate(0.7) brightness(1.05);
 }
 

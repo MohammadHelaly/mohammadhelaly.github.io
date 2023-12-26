@@ -1,5 +1,5 @@
 import "./App.css";
-import Background from "./components/Background/Background";
+// import Background from "./components/Background/Background";
 import NavBar from "./components/NavBar/NavBar";
 import HomeSection from "./components/HomeSection/HomeSection";
 import AboutSection from "./components/AboutSection/AboutSection";
@@ -11,7 +11,7 @@ import Footer from "./components/Footer/Footer";
 const App = () => {
 	return (
 		<>
-			<Background />
+			{/* <Background /> */}
 			<NavBar />
 			<HomeSection />
 			<AboutSection />

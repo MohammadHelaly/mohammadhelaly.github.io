@@ -11,7 +11,7 @@ const ProjectsSection = () => {
 					<SectionHeader
 						titleText="Projects"
 						subtitleText="NeuralVisions - Lunar Trek -  MedicoPortal - DriveIt.io - Libraria - PaintFlow.studio"
-						// textTheme="light"
+						textTheme="dark"
 					/>
 					{projectsData.map((project, index) => (
 						<Project

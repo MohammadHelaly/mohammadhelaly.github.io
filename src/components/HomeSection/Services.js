@@ -8,7 +8,7 @@ const Services = () => {
 	return (
 		<div className={styles["services-container"]}>
 			<div className="container">
-				<div className={`${styles["services"]}`}>
+				<div className={styles["services"]}>
 					<ListItem className={styles["service"]}>
 						<WebDevelopment
 							fill="#212529"

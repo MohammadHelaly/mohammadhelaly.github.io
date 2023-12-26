@@ -7,8 +7,6 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	/* filter: saturate(0); */
-	/* fill: #212529; */
 }
 
 .frame:nth-child(2) {

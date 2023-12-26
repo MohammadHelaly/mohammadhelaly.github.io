@@ -10,7 +10,7 @@ const HomeOverlay = (props) => {
 	const lineClasses = isLight ? "lead text-light" : "lead";
 	const elementRef = useAnimate("animate", false);
 	const iconsRef = useAnimate("animate", false);
-	const titleVariant = window.innerWidth > 600 ? "display-1" : "display-1"; //"display-3" "display-4"
+	const titleVariant = window.innerWidth < 600 ? "display-1" : "display-1"; //"display-3" "display-4"
 
 	return (
 		<div className="container">

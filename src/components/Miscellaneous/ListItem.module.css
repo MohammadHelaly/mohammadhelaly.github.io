@@ -16,9 +16,3 @@ ListItem:nth-child(3) {
 ListItem:nth-child(4) {
 	transition-delay: 600ms;
 }
-
-/* @media (max-width: 768px) {
-	.list-item {
-		transform: translateY(0);
-	}
-} */

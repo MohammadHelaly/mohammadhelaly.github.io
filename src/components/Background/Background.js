@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import backgroundImage1 from "../../assets/images/minimal-geometric-white-background-with-dynamic-shapes-composition_573652-182-transformed.jpeg";
-import backgroundImage2 from "../../assets/images/Screenshot 2023-12-26 185127.png";
+import backgroundImage1 from "../../assets/images/background1.jpeg";
+import backgroundImage2 from "../../assets/images/background2.png";
 import styles from "./Background.module.css";
 import useAnimate from "../../hooks/use-animate";
 

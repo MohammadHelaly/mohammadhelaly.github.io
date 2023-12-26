@@ -1,9 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.d4240b28.css",
-    "main.js": "/static/js/main.343d68c1.js",
+    "main.css": "/static/css/main.e15783a6.css",
+    "main.js": "/static/js/main.c89010b5.js",
     "static/js/787.e66a2470.chunk.js": "/static/js/787.e66a2470.chunk.js",
-    "static/media/background.jpg": "/static/media/background.b5469b5fbaf5a462c795.jpg",
     "static/media/neural3.jpg": "/static/media/neural3.67c46e9b5f0cf99d9e8a.jpg",
     "static/media/car1.jpg": "/static/media/car1.01fc89a9d894702e7cb5.jpg",
     "static/media/me.jpg": "/static/media/me.07313e6e9be2dcacd978.jpg",
@@ -26,12 +25,15 @@
     "static/media/library1.jpg": "/static/media/library1.01b3c9c3525a6a52c58e.jpg",
     "static/media/flask.svg": "/static/media/flask.742b7c2917412f6b5a4e59a4cbeaee18.svg",
     "static/media/nodejs.svg": "/static/media/nodejs.b0d6c7cead1cf51d8ac0b40bf3637dce.svg",
+    "static/media/machine-learning.svg": "/static/media/machine-learning.55481243bb532be46d1199185fb11d68.svg",
     "static/media/mysql.svg": "/static/media/mysql.17e572d590819cbe5cac74acfecb45da.svg",
     "static/media/java.svg": "/static/media/java.68585ce8dadbd8ecebdc99a764c5c1cf.svg",
     "static/media/java-monocolor.svg": "/static/media/java-monocolor.3f07ed8db7bcb55da497b664422bf80f.svg",
+    "static/media/mobile-development.svg": "/static/media/mobile-development.f879ad16b3087788a3a38deebca793ed.svg",
     "static/media/bash.svg": "/static/media/bash.12b9574c657e4e3629a692b1f78fdb65.svg",
     "static/media/dataiku.svg": "/static/media/dataiku.7b4b4aeda650d9ccddd965d83d4d0a98.svg",
     "static/media/mysql-monocolor.svg": "/static/media/mysql-monocolor.c0522362f48b6a87d8f69c61dd45c8bf.svg",
+    "static/media/web-development.svg": "/static/media/web-development.0dffb802040a0b8ac754d4aa5777186e.svg",
     "static/media/reactjs-monocolor.svg": "/static/media/reactjs-monocolor.29e94b16532f5b8ee755628806a19f4e.svg",
     "static/media/aws.svg": "/static/media/aws.dd9277c987f598698ebb019213869e94.svg",
     "static/media/php.svg": "/static/media/php.7fa8613b62399694e8529fc30bbb48d0.svg",
@@ -56,12 +58,12 @@
     "static/media/hackerrank.svg": "/static/media/hackerrank.ecf2a99f07544018ff3c45a565efe680.svg",
     "static/media/reactjs.svg": "/static/media/reactjs.3a03708e42481565259f85329d20b695.svg",
     "static/media/phone.svg": "/static/media/phone.e55a36920b78fdfbd928a612bcf47b2f.svg",
-    "main.d4240b28.css.map": "/static/css/main.d4240b28.css.map",
-    "main.343d68c1.js.map": "/static/js/main.343d68c1.js.map",
+    "main.e15783a6.css.map": "/static/css/main.e15783a6.css.map",
+    "main.c89010b5.js.map": "/static/js/main.c89010b5.js.map",
     "787.e66a2470.chunk.js.map": "/static/js/787.e66a2470.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d4240b28.css",
-    "static/js/main.343d68c1.js"
+    "static/css/main.e15783a6.css",
+    "static/js/main.c89010b5.js"
   ]
 }

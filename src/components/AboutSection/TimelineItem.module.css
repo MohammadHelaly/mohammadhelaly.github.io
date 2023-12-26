@@ -1,16 +1,25 @@
 .timeline-item {
 	margin: 0px 0 50px 0;
 	padding: 25px 50px 25px 50px;
-	border-top: 8px solid #212529 !important;
+	/* border-top: 8px solid #212529 !important; */
+	/* border: 1px solid #cccccc; */
+	/* border-radius: 25px; */
+	/* box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15); */
+	border-top: 2px solid #212529;
 	position: relative;
 	background-color: rgb(255, 255, 255);
 	width: 92%;
 	left: 8%;
-	transition: all 1s ease;
+	transition: transform 1s ease, opacity 1s ease, box-shadow 0.2s ease;
 	opacity: 0;
 	transform: translateY(100%);
 	max-width: 100%;
 }
+
+/* .timeline-item:hover {
+	 border-top: 8px solid #212529 !important; 
+	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15);
+} */
 
 .timeline-text {
 	margin-bottom: 5px !important;
@@ -31,6 +40,7 @@
 .timeline-header {
 	/* font-size: 2rem !important; */
 	transition: all 1s;
+	font-weight: bold;
 }
 
 .timeline-point {
@@ -38,7 +48,7 @@
 	width: 25px;
 	height: 25px;
 	border-radius: 50%;
-	border: 2px solid #ffffff;
+	border: 4px solid #ffffff;
 	background: #212529;
 	top: 20%;
 	left: 50%;
@@ -48,7 +58,7 @@
 
 .timeline-bar {
 	position: relative;
-	background: rgb(255, 255, 255);
+	background: #212529;
 	width: 2px;
 	margin-left: 35px;
 }

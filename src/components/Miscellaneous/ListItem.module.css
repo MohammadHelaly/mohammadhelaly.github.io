@@ -1,7 +1,7 @@
 .list-item {
 	opacity: 0;
 	transform: translateY(100%);
-	transition: all 1s ease;
+	transition: all 0.8s ease;
 	margin-bottom: 20px;
 }
 

@@ -1,3 +1,14 @@
+/* TYPOGRAPHY */
+
+.display-1,
+.display-2,
+.display-3,
+.display-4,
+.display-5,
+.display-6 {
+	font-weight: bold !important;
+}
+
 /* CAROUSELS */
 
 .carousel-fade .active.carousel-item-start,
@@ -54,6 +65,7 @@
 .animate-navbar {
 	opacity: 1 !important;
 	width: 100% !important;
+	transform: translateY(0) !important;
 }
 
 .animate-navbar::before {

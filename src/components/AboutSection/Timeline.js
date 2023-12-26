@@ -10,7 +10,7 @@ const Timeline = () => {
 				<SectionHeader
 					titleText="Timeline"
 					subtitleText="My journey so far."
-					textTheme="light"
+					textTheme="dark"
 				/>
 				<div className={styles["timeline-container"]}>
 					{timelineData.map((timelineItem, index) => (

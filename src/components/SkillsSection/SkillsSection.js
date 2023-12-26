@@ -22,6 +22,7 @@ const SkillsSection = () => {
 										height: "100%",
 										width: "100%",
 										title: null,
+										fill: "#444",
 										className: styles[skill.className],
 									})}
 								</SkillIcon>

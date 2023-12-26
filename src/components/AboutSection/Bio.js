@@ -13,7 +13,7 @@ const Bio = () => {
 				/>
 				<div className={`${styles["bio"]}`}>
 					<Headshot />
-					<div className={`${styles["bio-text"]}`}>
+					<div className={`${styles["bio-text"]} text-muted`}>
 						<ListItem>
 							<p>
 								I'm pursuing my B.E. in Computer and

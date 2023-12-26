@@ -9,7 +9,7 @@ const Footer = () => {
 	const currentYear = new Date().getFullYear();
 
 	return (
-		<footer className="background py-5">
+		<footer className="py-5">
 			<div className="container text-light text-center">
 				<div ref={iconsRef} className={styles["footer-container"]}>
 					<SocialLinks variant="light" />

@@ -9,7 +9,8 @@ const HomeOverlay = (props) => {
 	const titleClasses = isLight ? "text-light" : "";
 	const lineClasses = isLight ? "lead text-light" : "lead";
 	const elementRef = useAnimate("animate", false);
-	const titleVariant = window.innerWidth > 600 ? "display-3" : "display-1"; //"display-3" "display-4"
+	const iconsRef = useAnimate("animate", false);
+	const titleVariant = window.innerWidth > 600 ? "display-1" : "display-1"; //"display-3" "display-4"
 
 	return (
 		<div className="container">
@@ -27,7 +28,9 @@ const HomeOverlay = (props) => {
 				<p className={`${lineClasses} ${styles["bottom-lead"]}`}>
 					Building engaging experiences with passion.
 				</p>
-				<SocialLinks variant={iconsVariant} />
+				<div ref={iconsRef} className={styles["icons-container"]}>
+					<SocialLinks variant={iconsVariant} />
+				</div>
 			</div>
 		</div>
 	);

@@ -14,7 +14,7 @@
 }
 
 .contact-container > div {
-	border-right: 1px solid #ccc;
+	border-right: 1px solid #cccccc;
 }
 
 .contact-container > div:last-child {
@@ -23,7 +23,7 @@
 
 @media (max-width: 850px) {
 	.contact-container > div {
-		border-bottom: 1px solid #ccc;
+		border-bottom: 1px solid #cccccc;
 		border-right: none;
 	}
 

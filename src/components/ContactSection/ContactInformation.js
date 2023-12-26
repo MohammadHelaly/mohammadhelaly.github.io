@@ -20,7 +20,7 @@ const ContactInformation = () => {
 				<div
 					ref={infoParagraphRef}
 					className={styles["info-paragraph"]}>
-					<p className="lead">
+					<p className="lead text-muted">
 						I would love to hear from you. You can reach me through
 						email or give me a call. Alternatively, you can fill out
 						this form and I'll get back to you as soon as possible.{" "}

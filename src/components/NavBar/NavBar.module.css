@@ -30,6 +30,14 @@
 	transform: translateY(-100%);
 }
 
+.top-nav-button {
+	border: none !important;
+	background-color: transparent;
+	padding: 0;
+	height: 30px;
+	width: 30px;
+}
+
 .top-nav-list {
 	opacity: 0;
 	transition: all 0.8s ease;

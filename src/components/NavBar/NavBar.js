@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import styles from "./NavBar.module.css";
 import useAnimate from "../../hooks/use-animate";
+import { ReactComponent as HamburgerMenu } from "../../assets/icons/hamburger-menu.svg";
+import { ReactComponent as CloseMenu } from "../../assets/icons/close-menu.svg";
 
 const NavBar = () => {
 	const logoRef = useAnimate("animate", false);
@@ -36,13 +38,13 @@ const NavBar = () => {
 				</a>
 				<button
 					ref={buttonRef}
-					className={`navbar-toggler ${styles["top-nav-content"]}`}
+					className={`navbar-toggler ${styles["top-nav-button"]} ${styles["top-nav-content"]}`}
 					type="button"
 					data-bs-toggle="offcanvas"
 					data-bs-target="#offcanvasNavbar"
 					aria-controls="offcanvasNavbar"
 					aria-label="Toggle navigation">
-					<span className="navbar-toggler-icon"></span>
+					<HamburgerMenu fill="#212529" height="100%" width="100%" />
 				</button>
 				<div
 					className={`offcanvas offcanvas-end ${styles["offcanvas-content"]}`}
@@ -61,9 +63,16 @@ const NavBar = () => {
 						</h5>
 						<button
 							type="button"
-							className="btn-close"
+							// className="btn-close"
+							className={`${styles["top-nav-button"]} `}
 							data-bs-dismiss="offcanvas"
-							aria-label="Close"></button>
+							aria-label="Close">
+							<CloseMenu
+								fill="#212529"
+								height="100%"
+								width="100%"
+							/>
+						</button>
 					</div>
 					<div className="offcanvas-body">
 						<ul

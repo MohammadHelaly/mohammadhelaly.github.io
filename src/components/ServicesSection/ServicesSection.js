@@ -1,10 +1,10 @@
 import ListItem from "../Miscellaneous/ListItem";
-import styles from "./Services.module.css";
+import styles from "./ServicesSection.module.css";
 import { ReactComponent as WebDevelopment } from "../../assets/icons/web-development.svg";
 import { ReactComponent as MobileDevelopment } from "../../assets/icons/mobile-development.svg";
 import { ReactComponent as MachineLearning } from "../../assets/icons/machine-learning.svg";
 
-const Services = () => {
+const ServicesSection = () => {
 	return (
 		<div className={styles["services-container"]}>
 			<div className="container">
@@ -55,4 +55,4 @@ const Services = () => {
 	);
 };
 
-export default Services;
+export default ServicesSection;

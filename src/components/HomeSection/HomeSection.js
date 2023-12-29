@@ -1,6 +1,5 @@
 import HomeOverlay from "./HomeOverlay";
 import styles from "./HomeSection.module.css";
-import Services from "./Services";
 
 const HomeSection = () => {
 	return (
@@ -14,7 +13,6 @@ const HomeSection = () => {
 					<div className="carousel-inner"> */}
 				{/* <div className={`carousel-item active ${styles["alt-screen"]}`}> */}
 				<HomeOverlay />
-				<Services />
 				{/* </div> */}
 				{/* <div className="carousel-item">
 							<HomeOverlay />

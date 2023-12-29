@@ -16,12 +16,13 @@
 .info-heading {
 	margin-bottom: 20px;
 	opacity: 0;
-	transition: all 1s ease;
+	transition: all 0.8s ease;
 }
 
 .info-paragraph {
 	opacity: 0;
-	transition: all 1s ease;
+	transition: all 0.8s ease;
+	transition-delay: 200ms;
 }
 
 .info-item {
@@ -39,14 +40,14 @@
 }
 
 .info-item:nth-child(2) {
-	transition-delay: 300ms;
+	transition-delay: 200ms;
 }
 
 .info-icon {
 	width: 30px;
 	height: 30px;
 	margin-right: 10px;
-	transition: all 0.5s ease;
+	transition: all 0.6s ease;
 }
 
 .info-icon:hover,

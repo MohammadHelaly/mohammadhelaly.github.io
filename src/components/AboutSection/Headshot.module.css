@@ -7,7 +7,7 @@
 
 .headshot {
 	width: 250px;
-	transition: all 1s ease;
+	transition: all 0.6s ease;
 	opacity: 0;
 	border-radius: 100%;
 	transform: scale(0.9);

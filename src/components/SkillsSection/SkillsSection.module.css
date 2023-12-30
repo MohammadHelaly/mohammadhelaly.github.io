@@ -2,9 +2,10 @@
 	display: grid;
 	grid-template-columns: repeat(6, 1fr);
 	grid-template-rows: repeat(3, 100px);
-	gap: 25px;
+	gap: 48px;
 	place-items: center;
 	justify-content: center;
+	align-content: baseline;
 	margin: 50px 0 50px 0;
 }
 
@@ -16,24 +17,26 @@
 }
 
 .cpp-icon {
-	filter: hue-rotate(40deg) saturate(0.7) brightness(1.05);
+	/* filter: hue-rotate(40deg) saturate(0.7) brightness(1.05); */
+	transform: scale(1.25) !important;
 }
 
 .php-icon {
-	transform: scale(1.5) !important;
+	transform: scale(1.25) !important;
 }
 
 .dataiku-icon {
-	transform: scale(1.3) !important;
+	/* transform: scale(1.3) !important; */
+	transform: scale(2.5) !important;
 }
 
 .mysql-icon {
-	transform: scale(1.5) !important;
+	transform: scale(1.25) !important;
 }
 
-.expressjs-icon {
+/* .expressjs-icon {
 	transform: scale(1.8) !important;
-}
+} */
 
 @media (max-width: 768px) {
 	.skills-container {

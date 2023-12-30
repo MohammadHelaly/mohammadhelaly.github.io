@@ -81,7 +81,8 @@ const Project = (props) => {
 							<a
 								href={siteLink}
 								target="_blank"
-								rel="noopener noreferrer">
+								rel="noopener noreferrer"
+								className={styles["project-title-link"]}>
 								{title}
 							</a>
 						) : (
@@ -125,7 +126,8 @@ const Project = (props) => {
 						<a
 							href={siteLink}
 							target="_blank"
-							rel="noopener noreferrer">
+							rel="noopener noreferrer"
+							className={styles["project-title-link"]}>
 							{title}
 						</a>
 					) : (
@@ -137,7 +139,7 @@ const Project = (props) => {
 							height="30px"
 							width="30px"
 							className={styles["project-icon"]}
-							fill="#212529"
+							fill="#000000"
 						/>
 					</Icon>
 				</h6>
@@ -151,7 +153,7 @@ const Project = (props) => {
 						return (
 							<Icon key={"skill " + index} link={false}>
 								{React.cloneElement(skill.icon, {
-									fill: "#212529",
+									fill: "#000000",
 									height: "30px",
 									width: "30px",
 									className: styles["project-skill-icon"],

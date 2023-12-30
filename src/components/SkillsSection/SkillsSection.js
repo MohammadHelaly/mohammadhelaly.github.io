@@ -17,12 +17,12 @@ const SkillsSection = () => {
 					<div className={`${styles["skills-container"]}`}>
 						{skillsData.map((skill, index) => {
 							return (
-								<SkillIcon key={index}>
+								<SkillIcon key={index} name={skill.name}>
 									{React.cloneElement(skill.icon, {
 										height: "100%",
 										width: "100%",
 										title: null,
-										fill: "#444",
+										fill: "#000000",
 										className: styles[skill.className],
 									})}
 								</SkillIcon>

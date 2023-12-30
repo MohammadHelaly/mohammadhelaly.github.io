@@ -11,10 +11,10 @@ const ServicesSection = () => {
 				<div className={styles["services"]}>
 					<ListItem className={styles["service"]}>
 						<WebDevelopment
-							fill="#212529"
+							fill="#000000"
 							className={styles["service-icon"]}
 						/>
-						<h3 className={styles["service-title"]}>
+						<h3 className={`text-dark ${styles["service-title"]}`}>
 							Web Development
 						</h3>
 						<p className="text-muted">
@@ -24,10 +24,10 @@ const ServicesSection = () => {
 					</ListItem>
 					<ListItem className={styles["service"]}>
 						<MobileDevelopment
-							fill="#212529"
+							fill="#000000"
 							className={styles["service-icon"]}
 						/>
-						<h3 className={styles["service-title"]}>
+						<h3 className={`text-dark ${styles["service-title"]}`}>
 							Mobile Development
 						</h3>
 						<p className="text-muted">
@@ -37,10 +37,10 @@ const ServicesSection = () => {
 					</ListItem>
 					<ListItem className={styles["service"]}>
 						<MachineLearning
-							fill="#212529"
+							fill="#000000"
 							className={styles["service-icon"]}
 						/>
-						<h3 className={styles["service-title"]}>
+						<h3 className={`text-dark ${styles["service-title"]}`}>
 							Data Science & Machine Learning
 						</h3>
 						<p className="text-muted">

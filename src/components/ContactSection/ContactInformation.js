@@ -14,7 +14,7 @@ const ContactInformation = () => {
 			<div className={styles["info-container"]}>
 				<h5
 					ref={infoHeadingRef}
-					className={`display-6 ${styles["info-heading"]}`}>
+					className={`display-6 text-dark ${styles["info-heading"]}`}>
 					Contact me
 				</h5>
 				<div
@@ -29,13 +29,13 @@ const ContactInformation = () => {
 				<ListItem className={styles["info-item"]}>
 					<Icon link={true} to="tel:+201095536781" alt="Phone">
 						<Phone
-							fill="#212529"
+							fill="#000000"
 							height="30px"
 							width="30px"
 							className={styles["info-icon"]}
 						/>
 					</Icon>
-					<p className={styles["info-text"]}>
+					<p className={`text-dark ${styles["info-text"]}`}>
 						<a
 							className={`${styles["info-link"]}`}
 							href="tel:+201095536781">
@@ -46,13 +46,13 @@ const ContactInformation = () => {
 				<ListItem className={styles["info-item"]}>
 					<Icon link={true} to="mailto:mohammad.helaly@gmail.com">
 						<Gmail
-							fill="#212529"
+							fill="#000000"
 							height="30px"
 							width="30px"
 							className={styles["info-icon"]}
 						/>
 					</Icon>
-					<p className={styles["info-text"]}>
+					<p className={`text-dark ${styles["info-text"]}`}>
 						<a
 							className={`${styles["info-link"]}`}
 							href="mailto:mohammad.helaly@gmail.com">

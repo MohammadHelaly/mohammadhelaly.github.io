@@ -1,8 +1,23 @@
 .frame {
-	height: 90px;
-	width: 90px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	gap: 16px;
+	transition: all 0.4s ease;
 	opacity: 0;
 	transform: translateX(-50%);
+}
+
+.icon-text {
+	font-weight: bold;
+}
+
+/* .frame, */
+.icon-container {
+	height: 60px;
+	width: 60px;
 	transition: all 0.4s ease;
 	display: flex;
 	justify-content: center;
@@ -68,9 +83,10 @@
 }
 
 @media (max-width: 850px) {
-	.frame {
-		height: 60px !important;
-		width: 60px !important;
+	/* .frame, */
+	.icon-container {
+		height: 40px !important;
+		width: 40px !important;
 	}
 
 	.frame:nth-child(2) {

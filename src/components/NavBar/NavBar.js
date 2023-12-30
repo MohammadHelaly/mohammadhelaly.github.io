@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import styles from "./NavBar.module.css";
 import useAnimate from "../../hooks/use-animate";
-import { ReactComponent as HamburgerMenu } from "../../assets/icons/hamburger-menu.svg";
-import { ReactComponent as CloseMenu } from "../../assets/icons/close-menu.svg";
+import { ReactComponent as HamburgerMenu } from "../../assets/icons/hamburger-menu-black.svg";
+import { ReactComponent as CloseMenu } from "../../assets/icons/close-menu-black.svg";
 
 const NavBar = () => {
 	const logoRef = useAnimate("animate", false);
@@ -32,7 +32,7 @@ const NavBar = () => {
 			<div className="container">
 				<a
 					ref={logoRef}
-					className={`navbar-brand mb-1 text-dark ${styles["logo"]} ${styles["top-nav-content"]} ${styles["top-nav-link"]}`}
+					className={`navbar-brand text-dark ${styles["logo"]} ${styles["top-nav-content"]} ${styles["top-nav-link"]}`}
 					href="#home">
 					helaly.dev
 				</a>

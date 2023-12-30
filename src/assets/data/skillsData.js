@@ -1,25 +1,25 @@
-import { ReactComponent as Cpp } from "../icons/cpp.svg";
-import { ReactComponent as Python } from "../icons/python.svg";
-import { ReactComponent as Java } from "../icons/java.svg";
-import { ReactComponent as Bash } from "../icons/bash.svg";
-import { ReactComponent as Html } from "../icons/html.svg";
-import { ReactComponent as Css } from "../icons/css.svg";
-import { ReactComponent as Mysql } from "../icons/mysql.svg";
-import { ReactComponent as Mongodb } from "../icons/mongodb.svg";
-import { ReactComponent as Javascript } from "../icons/javascript.svg";
-import { ReactComponent as Php } from "../icons/php.svg";
-import { ReactComponent as Git } from "../icons/git.svg";
-import { ReactComponent as Reactjs } from "../icons/reactjs.svg";
-import { ReactComponent as Redux } from "../icons/redux.svg";
-import { ReactComponent as Nodejs } from "../icons/nodejs.svg";
-import { ReactComponent as Expressjs } from "../icons/expressjs.svg";
-import { ReactComponent as Docker } from "../icons/docker.svg";
-import { ReactComponent as Aws } from "../icons/aws.svg";
-import { ReactComponent as Dataiku } from "../icons/dataiku.svg";
+import { ReactComponent as Cpp } from "../icons/cpp-monocolor.svg";
+import { ReactComponent as Python } from "../icons/python-monocolor.svg";
+import { ReactComponent as Java } from "../icons/java-monocolor.svg";
+import { ReactComponent as Bash } from "../icons/bash-monocolor.svg";
+import { ReactComponent as Html } from "../icons/html-monocolor.svg";
+import { ReactComponent as Css } from "../icons/css-monocolor.svg";
+import { ReactComponent as Mysql } from "../icons/mysql-monocolor.svg";
+import { ReactComponent as Mongodb } from "../icons/mongodb-monocolor.svg";
+import { ReactComponent as Javascript } from "../icons/javascript-monocolor.svg";
+import { ReactComponent as Php } from "../icons/php-monocolor.svg";
+import { ReactComponent as Git } from "../icons/git-monocolor.svg";
+import { ReactComponent as Reactjs } from "../icons/reactjs-monocolor.svg";
+import { ReactComponent as Redux } from "../icons/redux-monocolor.svg";
+import { ReactComponent as Nodejs } from "../icons/nodejs-monocolor.svg";
+import { ReactComponent as Expressjs } from "../icons/expressjs-monocolor.svg";
+import { ReactComponent as Docker } from "../icons/docker-monocolor.svg";
+import { ReactComponent as Aws } from "../icons/aws-monocolor.svg";
+import { ReactComponent as Dataiku } from "../icons/dataiku-monocolor.svg";
 
 const skillsData = [
 	{
-		name: "C++",
+		name: "C & C++",
 		icon: <Cpp />,
 		className: "cpp-icon",
 	},
@@ -32,7 +32,8 @@ const skillsData = [
 		icon: <Java />,
 	},
 	{
-		name: "Linux Shell + Bash",
+		// name: "Linux Shell & Bash",
+		name: "Bash",
 		icon: <Bash />,
 	},
 	{
@@ -75,10 +76,12 @@ const skillsData = [
 		icon: <Docker />,
 	},
 	{
-		name: "React.js + React Native",
+		// name: "React.js & React Native",
+		name: "React.js",
 		icon: <Reactjs />,
 	},
 	{
+		// name: "Redux & Redux Toolkit",
 		name: "Redux",
 		icon: <Redux />,
 	},
@@ -93,7 +96,8 @@ const skillsData = [
 	},
 
 	{
-		name: "Dataiku DSS",
+		// name: "Dataiku DSS",
+		name: "Dataiku",
 		icon: <Dataiku />,
 		className: "dataiku-icon",
 	},

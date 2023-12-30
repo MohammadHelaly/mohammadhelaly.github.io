@@ -28,7 +28,7 @@
 .project:active,
 .project:hover {
 	.project-carousel-slide {
-		filter: brightness(0.2);
+		filter: brightness(0.4);
 	}
 
 	.project-carousel-caption {
@@ -42,7 +42,7 @@
 	font-weight: bold;
 }
 
-.project-title a {
+.project-title-link {
 	text-decoration: none;
 	color: inherit;
 	font-weight: inherit;
@@ -50,9 +50,12 @@
 	transition: all 0.4s ease;
 }
 
-.project-title a:hover {
-	text-decoration: underline;
+.project-title-link:hover {
+	/* text-decoration: underline;
 	text-decoration-thickness: 1px;
+	color: white;
+	background-color: black; */
+	opacity: 0.75;
 }
 
 .project-carousel-item {
@@ -61,7 +64,7 @@
 
 .project-description-container {
 	background-color: rgb(243, 243, 243, 0);
-	border-bottom: 2px solid #212529 !important;
+	border-bottom: 2px solid black !important;
 	transition: all 1s ease;
 	padding: 20px;
 	text-align: center;

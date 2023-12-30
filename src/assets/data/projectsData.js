@@ -33,8 +33,8 @@ const projectsData = [
 			"https://github.com/MohammadHelaly/Visual-Question-Answering",
 		images: [neural1, neural2, neural3],
 		description: [
-			"Web app for answering open-ended questions about images, reaching 68% accuracy and 80% answerability.",
-			"Utilizes a deep learning model that incorporates the OpenAI CLIP encoder into its architecture and was trained on the VizWiz dataset.",
+			"A web app for answering open-ended questions about images, reaching 68% accuracy and 80% answerability.",
+			"It utilizes a deep learning model that incorporates the OpenAI CLIP encoder into its architecture and was trained on the VizWiz dataset.",
 		],
 		stack: [
 			{
@@ -54,8 +54,8 @@ const projectsData = [
 		githubLink: "https://github.com/MohammadHelaly/lunar-trek",
 		images: [moon1, moon2, moon3],
 		description: [
-			"Web app for visualizing lunar seismic events on a 3D model of the moon, sourced from NASA's Apollo Seismic Event Catalogue.",
-			"Qualified as a global finalist (top 40 out of 8715 teams) in the 2023 NASA International Space Apps Challenge.",
+			"A web app for visualizing lunar seismic events on a 3D model of the moon, sourced from NASA's Apollo Seismic Event Catalogue.",
+			"It qualified as a global finalist (top 40 out of 8715 teams) in the 2023 NASA International Space Apps Challenge.",
 		],
 		stack: [
 			{
@@ -72,7 +72,7 @@ const projectsData = [
 			"https://github.com/MohammadHelaly/Medical-Record-Management-System",
 		images: [medical1, medical2, medical3],
 		description: [
-			"Medical website with portals for patients, doctors and administrators to manage appointments, prescriptions and medical records.",
+			"A medical website with portals for patients, doctors and administrators to manage appointments, prescriptions and medical records.",
 			// "Built using HTML/CSS for website frontend as well as PHP and MySQL for backend programming.",
 		],
 		stack: [
@@ -95,7 +95,7 @@ const projectsData = [
 		githubLink: "https://github.com/MohammadHelaly/Car-Rental-System",
 		images: [car1, car2, car3],
 		description: [
-			"Car rental website with portals for both customers and staff to manage reservations as well as view reports about operations.",
+			"A car rental website with portals for both customers and staff to manage reservations as well as view reports about operations.",
 			// "Built using HTML/CSS for website frontend as well as PHP and MySQL for backend programming.",
 		],
 		stack: [
@@ -119,7 +119,7 @@ const projectsData = [
 			"https://github.com/MohammadHelaly/Library-Management-System",
 		images: [library1, library2, library3],
 		description: [
-			"Staff-side library management application for administrators and librarians to manage inventory, checkouts, payments, reservations, and other operations.",
+			"A staff-side library management application for administrators and librarians to manage inventory, checkouts, payments, reservations, and other operations.",
 			// "Client-side library website for customers to reserve checkouts from a library online.",
 		],
 		stack: [
@@ -136,7 +136,7 @@ const projectsData = [
 		githubLink: "https://github.com/MohammadHelaly/Paint-Application",
 		images: [paint1, paint2, paint3],
 		description: [
-			"Feature-rich paint application that allows users to use different strokes, colors, and tools to draw and manipulate different shapes, as well as save their paintings.",
+			"A feature-rich paint application that allows users to use different strokes, colors, and tools to draw and manipulate different shapes, as well as save their paintings.",
 			// "Developed according to SOLID principles using several design patterns in Java.",
 		],
 		stack: [

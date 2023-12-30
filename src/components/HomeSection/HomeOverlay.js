@@ -6,8 +6,8 @@ const HomeOverlay = (props) => {
 	const { variant } = props;
 	const isLight = variant === "light";
 	const iconsVariant = isLight ? "light" : "dark";
-	const titleClasses = isLight ? "text-light" : "";
-	const lineClasses = isLight ? "lead text-light" : "lead";
+	const titleClasses = isLight ? "text-light" : "text-dark";
+	const lineClasses = isLight ? "lead text-light" : "lead text-dark";
 	const elementRef = useAnimate("animate", false);
 	const iconsRef = useAnimate("animate", false);
 	const titleVariant = window.innerWidth < 600 ? "display-1" : "display-1"; //"display-3" "display-4"

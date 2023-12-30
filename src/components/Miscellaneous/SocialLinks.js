@@ -8,7 +8,7 @@ import styles from "./SocialLinks.module.css";
 const SocialLinks = (props) => {
 	const { variant } = props;
 
-	const fillColor = variant === "light" ? "#ffffff" : "#212529";
+	const fillColor = variant === "light" ? "#ffffff" : "#000000";
 
 	return (
 		<div className={styles["social-links-container"]}>

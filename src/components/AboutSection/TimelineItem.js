@@ -12,9 +12,11 @@ const TimelineItem = (props) => {
 				<div className={styles["timeline-point"]} id={id}></div>
 			</div>
 			<div ref={itemRef} className={styles["timeline-item"]}>
-				<h2 className={`${styles["timeline-header"]}`}>{position}</h2>
+				<h2 className={`text-dark ${styles["timeline-header"]}`}>
+					{position}
+				</h2>
 				<p
-					className={`${styles["timeline-text"]} ${styles["timeline-information"]}`}>
+					className={`text-dark ${styles["timeline-text"]} ${styles["timeline-information"]}`}>
 					<em>{place}</em>
 				</p>
 				<p

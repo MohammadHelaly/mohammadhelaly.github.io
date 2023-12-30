@@ -9,6 +9,10 @@
 	font-weight: bold !important;
 }
 
+.text-dark {
+	color: black !important; /* #212529 */
+}
+
 /* CAROUSELS */
 
 .carousel-fade .active.carousel-item-start,

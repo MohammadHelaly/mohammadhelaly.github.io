@@ -35,9 +35,9 @@
 	color: inherit;
 }
 
-.info-link:hover {
+/* .info-link:hover {
 	text-decoration: underline;
-}
+} */
 
 .info-item:nth-child(2) {
 	transition-delay: 200ms;

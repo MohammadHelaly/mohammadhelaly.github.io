@@ -48,13 +48,28 @@
 	width: 70% !important;
 }
 
+.top-nav-link {
+	color: black;
+	transition: all 0.4s ease;
+	/* margin: auto 2px auto 2px; */
+	/* padding: 10px 10px 10px 10 !important; */
+}
+
 .top-nav-link:hover {
-	text-decoration: underline;
-	text-decoration-thickness: 1px;
+	/* text-decoration: underline;
+	text-decoration-thickness: 1px; */
+	background-color: black;
+	color: white;
 }
 
 .logo {
 	font-weight: bold;
+}
+
+.logo:hover {
+	text-decoration: none;
+	background-color: transparent;
+	color: initial;
 }
 
 @media (max-width: 768px) {

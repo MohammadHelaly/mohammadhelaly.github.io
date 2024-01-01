@@ -110,13 +110,9 @@
 	}
 }
 
-@media (max-width: 400px) {
+@media (max-width: 380px) {
 	.info-container {
 		padding: 0;
-		display: flex;
-		flex-direction: column;
-		justify-items: center;
-		place-items: center;
 	}
 }
 

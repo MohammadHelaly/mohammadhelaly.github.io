@@ -22,6 +22,10 @@
 }
 
 @media (max-width: 850px) {
+	.contact-section {
+		padding-bottom: 0;
+	}
+
 	.contact-container > div {
 		border-bottom: 1px solid #cccccc;
 		border-right: none;

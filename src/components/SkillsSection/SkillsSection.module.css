@@ -28,6 +28,7 @@
 .dataiku-icon {
 	/* transform: scale(1.3) !important; */
 	transform: scale(2.5) !important;
+	filter: brightness(0);
 }
 
 .mysql-icon {

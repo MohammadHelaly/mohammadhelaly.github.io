@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.1a670542.css",
-    "main.js": "/static/js/main.cde24d1c.js",
+    "main.css": "/static/css/main.c92b240a.css",
+    "main.js": "/static/js/main.7ab8092b.js",
     "static/js/787.e66a2470.chunk.js": "/static/js/787.e66a2470.chunk.js",
     "static/media/neural3.jpg": "/static/media/neural3.67c46e9b5f0cf99d9e8a.jpg",
     "static/media/car1.jpg": "/static/media/car1.01fc89a9d894702e7cb5.jpg",
@@ -23,6 +23,7 @@
     "static/media/medical1.jpg": "/static/media/medical1.a5071e42d9bfc63c6c54.jpg",
     "static/media/library1.jpg": "/static/media/library1.01b3c9c3525a6a52c58e.jpg",
     "static/media/flask.svg": "/static/media/flask.742b7c2917412f6b5a4e59a4cbeaee18.svg",
+    "static/media/dataiku-monocolor.svg": "/static/media/dataiku-monocolor.ddf7c23fe65d160cf69e59294978a519.svg",
     "static/media/machine-learning.svg": "/static/media/machine-learning.55481243bb532be46d1199185fb11d68.svg",
     "static/media/nodejs-monocolor.svg": "/static/media/nodejs-monocolor.ffb99e4f2ff0cc419a08f0aca617527c.svg",
     "static/media/java-monocolor.svg": "/static/media/java-monocolor.3f07ed8db7bcb55da497b664422bf80f.svg",
@@ -31,7 +32,6 @@
     "static/media/mysql-monocolor.svg": "/static/media/mysql-monocolor.c0522362f48b6a87d8f69c61dd45c8bf.svg",
     "static/media/web-development.svg": "/static/media/web-development.0dffb802040a0b8ac754d4aa5777186e.svg",
     "static/media/reactjs-monocolor.svg": "/static/media/reactjs-monocolor.29e94b16532f5b8ee755628806a19f4e.svg",
-    "static/media/dataiku-monocolor.svg": "/static/media/dataiku-monocolor.fe08b18037b2e7db22d2fc5f9a8159c3.svg",
     "static/media/python-monocolor.svg": "/static/media/python-monocolor.41b8f446c19eb02f7ab1eea239d47823.svg",
     "static/media/docker-monocolor.svg": "/static/media/docker-monocolor.45e6ff62613aa0ac06943d5ec2bffcc3.svg",
     "static/media/php-monocolor.svg": "/static/media/php-monocolor.c72472c53c42fd026a594d40edbf3dc0.svg",
@@ -53,12 +53,12 @@
     "static/media/gmail.svg": "/static/media/gmail.a6117a27b82c2821412915ed635cb042.svg",
     "static/media/hackerrank.svg": "/static/media/hackerrank.ecf2a99f07544018ff3c45a565efe680.svg",
     "static/media/phone.svg": "/static/media/phone.e55a36920b78fdfbd928a612bcf47b2f.svg",
-    "main.1a670542.css.map": "/static/css/main.1a670542.css.map",
-    "main.cde24d1c.js.map": "/static/js/main.cde24d1c.js.map",
+    "main.c92b240a.css.map": "/static/css/main.c92b240a.css.map",
+    "main.7ab8092b.js.map": "/static/js/main.7ab8092b.js.map",
     "787.e66a2470.chunk.js.map": "/static/js/787.e66a2470.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a670542.css",
-    "static/js/main.cde24d1c.js"
+    "static/css/main.c92b240a.css",
+    "static/js/main.7ab8092b.js"
   ]
 }

@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.52da843c.css",
+    "main.css": "/static/css/main.1a670542.css",
     "main.js": "/static/js/main.cde24d1c.js",
     "static/js/787.e66a2470.chunk.js": "/static/js/787.e66a2470.chunk.js",
     "static/media/neural3.jpg": "/static/media/neural3.67c46e9b5f0cf99d9e8a.jpg",
@@ -53,12 +53,12 @@
     "static/media/gmail.svg": "/static/media/gmail.a6117a27b82c2821412915ed635cb042.svg",
     "static/media/hackerrank.svg": "/static/media/hackerrank.ecf2a99f07544018ff3c45a565efe680.svg",
     "static/media/phone.svg": "/static/media/phone.e55a36920b78fdfbd928a612bcf47b2f.svg",
-    "main.52da843c.css.map": "/static/css/main.52da843c.css.map",
+    "main.1a670542.css.map": "/static/css/main.1a670542.css.map",
     "main.cde24d1c.js.map": "/static/js/main.cde24d1c.js.map",
     "787.e66a2470.chunk.js.map": "/static/js/787.e66a2470.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.52da843c.css",
+    "static/css/main.1a670542.css",
     "static/js/main.cde24d1c.js"
   ]
 }

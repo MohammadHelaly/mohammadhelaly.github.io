@@ -10,7 +10,8 @@ import { ReactComponent as Javascript } from "../icons/javascript-monocolor.svg"
 import { ReactComponent as Php } from "../icons/php-monocolor.svg";
 import { ReactComponent as Git } from "../icons/git-monocolor.svg";
 import { ReactComponent as Reactjs } from "../icons/reactjs-monocolor.svg";
-import { ReactComponent as Redux } from "../icons/redux-monocolor.svg";
+import { ReactComponent as Nextjs } from "../icons/nextjs.svg";
+// import { ReactComponent as Redux } from "../icons/redux-monocolor.svg";
 import { ReactComponent as Nodejs } from "../icons/nodejs-monocolor.svg";
 import { ReactComponent as Expressjs } from "../icons/expressjs-monocolor.svg";
 import { ReactComponent as Docker } from "../icons/docker-monocolor.svg";
@@ -80,10 +81,15 @@ const skillsData = [
 		name: "React.js",
 		icon: <Reactjs />,
 	},
+	// {
+	// 	// name: "Redux & Redux Toolkit",
+	// 	name: "Redux",
+	// 	icon: <Redux />,
+	// },
 	{
-		// name: "Redux & Redux Toolkit",
-		name: "Redux",
-		icon: <Redux />,
+		name: "Next.js",
+		icon: <Nextjs />,
+		className: "nextjs-icon",
 	},
 	{
 		name: "Node.js",
@@ -94,7 +100,6 @@ const skillsData = [
 		icon: <Expressjs />,
 		className: "expressjs-icon",
 	},
-
 	{
 		// name: "Dataiku DSS",
 		name: "Dataiku",

@@ -125,7 +125,7 @@ const ContactForm = () => {
 					ref={formButtonRef}
 					type="submit"
 					disabled={successfullSubmit || errorSubmit}
-					className={`btn btn-outline-dark btn-sm ${styles["form-button"]}`}>
+					className={`btn btn-outline btn-sm ${styles["form-button"]}`}>
 					Send
 				</button>
 			</form>

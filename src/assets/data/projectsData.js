@@ -50,12 +50,12 @@ const projectsData = [
 	},
 	{
 		title: "Lunar Trek",
-		siteLink: "https://mohammadhelaly.github.io/lunar-trek/",
+		siteLink: "https://lunar-trek.vercel.app/",
 		githubLink: "https://github.com/MohammadHelaly/lunar-trek",
 		images: [moon1, moon2, moon3],
 		description: [
 			"A web app for visualizing lunar seismic events on a 3D model of the moon, sourced from NASA's Apollo Seismic Event Catalogue.",
-			"It qualified as a global finalist (top 40 out of 8715 teams) in the 2023 NASA International Space Apps Challenge.",
+			"It globally won the 2023 NASA International Space Apps Challenge out of 8715 teams and 5556 projects, and was awarded the 'Best Use of Science' award.",
 		],
 		stack: [
 			{

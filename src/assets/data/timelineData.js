@@ -10,7 +10,7 @@ const timelineData = [
 		],
 	},
 	{
-		position: "Intern D&I Data Scientist",
+		position: "Intern Data Scientist",
 		place: "SLB - Schlumberger",
 		dates: "July 2023 - August 2023",
 		description: [

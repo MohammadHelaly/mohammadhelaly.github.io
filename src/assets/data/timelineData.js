@@ -6,7 +6,18 @@ const timelineData = [
 		description: [
 			"Pursuing B.E. in Computer and Communications Engineering.",
 			"Expected to graduate in June 2024.",
-			"3.32 GPA.",
+			"3.4 GPA.",
+		],
+	},
+	{
+		position: "Software Engineer",
+		place: "Alex Eagles Aero Design",
+		dates: "November 2023 - Present",
+		description: [
+			"Engineered software for autonomous drone navigation, enabling self-flying capabilities.",
+			"Developed scripts with the DroneKit API to navigate to waypoints obtained from deep learning models.",
+			"Utilized Jupyter Notebook for developing deep learning models and Python for software development.",
+			"Built and maintained enterprise website with React.js, ensuring its functionality and up-to-date content.",
 		],
 	},
 	{

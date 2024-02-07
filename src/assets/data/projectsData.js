@@ -55,7 +55,7 @@ const projectsData = [
 		images: [moon1, moon2, moon3],
 		description: [
 			"A web app for visualizing lunar seismic events on a 3D model of the moon, sourced from NASA's Apollo Seismic Event Catalogue.",
-			"It globally won the 2023 NASA International Space Apps Challenge out of 8715 teams and 5556 projects, and was awarded the 'Best Use of Science' award.",
+			"It globally won the 2023 NASA International Space Apps Challenge out of 8715 teams and 5556 projects, and was awarded the Best Use of Science Award.",
 		],
 		stack: [
 			{
@@ -136,7 +136,7 @@ const projectsData = [
 		githubLink: "https://github.com/MohammadHelaly/Paint-Application",
 		images: [paint1, paint2, paint3],
 		description: [
-			"A feature-rich paint application that allows users to use different strokes, colors, and tools to draw and manipulate different shapes, as well as save their paintings.",
+			"A feature-rich paint application for users to use different strokes, colors, and tools to draw and manipulate different shapes, as well as save their paintings.",
 			// "Developed according to SOLID principles using several design patterns in Java.",
 		],
 		stack: [

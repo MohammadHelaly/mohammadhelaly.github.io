@@ -1,5 +1,4 @@
 import "./App.css";
-import Background from "./components/Background/Background";
 import NavBar from "./components/NavBar/NavBar";
 import HomeSection from "./components/HomeSection/HomeSection";
 import ServicesSection from "./components/ServicesSection/ServicesSection";
@@ -12,7 +11,6 @@ import Footer from "./components/Footer/Footer";
 const App = () => {
 	return (
 		<>
-			<Background />
 			<NavBar />
 			<HomeSection />
 			<ServicesSection />

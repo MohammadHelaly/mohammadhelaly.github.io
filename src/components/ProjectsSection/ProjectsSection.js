@@ -10,7 +10,9 @@ const ProjectsSection = () => {
 				<div className="container">
 					<SectionHeader
 						titleText="Projects"
-						subtitleText="NeuralVisions - Lunar Trek -  MedicoPortal - DriveIt.io - Libraria - PaintFlow.studio"
+						subtitleText={projectsData
+							.map((project) => project.title)
+							.join(" - ")}
 						textTheme="dark"
 					/>
 					{projectsData.map((project, index) => (

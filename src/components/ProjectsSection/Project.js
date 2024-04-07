@@ -104,14 +104,16 @@ const Project = (props) => {
 						</ListItem>
 					))}
 					<ListItem key={title + " stack"}>
-						{stack.map((skill, index) => {
+						{stack.map((technology, index) => {
 							return (
-								<Icon key={"skill " + index} link={false}>
-									{React.cloneElement(skill.icon, {
+								<Icon key={"technology " + index} link={false}>
+									{React.cloneElement(technology.icon, {
 										fill: "#ffffff",
 										height: "50px",
 										width: "50px",
-										className: styles["project-skill-icon"],
+										className: `${
+											styles["project-stack-icon"]
+										} ${styles[technology.className]}`,
 									})}
 								</Icon>
 							);
@@ -149,14 +151,16 @@ const Project = (props) => {
 					</ListItem>
 				))}
 				<ListItem key={title + " stack"}>
-					{stack.map((skill, index) => {
+					{stack.map((technology, index) => {
 						return (
-							<Icon key={"skill " + index} link={false}>
-								{React.cloneElement(skill.icon, {
+							<Icon key={"technology " + index} link={false}>
+								{React.cloneElement(technology.icon, {
 									fill: "#000000",
 									height: "30px",
 									width: "30px",
-									className: styles["project-skill-icon"],
+									className: `${
+										styles["project-stack-icon"]
+									} ${styles[technology.className]}`,
 								})}
 							</Icon>
 						);

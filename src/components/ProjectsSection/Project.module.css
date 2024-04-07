@@ -86,11 +86,15 @@
 	transform: translateY(-5px);
 }
 
-.project-skill-icon {
+.project-stack-icon {
 	height: 50px !important;
 	width: 50px !important;
-	margin: 10px 10px 0 10px !important;
+	margin: 10px 20px 0 20px !important;
 	filter: grayscale(100%);
+}
+
+.mongodb-icon {
+	filter: invert(100%);
 }
 
 @media (hover: none), (pointer: coarse) {
@@ -114,9 +118,13 @@
 		}
 	}
 
-	.project-skill-icon {
+	.project-stack-icon {
 		height: 30px !important;
 		width: 30px !important;
 		margin: 0 10px 0 10px !important;
+	}
+
+	.mongodb-icon {
+		filter: none;
 	}
 }

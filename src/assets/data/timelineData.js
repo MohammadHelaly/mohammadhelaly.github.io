@@ -1,15 +1,15 @@
 const timelineData = [
-	// {
-	// 	position: "Software Developer",
-	// 	place: "InstaCodigo",
-	// 	dates: "January 2024 - Present",
-	// 	description: [
-	// 		"Developed cross-platform mobile applications using React Native with Expo and highly scalable web applications using Next.js.",
-	// 		"Integrated GraphQL for efficient and flexible data management, enhancing overall performance.",
-	// 		"Employed software development best practices, focusing on code quality and maintainability.",
-	// 		"Contributed to all stages of the development lifecycle for several projects, from design to deployment.",
-	// 	],
-	// },
+	{
+		position: "Software Developer",
+		place: "InstaCodigo",
+		dates: "March 2024 - Present", // January 2024 - Present
+		description: [
+			"Developed cross-platform mobile applications using React Native with Expo and highly scalable web applications using Next.js.",
+			// "Employed software development best practices, focusing on code quality and maintainability.",
+			// "Contributed to all stages of the development lifecycle for several projects, from design to deployment.",
+			// "Became heavily involved in code reviews, testing, CI/CD and other facets of software development.",
+		],
+	},
 	{
 		position: "Undergraduate Computer Engineering Student",
 		place: "Faculty of Engineering, Alexandria University",
@@ -23,7 +23,7 @@ const timelineData = [
 	{
 		position: "Navigation System Engineer",
 		place: "Alex Eagles Aero Design",
-		dates: "November 2023 - Present",
+		dates: "September 2023 - Present",
 		description: [
 			"Engineered software for fully autonomous drone navigation, enabling self-flying capabilities.",
 			"Designed deep learning models for precise computer vision and autonomous navigation capabilities.",

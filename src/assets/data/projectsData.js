@@ -8,9 +8,9 @@ import neural3 from "../images/neural3.jpg";
 import moon1 from "../images/moon1.jpg";
 import moon2 from "../images/moon2.jpg";
 import moon3 from "../images/moon3.jpg";
-import medical1 from "../images/medical1.jpg";
-import medical2 from "../images/medical2.jpg";
-import medical3 from "../images/medical3.jpg";
+// import medical1 from "../images/medical1.jpg";
+// import medical2 from "../images/medical2.jpg";
+// import medical3 from "../images/medical3.jpg";
 // import car1 from "../images/car1.jpg";
 // import car2 from "../images/car2.jpg";
 // import car3 from "../images/car3.jpg";
@@ -21,13 +21,13 @@ import paint1 from "../images/paint1.jpg";
 import paint2 from "../images/paint2.jpg";
 import paint3 from "../images/paint3.jpg";
 import { ReactComponent as Java } from "../icons/java-monocolor.svg";
-import { ReactComponent as MySql } from "../icons/mysql-monocolor.svg";
+// import { ReactComponent as MySql } from "../icons/mysql-monocolor.svg";
 import { ReactComponent as ReactJs } from "../icons/reactjs-monocolor.svg";
 import { ReactComponent as Python } from "../icons/python-monocolor.svg";
 import { ReactComponent as Flask } from "../icons/flask.svg";
-import { ReactComponent as Php } from "../icons/php-monocolor.svg";
-import { ReactComponent as Html } from "../icons/html-monocolor.svg";
-import { ReactComponent as Css } from "../icons/css-monocolor.svg";
+// import { ReactComponent as Php } from "../icons/php-monocolor.svg";
+// import { ReactComponent as Html } from "../icons/html-monocolor.svg";
+// import { ReactComponent as Css } from "../icons/css-monocolor.svg";
 import { ReactComponent as UnrealEngine } from "../icons/unrealengine-monocolor.svg";
 import { ReactComponent as MongoDb } from "../icons/mongodb-monocolor.svg";
 import { ReactComponent as NodeJs } from "../icons/nodejs-monocolor.svg";
@@ -115,30 +115,30 @@ const projectsData = [
 			},
 		],
 	},
-	{
-		title: "MedicoPortal",
-		githubLink:
-			"https://github.com/MohammadHelaly/Medical-Record-Management-System",
-		images: [medical1, medical2, medical3],
-		description: [
-			"A medical website with portals for patients, doctors and administrators to manage appointments, prescriptions and medical records.",
-			// "Built using HTML/CSS for website frontend as well as PHP and MySQL for backend programming.",
-		],
-		stack: [
-			{
-				icon: <Html />,
-			},
-			{
-				icon: <Css />,
-			},
-			{
-				icon: <Php />,
-			},
-			{
-				icon: <MySql />,
-			},
-		],
-	},
+	// {
+	// 	title: "MedicoPortal",
+	// 	githubLink:
+	// 		"https://github.com/MohammadHelaly/Medical-Record-Management-System",
+	// 	images: [medical1, medical2, medical3],
+	// 	description: [
+	// 		"A medical website with portals for patients, doctors and administrators to manage appointments, prescriptions and medical records.",
+	// 		// "Built using HTML/CSS for website frontend as well as PHP and MySQL for backend programming.",
+	// 	],
+	// 	stack: [
+	// 		{
+	// 			icon: <Html />,
+	// 		},
+	// 		{
+	// 			icon: <Css />,
+	// 		},
+	// 		{
+	// 			icon: <Php />,
+	// 		},
+	// 		{
+	// 			icon: <MySql />,
+	// 		},
+	// 	],
+	// },
 	// {
 	// 	title: "DriveIt.io",
 	// 	githubLink: "https://github.com/MohammadHelaly/Car-Rental-System",

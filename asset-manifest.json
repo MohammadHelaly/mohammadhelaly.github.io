@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c150b2a2.css",
-    "main.js": "/static/js/main.db7c5060.js",
+    "main.js": "/static/js/main.714341e3.js",
     "static/js/787.e66a2470.chunk.js": "/static/js/787.e66a2470.chunk.js",
     "static/media/help2.jpg": "/static/media/help2.0a2ea1b403b24c70c495.jpg",
     "static/media/help3.jpg": "/static/media/help3.4e3a29aacc1b91a34bcd.jpg",
@@ -11,15 +11,12 @@
     "static/media/me.jpg": "/static/media/me.07313e6e9be2dcacd978.jpg",
     "static/media/moon2.jpg": "/static/media/moon2.8840f958d494b76c361e.jpg",
     "static/media/neural1.jpg": "/static/media/neural1.f637eae9c33b350eb7c9.jpg",
-    "static/media/medical2.jpg": "/static/media/medical2.091ce814e3e97fe58f76.jpg",
     "static/media/moon1.jpg": "/static/media/moon1.2d0506f872f2b05b8289.jpg",
-    "static/media/medical3.jpg": "/static/media/medical3.ce567f20e1628f28fc88.jpg",
     "static/media/paint2.jpg": "/static/media/paint2.43c8bcb017a52eca1329.jpg",
     "static/media/moon3.jpg": "/static/media/moon3.4a899680f1f6a84543be.jpg",
     "static/media/paint1.jpg": "/static/media/paint1.d30cd522754644a03d07.jpg",
     "static/media/neural2.jpg": "/static/media/neural2.3b97dd3bffae6af6e3fa.jpg",
     "static/media/paint3.jpg": "/static/media/paint3.d88a6ed0295a0244301a.jpg",
-    "static/media/medical1.jpg": "/static/media/medical1.a5071e42d9bfc63c6c54.jpg",
     "static/media/flask.svg": "/static/media/flask.f74879d56c9294439efcb2f1eaaabf6d.svg",
     "static/media/dataiku-monocolor.svg": "/static/media/dataiku-monocolor.ddf7c23fe65d160cf69e59294978a519.svg",
     "static/media/nodejs-monocolor.svg": "/static/media/nodejs-monocolor.ffb99e4f2ff0cc419a08f0aca617527c.svg",
@@ -52,11 +49,11 @@
     "static/media/hackerrank.svg": "/static/media/hackerrank.0018752b0949213de580e75588602f6d.svg",
     "static/media/phone.svg": "/static/media/phone.e55a36920b78fdfbd928a612bcf47b2f.svg",
     "main.c150b2a2.css.map": "/static/css/main.c150b2a2.css.map",
-    "main.db7c5060.js.map": "/static/js/main.db7c5060.js.map",
+    "main.714341e3.js.map": "/static/js/main.714341e3.js.map",
     "787.e66a2470.chunk.js.map": "/static/js/787.e66a2470.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c150b2a2.css",
-    "static/js/main.db7c5060.js"
+    "static/js/main.714341e3.js"
   ]
 }

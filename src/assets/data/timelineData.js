@@ -11,13 +11,11 @@ const timelineData = [
 		],
 	},
 	{
-		position: "Undergraduate Computer Engineering Student", // "Computer Engineering Student"
+		position: "B.E. in Computer and Communications Engineering",
 		place: "Faculty of Engineering, Alexandria University",
-		dates: "September 2019 - Present", // "September 2019 - June 2024"
+		dates: "September 2019 - Present", // "September 2019 - July 2024",
 		description: [
-			"Pursuing B.E. in Computer and Communications Engineering.", // "Completed B.E. in Computer and Communications Engineering."
-			"Expected to graduate in June 2024.", // remove this line
-			"3.4 GPA.", // "Graduated with a 3.4 GPA."
+			"3.4 GPA.", // "Graduated with a 3.4 GPA.",
 		],
 	},
 	{
@@ -43,13 +41,10 @@ const timelineData = [
 		],
 	},
 	{
-		position: "IGCSE Graduate",
+		position: "IGCSE",
 		place: "AIS - Alexandria International School",
 		dates: "Graduated in June 2019",
-		description: [
-			"Completed a total of 13 subjects.",
-			"Achieved A*'s in 12 subjects and an A in 1 subject.",
-		],
+		description: ["Completed a total of 13 subjects, achieving all A*'s."],
 	},
 ];
 

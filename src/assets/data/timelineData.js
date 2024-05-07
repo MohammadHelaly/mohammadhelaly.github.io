@@ -16,8 +16,8 @@ const timelineData = [
 		dates: "September 2019 - Present", // "September 2019 - June 2024"
 		description: [
 			"Pursuing B.E. in Computer and Communications Engineering.", // "Completed B.E. in Computer and Communications Engineering."
-			"Expected to graduate in June 2024.", // "Graduated with a 3.4 GPA."
-			"3.4 GPA.", // remove this line
+			"Expected to graduate in June 2024.", // remove this line
+			"3.4 GPA.", // "Graduated with a 3.4 GPA."
 		],
 	},
 	{
@@ -45,8 +45,11 @@ const timelineData = [
 	{
 		position: "IGCSE Graduate",
 		place: "AIS - Alexandria International School",
-		dates: "June 2019",
-		description: ["Graduated with 13 subjects total, all A*."],
+		dates: "Graduated in June 2019",
+		description: [
+			"Completed a total of 13 subjects.",
+			"Achieved A*'s in 12 subjects and an A in 1 subject.",
+		],
 	},
 ];
 

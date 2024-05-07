@@ -2,28 +2,28 @@ const timelineData = [
 	{
 		position: "Software Developer",
 		place: "InstaCodigo",
-		dates: "March 2024 - Present", // January 2024 - Present
+		dates: "January 2024 - Present",
 		description: [
 			"Developed cross-platform mobile applications using React Native with Expo and highly scalable web applications using Next.js.",
-			// "Employed software development best practices, focusing on code quality and maintainability.",
-			// "Contributed to all stages of the development lifecycle for several projects, from design to deployment.",
-			// "Became heavily involved in code reviews, testing, CI/CD and other facets of software development.",
+			"Employed software development best practices, focusing on code quality and maintainability.",
+			"Contributed to all stages of the development lifecycle for several projects, from design to deployment.",
+			"Became heavily involved in code reviews, testing, CI/CD and other facets of software development.",
 		],
 	},
 	{
-		position: "Undergraduate Computer Engineering Student",
+		position: "Undergraduate Computer Engineering Student", // "Computer Engineering Student"
 		place: "Faculty of Engineering, Alexandria University",
-		dates: "September 2019 - Present",
+		dates: "September 2019 - Present", // "September 2019 - June 2024"
 		description: [
-			"Pursuing B.E. in Computer and Communications Engineering.",
-			"Expected to graduate in June 2024.",
-			"3.4 GPA.",
+			"Pursuing B.E. in Computer and Communications Engineering.", // "Completed B.E. in Computer and Communications Engineering."
+			"Expected to graduate in June 2024.", // "Graduated with a 3.4 GPA."
+			"3.4 GPA.", // remove this line
 		],
 	},
 	{
 		position: "Navigation System Engineer",
 		place: "Alex Eagles Aero Design",
-		dates: "September 2023 - Present",
+		dates: "September 2023 - December 2023",
 		description: [
 			"Engineered software for fully autonomous drone navigation, enabling self-flying capabilities.",
 			"Designed deep learning models for precise computer vision and autonomous navigation capabilities.",

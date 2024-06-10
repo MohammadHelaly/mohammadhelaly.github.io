@@ -1,7 +1,7 @@
 const timelineData = [
 	{
 		position: "Software Developer",
-		place: "InstaCodigo",
+		place: "InstaCódigo",
 		dates: "January 2024 - Present",
 		description: [
 			"Developed cross-platform mobile applications using React Native with Expo and highly scalable web applications using Next.js.",

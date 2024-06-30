@@ -17,9 +17,8 @@ const Bio = () => {
 					<div className={`${styles["bio-text"]} text-muted`}>
 						<ListItem>
 							<p>
-								I'm pursuing my B.E. in Computer and
-								Communications Engineering at Alexandria
-								University.
+								I hold a B.E. in Computer and Communications
+								Engineering from Alexandria University.
 							</p>
 						</ListItem>
 						<ListItem>

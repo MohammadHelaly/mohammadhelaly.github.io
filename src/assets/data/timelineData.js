@@ -2,7 +2,7 @@ const timelineData = [
 	{
 		position: "Software Developer",
 		place: "InstaCódigo",
-		dates: "January 2024 - Present",
+		dates: "January 2024 - Present", // "January 2024 - June 2024",
 		description: [
 			"Developed cross-platform mobile applications using React Native with Expo and highly scalable web applications using Next.js.",
 			"Employed software development best practices, focusing on code quality and maintainability.",
@@ -13,10 +13,8 @@ const timelineData = [
 	{
 		position: "B.E. in Computer and Communications Engineering",
 		place: "Faculty of Engineering, Alexandria University",
-		dates: "September 2019 - Present", // "September 2019 - July 2024",
-		description: [
-			"3.4 GPA.", // "Graduated with a 3.4 GPA.",
-		],
+		dates: "September 2019 - July 2024",
+		description: ["Graduated with a 3.4 GPA."],
 	},
 	{
 		position: "Navigation System Engineer",

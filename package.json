@@ -1,6 +1,7 @@
 {
 	"name": "helaly",
 	"version": "0.1.0",
+	"homepage": "https://mohammadhelaly.github.io/helaly/",
 	"private": true,
 	"dependencies": {
 		"@hookform/resolvers": "^3.2.0",

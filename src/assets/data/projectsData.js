@@ -39,6 +39,7 @@ import { ReactComponent as SocketIo } from "../icons/socketio.svg";
 const projectsData = [
 	{
 		title: "Learnly",
+		siteLink: "https://learnly-beta.vercel.app/",
 		githubLink: "https://github.com/MohammadHelaly/learnly",
 		images: [learn1, learn2, learn3],
 		description: [

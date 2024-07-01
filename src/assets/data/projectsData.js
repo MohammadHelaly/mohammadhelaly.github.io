@@ -1,4 +1,6 @@
 import learn1 from "../images/learn1.jpg";
+import learn2 from "../images/learn2.jpg";
+import learn3 from "../images/learn3.jpg";
 import help1 from "../images/help1.jpg";
 import help2 from "../images/help2.jpg";
 import help3 from "../images/help3.jpg";
@@ -38,7 +40,7 @@ const projectsData = [
 	{
 		title: "Learnly",
 		githubLink: "https://github.com/MohammadHelaly/learnly",
-		images: [learn1],
+		images: [learn1, learn2, learn3],
 		description: [
 			"An online learning platform for students and instructors to enroll in and create courses, developed using React.js, Node.js, Express.js, MongoDB and Socket.io.",
 			"It includes features such as a course marketplace, a course creator, livestreams and real-time chatting.",

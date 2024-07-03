@@ -10,9 +10,7 @@ const ProjectsSection = () => {
 				<div className="container">
 					<SectionHeader
 						titleText="Projects"
-						subtitleText={projectsData
-							.map((project) => project.title)
-							.join(" - ")}
+						subtitleText="Some highlights from my body of work."
 						textTheme="dark"
 					/>
 					{projectsData.map((project, index) => (

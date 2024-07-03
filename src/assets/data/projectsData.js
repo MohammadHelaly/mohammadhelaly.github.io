@@ -19,10 +19,10 @@ import moon3 from "../images/moon3.jpg";
 // import library1 from "../images/library1.jpg";
 // import library2 from "../images/library2.jpg";
 // import library3 from "../images/library3.jpg";
-import paint1 from "../images/paint1.jpg";
-import paint2 from "../images/paint2.jpg";
-import paint3 from "../images/paint3.jpg";
-import { ReactComponent as Java } from "../icons/java-monocolor.svg";
+// import paint1 from "../images/paint1.jpg";
+// import paint2 from "../images/paint2.jpg";
+// import paint3 from "../images/paint3.jpg";
+// import { ReactComponent as Java } from "../icons/java-monocolor.svg";
 // import { ReactComponent as MySql } from "../icons/mysql-monocolor.svg";
 import { ReactComponent as ReactJs } from "../icons/reactjs-monocolor.svg";
 import { ReactComponent as Python } from "../icons/python-monocolor.svg";
@@ -183,20 +183,20 @@ const projectsData = [
 	// 		},
 	// 	],
 	// },
-	{
-		title: "PaintFlow.studio",
-		githubLink: "https://github.com/MohammadHelaly/Paint-Application",
-		images: [paint1, paint2, paint3],
-		description: [
-			"A feature-rich paint application for users to use different strokes, colors, and tools to draw and manipulate different shapes, as well as save their paintings.",
-			// "Developed according to SOLID principles using several design patterns in Java.",
-		],
-		stack: [
-			{
-				icon: <Java />,
-			},
-		],
-	},
+	// {
+	// 	title: "PaintFlow.studio",
+	// 	githubLink: "https://github.com/MohammadHelaly/Paint-Application",
+	// 	images: [paint1, paint2, paint3],
+	// 	description: [
+	// 		"A feature-rich paint application for users to use different strokes, colors, and tools to draw and manipulate different shapes, as well as save their paintings.",
+	// 		// "Developed according to SOLID principles using several design patterns in Java.",
+	// 	],
+	// 	stack: [
+	// 		{
+	// 			icon: <Java />,
+	// 		},
+	// 	],
+	// },
 ];
 
 export default projectsData;

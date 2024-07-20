@@ -81,8 +81,7 @@ const projectsData = [
 	},
 	{
 		title: "NeuralVisions",
-		githubLink:
-			"https://github.com/MohammadHelaly/Visual-Question-Answering",
+		githubLink: "https://github.com/MohammadHelaly/neural-visions",
 		images: [neural1, neural2, neural3],
 		description: [
 			"A web app for answering open-ended questions about images, reaching 68% accuracy and 80% answerability.",

@@ -21,8 +21,6 @@ const ContactForm = () => {
 	const [successfullSubmit, setSuccessfullSubmit] = useState(false);
 	const [errorSubmit, setErrorSubmit] = useState(false);
 
-	console.log(process.env.REACT_APP_CONTACT_FORM_ENDPOINT);
-
 	const {
 		register,
 		handleSubmit,

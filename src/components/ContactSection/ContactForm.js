@@ -21,6 +21,8 @@ const ContactForm = () => {
 	const [successfullSubmit, setSuccessfullSubmit] = useState(false);
 	const [errorSubmit, setErrorSubmit] = useState(false);
 
+	console.log(process.env.REACT_APP_CONTACT_FORM_ENDPOINT);
+
 	const {
 		register,
 		handleSubmit,
@@ -55,7 +57,7 @@ const ContactForm = () => {
 		formData.append("email", email);
 		formData.append("message", message);
 
-		fetch("https://getform.io/f/1816ab04-1a97-4c6e-94dc-9f9fc412950c", {
+		fetch(process.env.REACT_APP_CONTACT_FORM_ENDPOINT, {
 			method: "POST",
 			body: formData,
 			headers: {

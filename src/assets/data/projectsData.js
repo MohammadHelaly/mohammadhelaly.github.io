@@ -39,7 +39,7 @@ import { ReactComponent as SocketIo } from "../icons/socketio.svg";
 const projectsData = [
 	{
 		title: "Learnly",
-		siteLink: "https://learnly-beta.vercel.app/",
+		siteLink: "https://learnly-beta.vercel.app",
 		githubLink: "https://github.com/MohammadHelaly/learnly",
 		images: [learn1, learn2, learn3],
 		description: [
@@ -81,6 +81,7 @@ const projectsData = [
 	},
 	{
 		title: "NeuralVisions",
+		siteLink: "https://neural-visions.vercel.app",
 		githubLink: "https://github.com/MohammadHelaly/neural-visions",
 		images: [neural1, neural2, neural3],
 		description: [
@@ -101,7 +102,7 @@ const projectsData = [
 	},
 	{
 		title: "Lunar Trek",
-		siteLink: "https://lunar-trek.vercel.app/",
+		siteLink: "https://lunar-trek.vercel.app",
 		githubLink: "https://github.com/MohammadHelaly/lunar-trek",
 		images: [moon1, moon2, moon3],
 		description: [

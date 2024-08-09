@@ -15,7 +15,6 @@ const ProjectsSection = () => {
           {projectsData.map((project) => (
             <Project
               key={project.title}
-              id={project.title}
               title={project.title}
               siteLink={project.siteLink}
               githubLink={project.githubLink}
